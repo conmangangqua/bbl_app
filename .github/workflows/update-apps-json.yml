@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   update-apps-json:
@@ -240,4 +241,4 @@ jobs:
           fi
 
           # Trigger deploy workflow manually since GITHUB_TOKEN doesn't trigger other workflows
-          gh workflow run deploy-pages.yml --repo ${{ github.repository }}
+          GH_TOKEN=${{ secrets.PAT_TOKEN }} gh workflow run deploy-pages.yml --repo ${{ github.repository }}
