@@ -1,6 +1,17 @@
 {
   "apps": [
     {
+      "id": "fluvpn",
+      "name": "Fluvpn",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fluvpn_icon.png",
+      "platform": "Android",
+      "description": "",
+      "features": [],
+      "downloads": {
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fluvpn_dev.apk"
+      }
+    },
+    {
       "id": "fluxvpn",
       "name": "Fluxvpn",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fluxvpn_icon.png",
