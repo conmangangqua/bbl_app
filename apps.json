@@ -1,36 +1,6 @@
 {
   "apps": [
     {
-      "id": "fluvpn",
-      "name": "Fluvpn",
-      "icon": "",
-      "platform": "Android",
-      "description": "",
-      "features": [],
-      "downloads": {
-        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fluvpn_dev.apk",
-        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fluvpn_prod.apk"
-      }
-    },
-    {
-      "id": "fluvpn_dev",
-      "name": "Fluvpn Dev",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fluvpn_dev_icon.png",
-      "platform": "Android",
-      "description": "",
-      "features": [],
-      "downloads": {}
-    },
-    {
-      "id": "fluvpn_prod",
-      "name": "Fluvpn Prod",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fluvpn_prod_icon.png",
-      "platform": "Android",
-      "description": "",
-      "features": [],
-      "downloads": {}
-    },
-    {
       "id": "fluxvpn",
       "name": "Fluxvpn",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fluxvpn_icon.png",
@@ -38,8 +8,7 @@
       "description": "",
       "features": [],
       "downloads": {
-        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fluxvpn_dev.apk",
-        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fluxvpn_prod.apk"
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fluxvpn_dev.apk"
       }
     }
   ]
