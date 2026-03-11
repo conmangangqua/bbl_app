@@ -29,12 +29,13 @@
     {
       "id": "zentide_sleep_tracker",
       "name": "Zentide Sleep Tracker",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/zentide_sleep_tracker_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/zentide_sleep_tracker_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
       "downloads": {
-        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/zentide_sleep_tracker_dev.apk"
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/zentide_sleep_tracker_dev.apk",
+        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/zentide_sleep_tracker_prod.apk"
       }
     }
   ]
