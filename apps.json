@@ -29,11 +29,13 @@
     {
       "id": "pdf_platinum",
       "name": "Pdf Platinum",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pdf_platinum_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pdf_platinum_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
-      "downloads": {}
+      "downloads": {
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pdf_platinum_dev.apk"
+      }
     },
     {
       "id": "quicksave",
@@ -46,18 +48,6 @@
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/quicksave_dev.apk",
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quicksave_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/quicksave.aab"
-      }
-    },
-    {
-      "id": "scan_pdf",
-      "name": "Scan Pdf",
-      "icon": "",
-      "platform": "Android",
-      "description": "",
-      "features": [],
-      "downloads": {
-        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/scan_pdf_dev.apk",
-        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/scan_pdf_prod.apk"
       }
     },
     {
