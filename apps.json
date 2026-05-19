@@ -11,7 +11,9 @@
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/aura_recover_dev.apk",
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/aura_recover_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/aura_recover.aab"
-      }
+      },
+      "versions": {},
+      "store": "https://play.google.com/store/apps/details?id=com.tranquil.aura.recover"
     },
     {
       "id": "fluxvpn",
@@ -24,7 +26,9 @@
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fluxvpn_dev.apk",
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fluxvpn_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/fluxvpn.aab"
-      }
+      },
+      "versions": {},
+      "store": "https://play.google.com/store/apps/details?id=com.tranquil.vpn.connection"
     },
     {
       "id": "pdf_platinum",
@@ -36,7 +40,9 @@
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pdf_platinum_dev.apk",
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pdf_platinum_prod.apk"
-      }
+      },
+      "versions": {},
+      "store": ""
     },
     {
       "id": "quicksave",
@@ -49,7 +55,9 @@
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/quicksave_dev.apk",
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quicksave_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/quicksave.aab"
-      }
+      },
+      "versions": {},
+      "store": "https://play.google.com/store/apps/details?id=com.tmt.quicksave"
     },
     {
       "id": "zentide_sleep_tracker",
@@ -61,7 +69,9 @@
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/zentide_sleep_tracker_dev.apk",
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/zentide_sleep_tracker_prod.apk"
-      }
+      },
+      "versions": {},
+      "store": "https://play.google.com/store/apps/details?id=com.tmt.sleeptracker"
     }
   ]
 }
