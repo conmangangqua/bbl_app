@@ -42,7 +42,7 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pdf_platinum_prod.apk"
       },
       "versions": {},
-      "store": ""
+      "store": "https://play.google.com/store/apps/details?id=com.tranquil.pdf.platinum"
     },
     {
       "id": "quicksave",
