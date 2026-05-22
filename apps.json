@@ -47,7 +47,7 @@
     {
       "id": "quicksave",
       "name": "Quicksave",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/quicksave_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quicksave_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -57,7 +57,8 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/quicksave.aab"
       },
       "versions": {
-        "dev": "1.0.7+26052201"
+        "dev": "1.0.7+26052201",
+        "prod": "1.0.7+26052201"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tmt.quicksave"
     }
