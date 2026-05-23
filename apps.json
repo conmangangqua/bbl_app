@@ -5,7 +5,7 @@
       "name": "Aura Recover",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/aura_recover_icon.png",
       "platform": "Android",
-      "description": "",
+      "description": "Scan device storage for recoverable photo & video cache and thumbnails.",
       "features": [],
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/aura_recover_dev.apk",
@@ -20,7 +20,7 @@
       "name": "Fluxvpn",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fluxvpn_icon.png",
       "platform": "Android",
-      "description": "",
+      "description": "Fast VPN with OpenVPN encryption, global servers, and one-tap secure connection.",
       "features": [],
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fluxvpn_dev.apk",
@@ -35,7 +35,7 @@
       "name": "Pdf Platinum",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pdf_platinum_icon.png",
       "platform": "Android",
-      "description": "",
+      "description": "Scan documents, read PDFs, sign, edit and organize files on your device.",
       "features": [],
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pdf_platinum_dev.apk",
@@ -49,7 +49,7 @@
       "name": "Quicksave",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quicksave_icon.png",
       "platform": "Android",
-      "description": "",
+      "description": "Save and organize videos & photos from your favorite public links, fast.",
       "features": [],
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/quicksave_dev.apk",
