@@ -18,7 +18,7 @@
     {
       "id": "fluxvpn",
       "name": "Fluxvpn",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fluxvpn_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fluxvpn_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -27,7 +27,9 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fluxvpn_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/fluxvpn.aab"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.1+26030901"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.vpn.connection"
     },
     {
