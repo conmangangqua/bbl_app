@@ -39,15 +39,17 @@
     {
       "id": "gba_game",
       "name": "Gba Game",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/gba_game_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/gba_game_icon.png",
       "platform": "iOS",
       "description": "",
       "features": [],
       "downloads": {
-        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/gba_game_dev.plist"
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/gba_game_dev.plist",
+        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/gba_game_prod.plist"
       },
       "versions": {
-        "dev": "2.0.6+25122500"
+        "dev": "2.0.6+25122500",
+        "prod": "2.0.6+25122500"
       },
       "store": ""
     },
