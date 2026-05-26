@@ -37,6 +37,21 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.vpn.connection"
     },
     {
+      "id": "gba_game",
+      "name": "Gba Game",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/gba_game_icon.png",
+      "platform": "iOS",
+      "description": "",
+      "features": [],
+      "downloads": {
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/gba_game_dev.plist"
+      },
+      "versions": {
+        "dev": "2.0.6+25122500"
+      },
+      "store": ""
+    },
+    {
       "id": "pdf_platinum",
       "name": "Pdf Platinum",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pdf_platinum_icon.png",
