@@ -39,7 +39,7 @@
     {
       "id": "gba_game",
       "name": "Gba Game",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/gba_game_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/gba_game_icon.png",
       "platform": "iOS",
       "description": "",
       "features": [],
