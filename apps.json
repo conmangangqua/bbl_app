@@ -5,7 +5,7 @@
       "name": "Aura Recover",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/aura_recover_icon.png",
       "platform": "Android",
-      "description": "",
+      "description": "Aura Recover: File Scanner — Scan device storage for recoverable photo & video cache and thumbnails.",
       "features": [],
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/aura_recover_dev.apk",
@@ -23,7 +23,7 @@
       "name": "Fluxvpn",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fluxvpn_icon.png",
       "platform": "Android",
-      "description": "",
+      "description": "FluxVPN - Fast & Secure VPN — Fast VPN with OpenVPN encryption, global servers, and one-tap secure connection.",
       "features": [],
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fluxvpn_dev.apk",
@@ -41,7 +41,7 @@
       "name": "Gba Emulator",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/gba_emulator_icon.png",
       "platform": "iOS",
-      "description": "",
+      "description": "GBA Emulator — Classic Game Boy Advance emulator on iOS.",
       "features": [],
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/gba_emulator_dev.plist",
@@ -58,7 +58,7 @@
       "name": "Pdf Platinum",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pdf_platinum_icon.png",
       "platform": "Android",
-      "description": "",
+      "description": "PDF Platinum: Scanner & Reader — Scan documents, read PDFs, sign, edit and organize files on your device.",
       "features": [],
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pdf_platinum_dev.apk",
@@ -75,7 +75,7 @@
       "name": "Quicksave",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quicksave_icon.png",
       "platform": "Android",
-      "description": "",
+      "description": "QuickSave — Save and organize videos & photos from your favorite public links, fast.",
       "features": [],
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/quicksave_dev.apk",
@@ -94,7 +94,7 @@
       "name": "Velvet Drama",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/velvet_drama_icon.png",
       "platform": "Android",
-      "description": "",
+      "description": "Velvet Drama — Episode-based short drama streaming with a smooth vertical reels UI.",
       "features": [],
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/velvet_drama_dev.apk",
