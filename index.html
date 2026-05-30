@@ -864,10 +864,11 @@
     .btn-as:hover{background:#075985}
     .btn-as:disabled{opacity:.6;cursor:progress}
     body.aab-authed .btn-as{display:flex!important}
-    /* BA_DOC_GEN */
-    .btn-ba{background:#7c3aed;color:#fff;border:1px solid #7c3aed;cursor:pointer}
+    /* BA_DOC_GEN — only visible after auth (like .btn-as) */
+    .btn-ba{background:#7c3aed;color:#fff;border:1px solid #7c3aed;cursor:pointer;display:none!important}
     .btn-ba:hover{background:#6d28d9}
     .btn-ba:disabled{opacity:.6;cursor:progress}
+    body.aab-authed .btn-ba{display:flex!important}
     #baToast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#1e293b;color:#fff;padding:14px 20px;border-radius:12px;font-size:.9rem;font-weight:600;z-index:9999;display:none;box-shadow:0 8px 24px rgba(0,0,0,.3);max-width:520px}
     #baToast.show{display:block;animation:baFadeIn .3s ease}
     #baToast.ok{background:#059669}
