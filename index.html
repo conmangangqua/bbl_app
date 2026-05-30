@@ -889,7 +889,7 @@
       var old = btn.innerHTML;
       btn.disabled = true;
       btn.innerHTML = '<span class="btn-stack">⏳ Đang gen…</span>';
-      showToast("⏳ Đang render BA + Tests cho <b>"+nm+"</b>… (~5-10s)", "", 0);
+      showToast("⏳ Đang phân tích code + gen BA + Tests cho <b>"+nm+"</b>… (~3 phút, dùng Claude Sonnet)", "", 0);
       try {
         var r = await fetch(BA_API + "/gen", {
           method: "POST",
@@ -906,11 +906,11 @@
         var cacheHit = data.cache_hit;
         var msg;
         if (cacheHit) {
-          msg = "✅ <b>"+nm+"</b> — push OK ("+dur+"s, "+feats+" features từ cache). <a href=\""+url+"\" target=\"_blank\">Xem GitHub →</a>";
+          msg = "✅ <b>"+nm+"</b> — gen OK ("+dur+"s, "+feats+" features). <a href=\""+url+"\" target=\"_blank\">Xem GitHub →</a>";
         } else {
-          msg = "⚠️ <b>"+nm+"</b> — render skeleton ("+dur+"s, nhiều [QUESTION]). Chạy <code>/batch-generate-ba-and-testcases-and-push</code> để prefill cache. <a href=\""+url+"\" target=\"_blank\">Xem GitHub →</a>";
+          msg = "⚠️ <b>"+nm+"</b> — AI infer fail, render skeleton ("+dur+"s). <a href=\""+url+"\" target=\"_blank\">Xem GitHub →</a>";
         }
-        showToast(msg, cacheHit ? "ok" : "", 12000);
+        showToast(msg, cacheHit ? "ok" : "err", 15000);
       } catch(err) {
         var msg = err && err.message || String(err);
         if(/Failed to fetch|NetworkError/i.test(msg)){
