@@ -931,7 +931,10 @@
   </div>
 
   <script>(function(){
-    var BA_API = "https://ba-trigger.vercel.app";
+    // POST /gen → local daemon (Sonnet 4.6 cao chất lượng, ~9 phút).
+    // GET /api/ba (đọc BA.md) → Vercel cloud (instant từ GitHub raw, không cần Mac).
+    var BA_API_GET = "https://ba-trigger.vercel.app";
+    var BA_API_GEN = "http://127.0.0.1:18792";
     var currentSlug = null;
     var currentName = null;
     var ov = document.getElementById("baOv");
@@ -1013,7 +1016,7 @@
       body.innerHTML = '<div class="ba-spin"></div>';
       msg.textContent = "";
       try {
-        var r = await fetch(BA_API+"/api/ba?app_id="+encodeURIComponent(currentSlug)+"&file="+encodeURIComponent(file));
+        var r = await fetch(BA_API_GET+"/api/ba?app_id="+encodeURIComponent(currentSlug)+"&file="+encodeURIComponent(file));
         var d = await r.json();
         if(!d.ok) throw new Error(d.error||"HTTP "+r.status);
         if(!d.exists){
@@ -1048,12 +1051,12 @@
       if(!v){ msg.style.color="#dc2626"; msg.textContent="Nhập PIN để Gen lại."; return; }
       gb.disabled = true;
       msg.style.color="#64748b";
-      msg.textContent = "⏳ Đang gen (~60-90s, Gemini 2.5 Flash)…";
+      msg.textContent = "⏳ Đang gen (~8-12 phút, Claude Sonnet 4.6 qua local daemon)…";
       try {
-        var r = await fetch(BA_API+"/api/genba", {
+        var r = await fetch(BA_API_GEN+"/gen", {
           method:"POST",
           headers:{"Content-Type":"application/json"},
-          body: JSON.stringify({ app_id: currentSlug, pin: v })
+          body: JSON.stringify({ slug: currentSlug, pin: v })
         });
         var d = await r.json();
         if(!r.ok || !d.ok) throw new Error(d.error||("HTTP "+r.status));
