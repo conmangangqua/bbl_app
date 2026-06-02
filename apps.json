@@ -147,6 +147,21 @@
       "store": ""
     },
     {
+      "id": "sound_lab",
+      "name": "Sound Lab",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/sound_lab_icon.png",
+      "platform": "Android",
+      "description": "",
+      "features": [],
+      "downloads": {
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/sound_lab_dev.apk"
+      },
+      "versions": {
+        "dev": "1.0.0+26053101"
+      },
+      "store": ""
+    },
+    {
       "id": "vaultix_browser",
       "name": "Vaultix Browser",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/vaultix_browser_icon.png",
