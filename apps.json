@@ -73,7 +73,7 @@
     {
       "id": "genify_ai",
       "name": "Genify Ai",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/genify_ai_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/genify_ai_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -82,7 +82,7 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/genify_ai_prod.apk"
       },
       "versions": {
-        "dev": "1.0.0+26040201",
+        "dev": "1.0.1+26060302",
         "prod": "1.0.0+26040201"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.aiart"
