@@ -267,7 +267,7 @@
       "versions": {
         "dev": "1.0.2+26060401",
         "prod": "1.0.2+26060401",
-        "aab": "1.0.1+26053005"
+        "aab": "1.0.2+26060401"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.vaultix.browser"
     },
