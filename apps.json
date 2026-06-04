@@ -147,7 +147,7 @@
     {
       "id": "onyx_browser",
       "name": "Onyx Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/onyx_browser_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/onyx_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -255,7 +255,7 @@
     {
       "id": "vaultix_browser",
       "name": "Vaultix Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/vaultix_browser_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/vaultix_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -266,7 +266,7 @@
       },
       "versions": {
         "dev": "1.0.2+26060401",
-        "prod": "1.0.1+26053005",
+        "prod": "1.0.2+26060401",
         "aab": "1.0.1+26053005"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.vaultix.browser"
