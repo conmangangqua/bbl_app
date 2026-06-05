@@ -257,7 +257,7 @@
     {
       "id": "vaultix_browser",
       "name": "Vaultix Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/vaultix_browser_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/vaultix_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
