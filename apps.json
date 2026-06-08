@@ -297,7 +297,7 @@
     {
       "id": "vidnova",
       "name": "Vidnova",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/vidnova_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/vidnova_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -308,7 +308,7 @@
       },
       "versions": {
         "dev": "1.0.0+26060801",
-        "prod": "1.0.0+1",
+        "prod": "1.0.0+26060801",
         "aab": "1.0.0+26060801"
       },
       "store": ""
