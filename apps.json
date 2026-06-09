@@ -90,6 +90,21 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.aiart"
     },
     {
+      "id": "glucomate",
+      "name": "Glucomate",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/glucomate_icon.png",
+      "platform": "Android",
+      "description": "",
+      "features": [],
+      "downloads": {
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/glucomate_dev.apk"
+      },
+      "versions": {
+        "dev": "1.0.0+1"
+      },
+      "store": ""
+    },
+    {
       "id": "goal_arena",
       "name": "Goal Arena",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/goal_arena_icon.png",
