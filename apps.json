@@ -97,6 +97,7 @@
       "description": "",
       "features": [],
       "downloads": {
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/glucomate_dev.apk",
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/glucomate_prod.apk"
       },
       "versions": {
