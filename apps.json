@@ -177,7 +177,7 @@
       "versions": {
         "dev": "1.0.1+26060801",
         "prod": "1.0.1+26060801",
-        "aab": "1.0.1+26060801",
+        "aab": "1.0.2+26061101",
         "noads": "1.0.0+1"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.onyx.browser"
