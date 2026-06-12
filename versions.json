@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-06-12T21:41:37",
+  "apps": {
+    "aura_recover": {
+      "updated_on": "Apr 9, 2026",
+      "updated_ts": 1775734592,
+      "package_id": "com.tranquil.aura.recover"
+    },
+    "fluxvpn": {
+      "updated_on": "Mar 9, 2026",
+      "updated_ts": 1773055321,
+      "package_id": "com.tranquil.vpn.connection"
+    },
+    "genify_ai": {
+      "updated_on": "Jun 4, 2026",
+      "updated_ts": 1780573072,
+      "package_id": "com.tranquil.aiart"
+    },
+    "quicksave": {
+      "updated_on": "May 27, 2026",
+      "updated_ts": 1779896346,
+      "package_id": "com.tmt.quicksave"
+    },
+    "score_deck": {
+      "updated_on": "Jun 3, 2026",
+      "updated_ts": 1780493303,
+      "package_id": "com.tranquilpartner.scoredeck"
+    },
+    "vaultix_browser": {
+      "updated_on": "Jun 8, 2026",
+      "updated_ts": 1780891437,
+      "package_id": "com.tranquiltmt.vaultix.browser"
+    },
+    "onyx_browser": {
+      "updated_on": "Jun 12, 2026",
+      "updated_ts": 1781200965,
+      "package_id": "com.tranquiltmt.onyx.browser"
+    },
+    "goal_arena": {
+      "updated_on": "Jun 2, 2026",
+      "updated_ts": 1780419123,
+      "package_id": "com.tranquilpartner.goalarena"
+    }
+  }
+}
