@@ -126,7 +126,7 @@
     {
       "id": "goal_arena",
       "name": "Goal Arena",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/goal_arena_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/goal_arena_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -274,7 +274,7 @@
     {
       "id": "score_deck",
       "name": "Score Deck",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/score_deck_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/score_deck_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
