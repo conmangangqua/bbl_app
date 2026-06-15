@@ -215,7 +215,7 @@
     {
       "id": "onyx_browser",
       "name": "Onyx Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/onyx_browser_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/onyx_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
