@@ -335,7 +335,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/score_deck.aab"
       },
       "versions": {
-        "dev": "1.0.0+26061601",
+        "dev": "1.0.1+26061601",
         "prod": "1.0.0+26060201",
         "aab": "1.0.0+26060201"
       },
