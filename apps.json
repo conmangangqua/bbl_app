@@ -344,7 +344,7 @@
     {
       "id": "sound_lab",
       "name": "Sound Lab",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/sound_lab_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/sound_lab_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
