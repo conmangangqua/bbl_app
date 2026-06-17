@@ -323,6 +323,21 @@
       "store": ""
     },
     {
+      "id": "pixora_ai",
+      "name": "Pixora Ai",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pixora_ai_icon.png",
+      "platform": "Android",
+      "description": "",
+      "features": [],
+      "downloads": {
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pixora_ai_dev.apk"
+      },
+      "versions": {
+        "dev": "1.0.0+1"
+      },
+      "store": ""
+    },
+    {
       "id": "quicksave",
       "name": "Quicksave",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quicksave_icon.png",
