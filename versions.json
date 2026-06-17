@@ -21,11 +21,6 @@
       "updated_ts": 1779896346,
       "package_id": "com.tmt.quicksave"
     },
-    "score_deck": {
-      "updated_on": "Jun 3, 2026",
-      "updated_ts": 1780493303,
-      "package_id": "com.tranquilpartner.scoredeck"
-    },
     "vaultix_browser": {
       "updated_on": "Jun 8, 2026",
       "updated_ts": 1780891437,
@@ -40,6 +35,12 @@
       "updated_on": "Jun 2, 2026",
       "updated_ts": 1780419123,
       "package_id": "com.tranquilpartner.goalarena"
+    },
+    "pitch_side": {
+      "updated_on": "Jun 3, 2026",
+      "updated_ts": 1780493303,
+      "package_id": "com.tranquilpartner.scoredeck",
+      "name": "PitchSide"
     }
   }
 }
