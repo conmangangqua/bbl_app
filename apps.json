@@ -294,10 +294,12 @@
       "description": "",
       "features": [],
       "downloads": {
-        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pitch_side_dev.apk"
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pitch_side_dev.apk",
+        "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/pitch_side.aab"
       },
       "versions": {
-        "dev": "1.0.2+26061703"
+        "dev": "1.0.2+26061703",
+        "aab": "1.0.2+26061703"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.scoredeck"
     },
