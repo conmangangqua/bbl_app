@@ -471,7 +471,7 @@
     {
       "id": "whispr",
       "name": "Whispr",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/whispr_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/whispr_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -481,7 +481,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/whispr.aab"
       },
       "versions": {
-        "dev": "1.0.2+26061701",
+        "dev": "1.0.2+26062001",
         "prod": "1.0.2+26061701",
         "aab": "1.0.1+26061701"
       },
