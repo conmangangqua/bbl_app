@@ -185,11 +185,13 @@
       "features": [],
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/kestrel_browser_dev.apk",
-        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/kestrel_browser_prod.apk"
+        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/kestrel_browser_prod.apk",
+        "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/kestrel_browser.aab"
       },
       "versions": {
         "dev": "1.0.0+1",
-        "prod": "1.0.0+1"
+        "prod": "1.0.0+1",
+        "aab": "1.0.0+26062001"
       },
       "store": ""
     },
