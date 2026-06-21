@@ -406,6 +406,7 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/task_nest_prod.apk"
       },
       "versions": {
+        "dev": "1.0.0+1",
         "prod": "1.0.0+1"
       },
       "store": ""
@@ -434,7 +435,7 @@
     {
       "id": "velvet_drama",
       "name": "Velvet Drama",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/velvet_drama_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/velvet_drama_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
