@@ -118,8 +118,7 @@
       },
       "versions": {
         "dev": "1.0.5+26061701",
-        "prod": "1.0.5+26061701",
-        "aab": "1.0.5+26061701"
+        "prod": "1.0.5+26061701"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.aiart"
     },
