@@ -712,7 +712,7 @@
 
   <style>/* AAB_LOGIN */
     .btn-build{display:none!important}
-    body.aab-authed .btn-build{display:flex!important}
+    body.aab-authed:not(.partner-authed) .btn-build{display:flex!important}
     #aablBtn{position:fixed;right:16px;bottom:16px;z-index:100000;background:#0f172a;color:#fff;border:none;border-radius:999px;padding:12px 18px;font:600 14px/1 system-ui,-apple-system,sans-serif;box-shadow:0 8px 24px rgba(0,0,0,.25);cursor:pointer}
     #aablOv{position:fixed;inset:0;background:rgba(0,0,0,.5);backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;z-index:100001;padding:20px}
     #aablOv.open{display:flex}
@@ -807,7 +807,7 @@
   <style>/* AAB_GENDESC AAB_VIEWDESC */
     .btn-gd{background:#7c3aed;color:#fff;border:1px solid #7c3aed;cursor:pointer;display:none!important}
     .btn-gd:hover{background:#6d28d9}
-    body.aab-authed .btn-gd{display:flex!important}
+    body.aab-authed:not(.partner-authed) .btn-gd{display:flex!important}
     #vdOv{position:fixed;inset:0;background:rgba(0,0,0,.55);backdrop-filter:blur(6px);display:none;align-items:center;justify-content:center;z-index:100001;padding:24px}
     #vdOv.open{display:flex}
     #vdMd{background:#fff;border-radius:24px;padding:32px 36px;width:100%;max-width:960px;max-height:94vh;overflow:auto;box-shadow:0 40px 100px rgba(0,0,0,.35);font-family:system-ui,-apple-system,sans-serif}
@@ -1118,19 +1118,19 @@
     .btn-as{background:#0369a1;color:#fff;border:1px solid #0369a1;cursor:pointer;display:none!important}
     .btn-as:hover{background:#075985}
     .btn-as:disabled{opacity:.6;cursor:progress}
-    body.aab-authed .btn-as{display:flex!important}
+    body.aab-authed:not(.partner-authed) .btn-as{display:flex!important}
     /* BA_DOC_GEN — only visible after auth (like .btn-as) */
     .btn-ba{background:#7c3aed;color:#fff;border:1px solid #7c3aed;cursor:pointer;display:none!important}
     .btn-ba:hover{background:#6d28d9}
     .btn-ba:disabled{opacity:.6;cursor:progress}
-    body.aab-authed .btn-ba{display:flex!important}
+    body.aab-authed:not(.partner-authed) .btn-ba{display:flex!important}
     .btn-ss{background:#0891b2;color:#fff;border:1px solid #0891b2;cursor:pointer;display:none!important}
     .btn-ss:hover{background:#0e7490}
     .btn-ss:disabled{opacity:.6;cursor:progress}
-    body.aab-authed .btn-ss{display:flex!important}
+    body.aab-authed:not(.partner-authed) .btn-ss{display:flex!important}
     .btn-fl{background:#5b21b6;color:#fff;border:1px solid #5b21b6;cursor:pointer;display:none!important}
     .btn-fl:hover{background:#4c1d95}
-    body.aab-authed .btn-fl{display:flex!important}
+    body.aab-authed:not(.partner-authed) .btn-fl{display:flex!important}
     /* Kiểm tra cấu hình + SDK — chỉ hiện với tier PARTNER (BBLPartner@123) */
     .btn-cfg{background:#0d9488;color:#fff;border:1px solid #0d9488;cursor:pointer;display:none!important}
     .btn-cfg:hover{background:#0f766e}
@@ -1139,10 +1139,10 @@
     .btn-noadsb{background:#d97706;color:#fff;border:1px solid #d97706;cursor:pointer;display:none!important}
     .btn-noadsb:hover{background:#b45309}
     .btn-noadsb:disabled{opacity:.6;cursor:progress}
-    body.aab-authed .btn-noadsb{display:flex!important}
+    body.aab-authed:not(.partner-authed) .btn-noadsb{display:flex!important}
     .btn-noads{background:#fffbeb;color:#b45309;border:1px solid #fcd34d;display:none!important}
     .btn-noads:hover{background:#fef3c7}
-    body.aab-authed .btn-noads{display:flex!important}
+    body.aab-authed:not(.partner-authed) .btn-noads{display:flex!important}
     /* BA modal */
     #baOv{position:fixed;inset:0;background:rgba(15,23,42,.7);z-index:9998;display:none;align-items:center;justify-content:center;padding:20px}
     #baOv.open{display:flex}
@@ -1430,8 +1430,8 @@
   })();</script>
   <style>/* STORE_ADD */
     .btn-addstore{display:none!important}
-    body.aab-authed .btn-addstore[data-has-store="0"]{display:flex!important;grid-column:span 2;background:#2563eb;color:#fff;border:1px solid #2563eb;cursor:pointer;font-family:inherit}
-    body.aab-authed .btn-addstore[data-has-store="0"]:hover{background:#1d4ed8}
+    body.aab-authed:not(.partner-authed) .btn-addstore[data-has-store="0"]{display:flex!important;grid-column:span 2;background:#2563eb;color:#fff;border:1px solid #2563eb;cursor:pointer;font-family:inherit}
+    body.aab-authed:not(.partner-authed) .btn-addstore[data-has-store="0"]:hover{background:#1d4ed8}
     #stOv{position:fixed;inset:0;background:rgba(0,0,0,.5);backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;z-index:100001;padding:20px}
     #stOv.open{display:flex}
     #stMd{background:#fff;border-radius:20px;padding:26px 22px;width:100%;max-width:380px;box-shadow:0 30px 80px rgba(0,0,0,.3);font-family:system-ui,-apple-system,sans-serif}
