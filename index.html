@@ -308,7 +308,7 @@
           <div class="badge-row"><span class="badge ${isIOS ? 'ios' : 'android'}"><i data-lucide="${isIOS ? 'apple' : 'smartphone'}" style="width:14px;height:14px;vertical-align:-2px;margin-right:5px"></i>${app.platform || 'Android'}</span><span class="ads-badge" data-ads="loading" style="display:none"></span><span class="health-badge" data-health="loading" style="display:none"></span></div>
           <h2 class="app-title">${app.name}</h2><p class="app-desc">${app.description || ''}</p>
           <div class="btn-grid">${devUrl ? `<a href="${devUrl}" class="btn btn-dev"><i class="btn-ic" data-lucide="wrench"></i>${stack('Dev Build','dev')}</a>` : ""} ${prodUrl ? `<a href="${prodUrl}" class="btn btn-live"><i class="btn-ic" data-lucide="rocket"></i>${stack('Live Build','prod')}</a>` : ""} ${aabUrl ? `<a href="${aabUrl}" class="btn btn-full"><i class="btn-ic" data-lucide="package"></i>${stack('Download AAB','aab')}</a>` : ""} ${storeUrl ? `<a href="${storeUrl}" target="_blank" rel="noopener" class="btn btn-store"><i class="btn-ic" data-lucide="shopping-bag"></i><span class="btn-stack">View on Store</span></a>` : ""}
-          <button type="button" class="btn btn-build" onclick="openBuildModal('${app.id}', '${(app.name || '').replace(/'/g, "\\'")}')"><i class="btn-ic" data-lucide="hammer"></i><span class="btn-stack">${buildLabel}</span></button>${noAdsTrigger}${noAdsDl}<button type="button" class="btn btn-gd" onclick="openViewDesc('${app.id}', '${(app.name || '').replace(/'/g, "\'")}')"><i class="btn-ic" data-lucide="file-text"></i><span class="btn-stack">Description</span></button><button type="button" class="btn btn-as" onclick="dlAssets('${app.id}', '${(app.name || '').replace(/'/g, "\'")}', this)"><i class="btn-ic" data-lucide="download"></i><span class="btn-stack">Assets</span></button><button type="button" class="btn btn-ba" onclick="genBaDocs('${app.id}', '${(app.name || '').replace(/'/g, "\'")}', this)"><i class="btn-ic" data-lucide="clipboard-list"></i><span class="btn-stack">BA + Tests</span></button><button type="button" class="btn btn-ss" onclick="openShots('${app.id}', '${(app.name || '').replace(/'/g, "\'")}')"><i class="btn-ic" data-lucide="image"></i><span class="btn-stack">Screenshots</span></button><button type="button" class="btn btn-fl" onclick="openFlow('${app.id}', '${(app.name || '').replace(/'/g, "\'")}')"><i class="btn-ic" data-lucide="git-branch"></i><span class="btn-stack">View Flow</span></button></div>${app.storeUpdated ? `<div class="store-meta"><span class="icon">📅</span>Updated on ${app.storeUpdated}</div>` : ""}`;
+          <button type="button" class="btn btn-build" onclick="openBuildModal('${app.id}', '${(app.name || '').replace(/'/g, "\\'")}')"><i class="btn-ic" data-lucide="hammer"></i><span class="btn-stack">${buildLabel}</span></button>${noAdsTrigger}${noAdsDl}<button type="button" class="btn btn-gd" onclick="openViewDesc('${app.id}', '${(app.name || '').replace(/'/g, "\'")}')"><i class="btn-ic" data-lucide="file-text"></i><span class="btn-stack">Description</span></button><button type="button" class="btn btn-as" onclick="dlAssets('${app.id}', '${(app.name || '').replace(/'/g, "\'")}', this)"><i class="btn-ic" data-lucide="download"></i><span class="btn-stack">Assets</span></button><button type="button" class="btn btn-ba" onclick="genBaDocs('${app.id}', '${(app.name || '').replace(/'/g, "\'")}', this)"><i class="btn-ic" data-lucide="clipboard-list"></i><span class="btn-stack">BA + Tests</span></button><button type="button" class="btn btn-ss" onclick="openShots('${app.id}', '${(app.name || '').replace(/'/g, "\'")}')"><i class="btn-ic" data-lucide="image"></i><span class="btn-stack">Screenshots</span></button><button type="button" class="btn btn-fl" onclick="openFlow('${app.id}', '${(app.name || '').replace(/'/g, "\'")}')"><i class="btn-ic" data-lucide="git-branch"></i><span class="btn-stack">View Flow</span></button><button type="button" class="btn btn-cfg" onclick="openConfig('${app.id}', '${(app.name || '').replace(/'/g, "\'")}')"><i class="btn-ic" data-lucide="settings-2"></i><span class="btn-stack">Kiểm tra cấu hình</span></button></div>${app.storeUpdated ? `<div class="store-meta"><span class="icon">📅</span>Updated on ${app.storeUpdated}</div>` : ""}`;
         container.appendChild(card);
       });
     };
@@ -1119,6 +1119,10 @@
     .btn-fl{background:#5b21b6;color:#fff;border:1px solid #5b21b6;cursor:pointer;display:none!important}
     .btn-fl:hover{background:#4c1d95}
     body.aab-authed .btn-fl{display:flex!important}
+    /* Kiểm tra cấu hình + SDK — chỉ hiện sau đăng nhập (như các nút khác) */
+    .btn-cfg{background:#0d9488;color:#fff;border:1px solid #0d9488;cursor:pointer;display:none!important}
+    .btn-cfg:hover{background:#0f766e}
+    body.aab-authed .btn-cfg{display:flex!important}
       /* NO_ADS_BUILD — nút phục vụ designer, chỉ hiện sau đăng nhập (như .btn-as) */
     .btn-noadsb{background:#d97706;color:#fff;border:1px solid #d97706;cursor:pointer;display:none!important}
     .btn-noadsb:hover{background:#b45309}
@@ -1630,5 +1634,130 @@
     };
   })();</script>
 
+  <!-- ===== Kiểm tra cấu hình + SDK (Phase 1: read-only) ===== -->
+  <style>
+    #cfgOv{position:fixed;inset:0;background:rgba(15,23,42,.7);z-index:9998;display:none;align-items:center;justify-content:center;padding:20px}
+    #cfgOv.open{display:flex}
+    #cfgModal{background:#fff;border-radius:20px;width:100%;max-width:760px;max-height:88vh;display:flex;flex-direction:column;box-shadow:0 30px 80px rgba(0,0,0,.4);overflow:hidden}
+    #cfgHdr{padding:18px 24px;border-bottom:1px solid #e2e8f0;display:flex;align-items:center;justify-content:space-between;gap:12px;background:linear-gradient(135deg,#0d9488,#0f766e);color:#fff}
+    #cfgHdr h3{font-size:1.05rem;font-weight:800;margin:0;letter-spacing:.3px}
+    #cfgClose{background:rgba(255,255,255,.2);color:#fff;border:none;width:34px;height:34px;border-radius:10px;cursor:pointer;font-size:1.2rem;font-weight:700}
+    #cfgClose:hover{background:rgba(255,255,255,.35)}
+    #cfgTabs{display:flex;gap:6px;padding:12px 20px 0;border-bottom:1px solid #e2e8f0;flex-wrap:wrap}
+    .cfg-tab{background:#f1f5f9;color:#475569;border:none;padding:9px 14px;border-radius:8px 8px 0 0;font-size:.82rem;font-weight:700;cursor:pointer;font-family:inherit}
+    .cfg-tab:hover{background:#e2e8f0}
+    .cfg-tab.active{background:#0d9488;color:#fff}
+    #cfgBody{flex:1;overflow:auto;padding:20px 24px;background:#fafafa;color:#0f172a;font-size:.88rem;line-height:1.55}
+    .cfg-row{display:flex;align-items:center;justify-content:space-between;gap:12px;background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:12px 14px;margin-bottom:10px}
+    .cfg-row .k{font-weight:700;color:#0f172a;font-size:.85rem}
+    .cfg-row .src{font-size:.72rem;color:#94a3b8;margin-top:2px;word-break:break-all}
+    .cfg-row .v{font-family:ui-monospace,Menlo,monospace;font-size:.8rem;color:#0f766e;word-break:break-all;max-width:300px;text-align:right}
+    .cfg-badge{display:inline-flex;align-items:center;gap:4px;padding:3px 10px;border-radius:999px;font-size:.72rem;font-weight:700;white-space:nowrap}
+    .cfg-badge.ok{background:#d1fae5;color:#047857}
+    .cfg-badge.no{background:#fee2e2;color:#b91c1c}
+    .cfg-badge.up{background:#fef3c7;color:#b45309}
+    .cfg-empty{padding:50px 20px;text-align:center;color:#94a3b8}
+    .cfg-spin{width:28px;height:28px;border:3px solid #e2e8f0;border-top-color:#0d9488;border-radius:50%;animation:cfgspin 1s linear infinite;margin:30px auto}
+    @keyframes cfgspin{to{transform:rotate(360deg)}}
+    .cfg-note{font-size:.78rem;color:#64748b;margin:4px 0 14px;padding:8px 12px;background:#f0fdfa;border:1px solid #99f6e4;border-radius:8px}
+  </style>
+  <div id="cfgOv" role="dialog" aria-modal="true">
+    <div id="cfgModal">
+      <div id="cfgHdr">
+        <h3 id="cfgTitle">Kiểm tra cấu hình</h3>
+        <button id="cfgClose" onclick="cfgClose()" aria-label="Close">✕</button>
+      </div>
+      <div id="cfgTabs">
+        <button class="cfg-tab active" data-tab="config" onclick="cfgSwitch('config')">🔑 Cấu hình token</button>
+        <button class="cfg-tab" data-tab="sdk" onclick="cfgSwitch('sdk')">📦 Kiểm tra SDK</button>
+      </div>
+      <div id="cfgBody"><div class="cfg-spin"></div></div>
+    </div>
+  </div>
+  <script>(function(){
+    var CFG_API = "https://aab.tranquilmind.co";
+    var cfgAppId = "", cfgTab = "config";
+    var cfgCache = { config: null, sdk: null };
+
+    window.openConfig = async function(appId, appName){
+      cfgAppId = appId; cfgTab = "config";
+      cfgCache = { config: null, sdk: null };
+      document.getElementById("cfgTitle").textContent = "Cấu hình · " + (appName || appId);
+      document.querySelectorAll(".cfg-tab").forEach(function(t){ t.classList.toggle("active", t.dataset.tab==="config"); });
+      document.getElementById("cfgOv").classList.add("open");
+      loadTab("config");
+    };
+    window.cfgClose = function(){ document.getElementById("cfgOv").classList.remove("open"); };
+    document.getElementById("cfgOv").addEventListener("click", function(e){ if(e.target.id==="cfgOv") cfgClose(); });
+
+    window.cfgSwitch = function(tab){
+      cfgTab = tab;
+      document.querySelectorAll(".cfg-tab").forEach(function(t){ t.classList.toggle("active", t.dataset.tab===tab); });
+      loadTab(tab);
+    };
+
+    function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];}); }
+
+    async function loadTab(tab){
+      var body = document.getElementById("cfgBody");
+      if (cfgCache[tab]) { render(tab, cfgCache[tab]); return; }
+      body.innerHTML = '<div class="cfg-spin"></div>';
+      try {
+        var ep = tab==="config" ? "/api/configcheck" : "/api/sdkcheck";
+        var r = await fetch(CFG_API + ep + "?app_ids=" + encodeURIComponent(cfgAppId), { cache:"no-store" });
+        var d = await r.json();
+        var res = (d.results||{})[cfgAppId];
+        cfgCache[tab] = res;
+        render(tab, res);
+      } catch(e){
+        body.innerHTML = '<div class="cfg-empty"><h3>Lỗi</h3><p>'+esc(e.message||e)+'</p></div>';
+      }
+    }
+
+    function badge(present, outdated){
+      if (outdated) return '<span class="cfg-badge up">⚠ cũ</span>';
+      return present ? '<span class="cfg-badge ok">✓ đã thêm</span>' : '<span class="cfg-badge no">✗ chưa thêm</span>';
+    }
+
+    function render(tab, res){
+      var body = document.getElementById("cfgBody");
+      if (!res || res.error){
+        body.innerHTML = '<div class="cfg-empty"><h3>Không đọc được</h3><p>'+esc(res&&res.error||"app không hợp lệ")+'</p></div>';
+        return;
+      }
+      if (tab==="config"){
+        var c = res.config||{};
+        var labels = {
+          admob_app_id:"AdMob App ID", facebook_app_id:"Facebook App ID",
+          facebook_client_token:"Facebook Client Token", adjust_token:"Adjust Token",
+          appsflyer_dev_key:"AppsFlyer Dev Key"
+        };
+        var html = '<div class="cfg-note">📂 '+esc(res.project)+' · branch <b>'+esc(res.branch)+'</b> · chỉ ĐỌC (chưa sửa).</div>';
+        Object.keys(labels).forEach(function(k){
+          var f = c[k]||{};
+          html += '<div class="cfg-row"><div><div class="k">'+labels[k]+'</div>'+
+            (f.present?'<div class="v">'+esc(f.value)+'</div><div class="src">'+esc(f.source||"")+'</div>':'')+
+            '</div>'+badge(f.present,false)+'</div>';
+        });
+        body.innerHTML = html;
+      } else {
+        var s = res.sdks||{};
+        var note = '<div class="cfg-note">📂 '+esc(res.project)+' · gradle <b>'+esc(res.gradle_type||"?")+'</b> · '+
+          (res.has_admob?'có AdMob':'<b>không dùng AdMob</b> (no-ads)')+'</div>';
+        var html = note;
+        Object.keys(s).forEach(function(k){
+          var f = s[k]||{};
+          var ver = f.present ? '<div class="v">'+esc(f.version)+(f.recommended&&f.outdated?' → khuyến nghị '+esc(f.recommended):'')+'</div>' : '';
+          html += '<div class="cfg-row"><div><div class="k">'+esc(f.name)+'</div>'+ver+'</div>'+badge(f.present,f.outdated)+'</div>';
+        });
+        if ((res.missing||[]).length){
+          html += '<div class="cfg-note">💡 Gợi ý thêm '+res.missing.length+' SDK core: '+
+            res.missing.map(function(m){return esc(m.name);}).join(", ")+'. (Phase 2 — nút Sửa/Save sẽ bổ sung sau.)</div>';
+        }
+        body.innerHTML = html;
+      }
+      window.lucide && lucide.createIcons();
+    }
+  })();</script>
 </body>
 </html>
