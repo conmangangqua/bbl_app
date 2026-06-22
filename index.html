@@ -1775,9 +1775,11 @@
         var html = '<div class="cfg-note">📂 '+esc(res.project)+' · branch <b>'+esc(res.branch)+'</b> · sửa giá trị rồi Save → build dev+prod.</div>';
         Object.keys(labels).forEach(function(k){
           var f = c[k]||{};
+          // Field lấy từ Remote Config (from_rc) → read-only, tô xanh teal, vì sửa phải sửa ở Firebase.
+          var rcAttr = f.from_rc ? ' readonly title="Giá trị từ Firebase Remote Config — sửa ở Firebase Console, không Save tại đây" style="background:#f0fdfa;border-color:#99f6e4;color:#0f766e;font-weight:700"' : '';
           html += '<div class="cfg-row"><div style="flex:1"><div class="k">'+labels[k]+'</div>'+
             (f.present?'<div class="src">'+esc(f.source||"")+'</div>':'')+
-            '<input class="cfg-fin" data-k="'+k+'" value="'+esc(f.value||"")+'" placeholder="'+ph[k]+'">'+
+            '<input class="cfg-fin" data-k="'+k+'" value="'+esc(f.value||"")+'" placeholder="'+ph[k]+'"'+rcAttr+'>'+
             '</div>'+badge(f.present,false)+'</div>';
         });
         html += '<div class="cfg-add">'+
