@@ -300,7 +300,7 @@
       "versions": {
         "dev": "1.0.5+26062201",
         "prod": "1.0.5+26062201",
-        "aab": "1.0.4+26062002",
+        "aab": "1.0.5+26062201",
         "noads": "1.0.0+1"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.onyx.browser"
