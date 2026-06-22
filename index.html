@@ -1664,6 +1664,14 @@
     .cfg-row .k{font-weight:700;color:#0f172a;font-size:.85rem}
     .cfg-row .src{font-size:.72rem;color:#94a3b8;margin-top:2px;word-break:break-all}
     .cfg-row .v{font-family:ui-monospace,Menlo,monospace;font-size:.8rem;color:#0f766e;word-break:break-all;max-width:300px;text-align:right}
+    /* Remote Config — card dọc, value JSON pretty-print nền tối dễ đọc */
+    .cfg-prow{background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:12px 14px;margin-bottom:10px}
+    .cfg-phead{display:flex;align-items:center;flex-wrap:wrap;gap:6px}
+    .cfg-phead .k{font-weight:800;color:#0f172a;font-size:.9rem}
+    .cfg-ptype{color:#0d9488;font-weight:700;font-size:.66rem;letter-spacing:.04em;text-transform:uppercase;background:#f0fdfa;border:1px solid #99f6e4;padding:1px 7px;border-radius:6px}
+    .cfg-pscalar{margin-top:8px;font-family:ui-monospace,Menlo,monospace;font-size:.82rem;color:#0f766e;word-break:break-all;background:#f0fdfa;border:1px solid #ccfbf1;border-radius:8px;padding:9px 11px}
+    .cfg-json{margin:8px 0 0;background:#0f172a;color:#5eead4;font:600 12px/1.55 ui-monospace,Menlo,monospace;padding:12px 14px;border-radius:10px;overflow:auto;max-height:300px;white-space:pre;tab-size:2}
+    .cfg-json .jk{color:#7dd3fc}.cfg-json .js{color:#86efac}.cfg-json .jn{color:#fca5a5}.cfg-json .jb{color:#fdba74}
     .cfg-badge{display:inline-flex;align-items:center;gap:4px;padding:3px 10px;border-radius:999px;font-size:.72rem;font-weight:700;white-space:nowrap}
     .cfg-badge.ok{background:#d1fae5;color:#047857}
     .cfg-badge.no{background:#fee2e2;color:#b91c1c}
@@ -1810,26 +1818,42 @@
           (res.gsj_path?' · <span style="color:#94a3b8">'+esc(res.gsj_path)+'</span>':'')+'</div>';
         var html = note;
         var ps = res.params||[];
+        // Syntax-highlight JSON đã pretty-print (esc &<> trước, KHÔNG esc quote vì nằm trong <pre>).
+        function hlJson(str){
+          var s = str.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+          return s.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function(m){
+            var cls="jn";
+            if (/^"/.test(m)) cls = /:$/.test(m) ? "jk" : "js";
+            else if (/^(true|false)$/.test(m)) cls = "jb";
+            return '<span class="'+cls+'">'+m+'</span>';
+          });
+        }
+        function fmtPval(p){
+          if (p.kind==="inapp") return '<div class="cfg-pscalar"><span style="color:#94a3b8;font-style:italic">(in-app default)</span></div>';
+          var v = p.value;
+          if (v==null) return '<div class="cfg-pscalar" style="color:#94a3b8">—</div>';
+          var pretty = null;
+          try { var o = JSON.parse(v); if (o!==null && typeof o==="object") pretty = JSON.stringify(o, null, 2); } catch(e){}
+          if (pretty!=null) return '<pre class="cfg-json">'+hlJson(pretty)+'</pre>';
+          return '<div class="cfg-pscalar">'+esc(v)+'</div>';
+        }
+        function pcard(p){
+          var cond = p.conditions ? '<span class="cfg-badge up" style="margin-left:4px">'+p.conditions+' điều kiện</span>' : '';
+          return '<div class="cfg-prow"><div class="cfg-phead"><span class="k">'+esc(p.key)+'</span>'+
+            (p.valueType?'<span class="cfg-ptype">'+esc(p.valueType)+'</span>':'')+cond+'</div>'+
+            (p.description?'<div class="src" style="margin-top:3px">'+esc(p.description)+'</div>':'')+
+            fmtPval(p)+'</div>';
+        }
         if (res.rc_enabled===false){
           html += '<div class="cfg-empty" style="padding:30px 10px"><h3>Không dùng Remote Config</h3><p>'+esc(res.note||"App này không bật Firebase Remote Config.")+'</p></div>';
         } else if (!ps.length){
           html += '<div class="cfg-empty" style="padding:30px 10px"><p>Project chưa có tham số Remote Config nào.</p></div>';
         } else {
-          ps.forEach(function(p){
-            var val = p.kind==="inapp" ? '<span style="color:#94a3b8;font-style:italic">'+esc(p.value)+'</span>' : esc(p.value==null?"—":p.value);
-            var cond = p.conditions ? '<span class="cfg-badge up" style="margin-left:6px">'+p.conditions+' điều kiện</span>' : '';
-            html += '<div class="cfg-row"><div style="flex:1;min-width:0"><div class="k">'+esc(p.key)+
-              (p.valueType?' <span style="color:#94a3b8;font-weight:500;font-size:.72rem">'+esc(p.valueType)+'</span>':'')+'</div>'+
-              (p.description?'<div class="src">'+esc(p.description)+'</div>':'')+
-              '</div><div class="v">'+val+cond+'</div></div>';
-          });
+          ps.forEach(function(p){ html += pcard(p); });
         }
         (res.groups||[]).forEach(function(g){
           html += '<div class="cfg-note" style="margin-top:14px">📁 Nhóm: <b>'+esc(g.name)+'</b></div>';
-          (g.params||[]).forEach(function(p){
-            var val = p.kind==="inapp" ? '<span style="color:#94a3b8;font-style:italic">'+esc(p.value)+'</span>' : esc(p.value==null?"—":p.value);
-            html += '<div class="cfg-row"><div style="flex:1;min-width:0"><div class="k">'+esc(p.key)+'</div></div><div class="v">'+val+'</div></div>';
-          });
+          (g.params||[]).forEach(function(p){ html += pcard(p); });
         });
         body.innerHTML = html;
       }
