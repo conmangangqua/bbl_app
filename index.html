@@ -1680,6 +1680,12 @@
     #cfgAddBtn:hover{background:#0f766e}
     #cfgAddBtn:disabled{opacity:.55;cursor:progress}
     #cfgAddMsg{font-size:.8rem;font-weight:600;margin-top:10px}
+    .cfg-fin{width:100%;margin-top:6px;padding:7px 10px;border:1px solid #cbd5e1;border-radius:8px;font-family:ui-monospace,Menlo,monospace;font-size:.78rem;color:#0f172a}
+    .cfg-fin:focus{outline:none;border-color:#0d9488;box-shadow:0 0 0 3px rgba(13,148,136,.12)}
+    #cfgSaveBtn{background:#0d9488;color:#fff;border:none;padding:10px 16px;border-radius:9px;font-size:.85rem;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-family:inherit}
+    #cfgSaveBtn:hover{background:#0f766e}
+    #cfgSaveBtn:disabled{opacity:.55;cursor:progress}
+    #cfgSaveMsg{font-size:.8rem;font-weight:600;margin-top:10px}
   </style>
   <div id="cfgOv" role="dialog" aria-modal="true">
     <div id="cfgModal">
@@ -1752,13 +1758,24 @@
           facebook_client_token:"Facebook Client Token", adjust_token:"Adjust Token",
           appsflyer_dev_key:"AppsFlyer Dev Key"
         };
-        var html = '<div class="cfg-note">📂 '+esc(res.project)+' · branch <b>'+esc(res.branch)+'</b> · chỉ ĐỌC (chưa sửa).</div>';
+        var ph = {
+          admob_app_id:"ca-app-pub-xxxx~xxxx", facebook_app_id:"vd 1234567890",
+          facebook_client_token:"32-ký tự hex", adjust_token:"vd abc123",
+          appsflyer_dev_key:"dev key"
+        };
+        var html = '<div class="cfg-note">📂 '+esc(res.project)+' · branch <b>'+esc(res.branch)+'</b> · sửa giá trị rồi Save → build dev+prod.</div>';
         Object.keys(labels).forEach(function(k){
           var f = c[k]||{};
-          html += '<div class="cfg-row"><div><div class="k">'+labels[k]+'</div>'+
-            (f.present?'<div class="v">'+esc(f.value)+'</div><div class="src">'+esc(f.source||"")+'</div>':'')+
+          html += '<div class="cfg-row"><div style="flex:1"><div class="k">'+labels[k]+'</div>'+
+            (f.present?'<div class="src">'+esc(f.source||"")+'</div>':'')+
+            '<input class="cfg-fin" data-k="'+k+'" value="'+esc(f.value||"")+'" placeholder="'+ph[k]+'">'+
             '</div>'+badge(f.present,false)+'</div>';
         });
+        html += '<div class="cfg-add">'+
+          '<div class="cfg-addrow">'+
+            '<input id="cfgSavePin" type="password" placeholder="PIN Partner để Save" autocomplete="off">'+
+            '<button id="cfgSaveBtn" onclick="cfgSaveConfig()"><i data-lucide="save" style="width:14px;height:14px"></i> Save + Build dev/prod</button>'+
+          '</div><div id="cfgSaveMsg"></div></div>';
         body.innerHTML = html;
       } else {
         var s = res.sdks||{};
@@ -1787,6 +1804,36 @@
       }
       window.lucide && lucide.createIcons();
     }
+
+    window.cfgSaveConfig = async function(){
+      var pin = (document.getElementById("cfgSavePin")||{}).value || "";
+      var msg = document.getElementById("cfgSaveMsg");
+      var btn = document.getElementById("cfgSaveBtn");
+      if (!pin){ msg.innerHTML = '<span style="color:#b91c1c">⚠ Nhập PIN Partner</span>'; return; }
+      // Gom field đã đổi so với giá trị gốc (configcheck cache).
+      var orig = (cfgCache.config&&cfgCache.config.config)||{};
+      var fields = {};
+      document.querySelectorAll(".cfg-fin").forEach(function(inp){
+        var k = inp.dataset.k, v = (inp.value||"").trim();
+        var was = (orig[k]&&orig[k].value)||"";
+        if (v && v !== was) fields[k] = v;
+      });
+      if (!Object.keys(fields).length){ msg.innerHTML = '<span style="color:#b45309">⚠ Chưa thay đổi giá trị nào</span>'; return; }
+      btn.disabled = true; msg.innerHTML = '⏳ Đang kích pipeline...';
+      try {
+        var r = await fetch(CFG_API + "/api/configsave", {
+          method:"POST", headers:{"Content-Type":"application/json"},
+          body: JSON.stringify({ app_id: cfgAppId, fields: fields, pin: pin })
+        });
+        var d = await r.json();
+        if (!r.ok){ msg.innerHTML = '<span style="color:#b91c1c">❌ '+esc(d.error||"lỗi")+'</span>'; btn.disabled=false; return; }
+        var link = d.pipeline_url ? ' <a href="'+esc(d.pipeline_url)+'" target="_blank" rel="noopener">Xem pipeline ›</a>' : '';
+        msg.innerHTML = '<span style="color:#047857">✅ '+esc(d.message||"Đã kích")+'</span>'+link;
+        cfgCache.config = null; // refresh lần sau
+      } catch(e){
+        msg.innerHTML = '<span style="color:#b91c1c">❌ '+esc(e.message||e)+'</span>'; btn.disabled=false;
+      }
+    };
 
     window.cfgAddSdk = async function(keysJson){
       var keys = JSON.parse(keysJson);
