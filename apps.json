@@ -234,6 +234,21 @@
       "store": ""
     },
     {
+      "id": "mochi_chat",
+      "name": "Mochi Chat",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/mochi_chat_icon.png",
+      "platform": "Android",
+      "description": "",
+      "features": [],
+      "downloads": {
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/mochi_chat_dev.apk"
+      },
+      "versions": {
+        "dev": "1.0.0+1"
+      },
+      "store": ""
+    },
+    {
       "id": "nitroboost",
       "name": "Nitroboost",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/nitroboost_icon.png",
