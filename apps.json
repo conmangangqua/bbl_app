@@ -511,7 +511,7 @@
     {
       "id": "whispr",
       "name": "Whispr",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/whispr_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/whispr_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -522,7 +522,7 @@
       },
       "versions": {
         "dev": "1.0.3+26062201",
-        "prod": "1.0.2+26062001",
+        "prod": "1.0.3+26062201",
         "aab": "1.0.3+26062201"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.whispr.caller"
