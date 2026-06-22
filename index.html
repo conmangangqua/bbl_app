@@ -1672,6 +1672,19 @@
     .cfg-pscalar{margin-top:8px;font-family:ui-monospace,Menlo,monospace;font-size:.82rem;color:#0f766e;word-break:break-all;background:#f0fdfa;border:1px solid #ccfbf1;border-radius:8px;padding:9px 11px}
     .cfg-json{margin:8px 0 0;background:#0f172a;color:#5eead4;font:600 12px/1.55 ui-monospace,Menlo,monospace;padding:12px 14px;border-radius:10px;overflow:auto;max-height:300px;white-space:pre;tab-size:2}
     .cfg-json .jk{color:#7dd3fc}.cfg-json .js{color:#86efac}.cfg-json .jn{color:#fca5a5}.cfg-json .jb{color:#fdba74}
+    /* Sửa Remote Config */
+    .cfg-rcedit-btn{margin-left:auto;background:#fff7ed;color:#c2410c;border:1px solid #fed7aa;border-radius:7px;padding:4px 10px;font-size:.74rem;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:4px;font-family:inherit}
+    .cfg-rcedit-btn:hover{background:#ffedd5}
+    .cfg-rcedit{width:100%;margin-top:8px;background:#0f172a;color:#5eead4;font:600 12px/1.55 ui-monospace,Menlo,monospace;padding:12px 14px;border:1px solid #334155;border-radius:10px;min-height:140px;resize:vertical;box-sizing:border-box}
+    .cfg-rcedit:focus{outline:none;border-color:#0d9488;box-shadow:0 0 0 3px rgba(13,148,136,.25)}
+    .cfg-rcbar{display:flex;align-items:center;gap:8px;margin-top:8px;flex-wrap:wrap}
+    .cfg-rcbar input{flex:0 0 150px;padding:8px 11px;border:1px solid #cbd5e1;border-radius:8px;font-size:.82rem;font-family:inherit}
+    .cfg-rcbar input:focus{outline:none;border-color:#0d9488;box-shadow:0 0 0 3px rgba(13,148,136,.15)}
+    .cfg-rcbtn{background:#ea580c;color:#fff;border:none;padding:9px 14px;border-radius:8px;font-size:.82rem;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:5px;font-family:inherit}
+    .cfg-rcbtn:hover{background:#c2410c}.cfg-rcbtn:disabled{opacity:.55;cursor:progress}
+    .cfg-rcghost{background:#f1f5f9;color:#475569;border:none;padding:9px 14px;border-radius:8px;font-size:.82rem;font-weight:700;cursor:pointer;font-family:inherit}
+    .cfg-rcghost:hover{background:#e2e8f0}
+    .cfg-rcmsg2{font-size:.78rem;font-weight:600}
     .cfg-badge{display:inline-flex;align-items:center;gap:4px;padding:3px 10px;border-radius:999px;font-size:.72rem;font-weight:700;white-space:nowrap}
     .cfg-badge.ok{background:#d1fae5;color:#047857}
     .cfg-badge.no{background:#fee2e2;color:#b91c1c}
@@ -1713,6 +1726,33 @@
     var CFG_API = "https://aab.tranquilmind.co";
     var cfgAppId = "", cfgTab = "config";
     var cfgCache = { config: null, sdk: null, rc: null };
+
+    // ── Helpers JSON dùng chung (render view + edit Remote Config) ──
+    function rcEsc(s){ return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];}); }
+    function hlJson(str){
+      var s = str.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+      return s.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function(m){
+        var cls="jn";
+        if (/^"/.test(m)) cls = /:$/.test(m) ? "jk" : "js";
+        else if (/^(true|false)$/.test(m)) cls = "jb";
+        return '<span class="'+cls+'">'+m+'</span>';
+      });
+    }
+    // Giá trị param ở dạng pretty (cho textarea sửa) — JSON thì indent, scalar giữ nguyên.
+    function rcPretty(v){
+      if (v==null) return "";
+      try { var o=JSON.parse(v); if (o!==null && typeof o==="object") return JSON.stringify(o,null,2); } catch(e){}
+      return String(v);
+    }
+    function fmtPval(p){
+      if (p.kind==="inapp") return '<div class="cfg-pscalar"><span style="color:#94a3b8;font-style:italic">(in-app default)</span></div>';
+      var v = p.value;
+      if (v==null) return '<div class="cfg-pscalar" style="color:#94a3b8">—</div>';
+      var pretty = null;
+      try { var o = JSON.parse(v); if (o!==null && typeof o==="object") pretty = JSON.stringify(o, null, 2); } catch(e){}
+      if (pretty!=null) return '<pre class="cfg-json">'+hlJson(pretty)+'</pre>';
+      return '<div class="cfg-pscalar">'+rcEsc(v)+'</div>';
+    }
 
     window.openConfig = async function(appId, appName){
       cfgAppId = appId; cfgTab = "config";
@@ -1775,12 +1815,21 @@
         var html = '<div class="cfg-note">📂 '+esc(res.project)+' · branch <b>'+esc(res.branch)+'</b> · sửa giá trị rồi Save → build dev+prod.</div>';
         Object.keys(labels).forEach(function(k){
           var f = c[k]||{};
-          // Field lấy từ Remote Config (from_rc) → read-only, tô xanh teal, vì sửa phải sửa ở Firebase.
-          var rcAttr = f.from_rc ? ' readonly title="Giá trị từ Firebase Remote Config — sửa ở Firebase Console, không Save tại đây" style="background:#f0fdfa;border-color:#99f6e4;color:#0f766e;font-weight:700"' : '';
-          html += '<div class="cfg-row"><div style="flex:1"><div class="k">'+labels[k]+'</div>'+
-            (f.present?'<div class="src">'+esc(f.source||"")+'</div>':'')+
-            '<input class="cfg-fin" data-k="'+k+'" value="'+esc(f.value||"")+'" placeholder="'+ph[k]+'"'+rcAttr+'>'+
-            '</div>'+badge(f.present,false)+'</div>';
+          if (f.from_rc){
+            // Field lấy từ Remote Config → sửa được nhưng GHI THẲNG lên Firebase (không Save vào source).
+            // data-rc="1" để nút "Save + Build" bỏ qua field này.
+            html += '<div class="cfg-row"><div style="flex:1"><div class="k">'+labels[k]+'</div>'+
+              '<div class="src">'+esc(f.source||"")+'</div>'+
+              '<input class="cfg-fin" data-k="'+k+'" data-rc="1" data-rc-param="'+esc(f.rc_param||"")+'" data-rc-key="'+esc(f.rc_key||"")+'" value="'+esc(f.value||"")+'" placeholder="'+ph[k]+'" style="background:#f0fdfa;border-color:#99f6e4;color:#0f766e;font-weight:700">'+
+              '<button type="button" class="cfg-rcbtn" onclick="cfgSaveRcField(this,\''+k+'\')"><i data-lucide="flame" style="width:13px;height:13px"></i> Lưu lên Firebase</button>'+
+              '<span class="cfg-rcmsg" style="font-size:.78rem;font-weight:600;margin-left:8px"></span>'+
+              '</div>'+badge(f.present,false)+'</div>';
+          } else {
+            html += '<div class="cfg-row"><div style="flex:1"><div class="k">'+labels[k]+'</div>'+
+              (f.present?'<div class="src">'+esc(f.source||"")+'</div>':'')+
+              '<input class="cfg-fin" data-k="'+k+'" value="'+esc(f.value||"")+'" placeholder="'+ph[k]+'">'+
+              '</div>'+badge(f.present,false)+'</div>';
+          }
         });
         html += '<div class="cfg-add">'+
           '<div class="cfg-addrow">'+
@@ -1818,44 +1867,27 @@
         var note = '<div class="cfg-note">🔥 Firebase <b>'+esc(res.firebase_project||"?")+'</b>'+
           (res.version?' · version '+esc(res.version):'')+' · '+(res.param_count||0)+' tham số'+
           (res.gsj_path?' · <span style="color:#94a3b8">'+esc(res.gsj_path)+'</span>':'')+'</div>';
-        var html = note;
+        var html = '<div class="cfg-note" style="background:#fff7ed;border-color:#fed7aa;color:#9a3412">✏️ Bấm <b>Sửa</b> ở mỗi tham số để đổi giá trị rồi <b>Lưu lên Firebase</b> (cần PIN Partner — ảnh hưởng app production ngay).</div>' + note;
         var ps = res.params||[];
-        // Syntax-highlight JSON đã pretty-print (esc &<> trước, KHÔNG esc quote vì nằm trong <pre>).
-        function hlJson(str){
-          var s = str.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
-          return s.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function(m){
-            var cls="jn";
-            if (/^"/.test(m)) cls = /:$/.test(m) ? "jk" : "js";
-            else if (/^(true|false)$/.test(m)) cls = "jb";
-            return '<span class="'+cls+'">'+m+'</span>';
-          });
-        }
-        function fmtPval(p){
-          if (p.kind==="inapp") return '<div class="cfg-pscalar"><span style="color:#94a3b8;font-style:italic">(in-app default)</span></div>';
-          var v = p.value;
-          if (v==null) return '<div class="cfg-pscalar" style="color:#94a3b8">—</div>';
-          var pretty = null;
-          try { var o = JSON.parse(v); if (o!==null && typeof o==="object") pretty = JSON.stringify(o, null, 2); } catch(e){}
-          if (pretty!=null) return '<pre class="cfg-json">'+hlJson(pretty)+'</pre>';
-          return '<div class="cfg-pscalar">'+esc(v)+'</div>';
-        }
-        function pcard(p){
+        // pcard: i = index trong ps (top-level, sửa được); editable=false cho param trong group.
+        function pcard(p, i, editable){
           var cond = p.conditions ? '<span class="cfg-badge up" style="margin-left:4px">'+p.conditions+' điều kiện</span>' : '';
+          var editBtn = (editable && p.kind!=="inapp") ? '<button type="button" class="cfg-rcedit-btn" onclick="cfgRcEdit('+i+')"><i data-lucide="pencil" style="width:12px;height:12px"></i> Sửa</button>' : '';
           return '<div class="cfg-prow"><div class="cfg-phead"><span class="k">'+esc(p.key)+'</span>'+
-            (p.valueType?'<span class="cfg-ptype">'+esc(p.valueType)+'</span>':'')+cond+'</div>'+
+            (p.valueType?'<span class="cfg-ptype">'+esc(p.valueType)+'</span>':'')+cond+editBtn+'</div>'+
             (p.description?'<div class="src" style="margin-top:3px">'+esc(p.description)+'</div>':'')+
-            fmtPval(p)+'</div>';
+            '<div class="cfg-pvalwrap" id="rcv'+i+'">'+fmtPval(p)+'</div></div>';
         }
         if (res.rc_enabled===false){
           html += '<div class="cfg-empty" style="padding:30px 10px"><h3>Không dùng Remote Config</h3><p>'+esc(res.note||"App này không bật Firebase Remote Config.")+'</p></div>';
         } else if (!ps.length){
           html += '<div class="cfg-empty" style="padding:30px 10px"><p>Project chưa có tham số Remote Config nào.</p></div>';
         } else {
-          ps.forEach(function(p){ html += pcard(p); });
+          ps.forEach(function(p, i){ html += pcard(p, i, true); });
         }
         (res.groups||[]).forEach(function(g){
-          html += '<div class="cfg-note" style="margin-top:14px">📁 Nhóm: <b>'+esc(g.name)+'</b></div>';
-          (g.params||[]).forEach(function(p){ html += pcard(p); });
+          html += '<div class="cfg-note" style="margin-top:14px">📁 Nhóm: <b>'+esc(g.name)+'</b> <span style="color:#94a3b8">(chỉ xem)</span></div>';
+          (g.params||[]).forEach(function(p){ html += pcard(p, -1, false); });
         });
         body.innerHTML = html;
       }
@@ -1871,6 +1903,7 @@
       var orig = (cfgCache.config&&cfgCache.config.config)||{};
       var fields = {};
       document.querySelectorAll(".cfg-fin").forEach(function(inp){
+        if (inp.dataset.rc === "1") return; // field từ Remote Config → ghi qua nút riêng, KHÔNG vào pipeline source
         var k = inp.dataset.k, v = (inp.value||"").trim();
         var was = (orig[k]&&orig[k].value)||"";
         if (v && v !== was) fields[k] = v;
@@ -1890,6 +1923,67 @@
       } catch(e){
         msg.innerHTML = '<span style="color:#b91c1c">❌ '+esc(e.message||e)+'</span>'; btn.disabled=false;
       }
+    };
+
+    // Ghi 1 field RC (vd Adjust Token) lên Firebase — sub-key trong JSON param.
+    window.cfgSaveRcField = async function(btn, k){
+      var inp = document.querySelector('.cfg-fin[data-k="'+k+'"]');
+      var msg = btn.parentNode.querySelector(".cfg-rcmsg");
+      if (!inp){ return; }
+      var v = (inp.value||"").trim();
+      var param = inp.dataset.rcParam, key = inp.dataset.rcKey;
+      var orig = (cfgCache.config&&cfgCache.config.config&&cfgCache.config.config[k]&&cfgCache.config.config[k].value)||"";
+      var pin = (document.getElementById("cfgSavePin")||{}).value || "";
+      if (!pin){ msg.style.color="#b91c1c"; msg.textContent="⚠ Nhập PIN Partner (ô dưới)"; return; }
+      if (!v){ msg.style.color="#b91c1c"; msg.textContent="⚠ Trống"; return; }
+      if (v === orig){ msg.style.color="#b45309"; msg.textContent="⚠ Chưa đổi"; return; }
+      if (!confirm("Ghi giá trị MỚI lên Firebase Remote Config:\n\n"+param+"."+key+" = "+v+"\n\n(Ảnh hưởng app production NGAY khi app fetch RC). Tiếp tục?")) return;
+      btn.disabled = true; msg.style.color="#0f766e"; msg.textContent="⏳ Đang ghi Firebase...";
+      try {
+        var r = await fetch(CFG_API + "/api/rcsave", {
+          method:"POST", headers:{"Content-Type":"application/json"},
+          body: JSON.stringify({ app_id: cfgAppId, param: param, json_key: key, value: v, pin: pin })
+        });
+        var d = await r.json();
+        if (!r.ok){ msg.style.color="#b91c1c"; msg.textContent="❌ "+(d.error||"lỗi"); btn.disabled=false; return; }
+        msg.style.color="#047857"; msg.textContent="✅ Đã ghi (RC v"+(d.version||"?")+")";
+        cfgCache.config = null; cfgCache.rc = null; // refresh lần mở sau
+      } catch(e){ msg.style.color="#b91c1c"; msg.textContent="❌ "+(e.message||e); btn.disabled=false; }
+    };
+
+    // ── Sửa nguyên 1 param trong tab Remote Config ──
+    window.cfgRcEdit = function(i){
+      var p = (cfgCache.rc && cfgCache.rc.params && cfgCache.rc.params[i]); if(!p) return;
+      var wrap = document.getElementById("rcv"+i); if(!wrap) return;
+      wrap.innerHTML = '<textarea class="cfg-rcedit" id="rcta'+i+'" spellcheck="false">'+rcEsc(rcPretty(p.value))+'</textarea>'+
+        '<div class="cfg-rcbar"><input id="rcpin'+i+'" type="password" placeholder="PIN Partner" autocomplete="off">'+
+        '<button type="button" class="cfg-rcbtn" onclick="cfgSaveRcParam('+i+')"><i data-lucide="flame" style="width:13px;height:13px"></i> Lưu lên Firebase</button>'+
+        '<button type="button" class="cfg-rcghost" onclick="cfgRcCancel('+i+')">Huỷ</button>'+
+        '<span class="cfg-rcmsg2" id="rcm'+i+'"></span></div>';
+      window.lucide && lucide.createIcons();
+    };
+    window.cfgRcCancel = function(i){
+      var p = (cfgCache.rc && cfgCache.rc.params && cfgCache.rc.params[i]); if(!p) return;
+      var wrap = document.getElementById("rcv"+i); if(!wrap) return;
+      wrap.innerHTML = fmtPval(p); window.lucide && lucide.createIcons();
+    };
+    window.cfgSaveRcParam = async function(i){
+      var p = (cfgCache.rc && cfgCache.rc.params && cfgCache.rc.params[i]); if(!p) return;
+      var ta = document.getElementById("rcta"+i), pinEl = document.getElementById("rcpin"+i), msg = document.getElementById("rcm"+i);
+      var v = ta ? ta.value : "", pin = pinEl ? pinEl.value : "";
+      if(!pin){ msg.style.color="#b91c1c"; msg.textContent="⚠ Nhập PIN Partner"; return; }
+      if((p.valueType||"")==="JSON"){ try{ JSON.parse(v); }catch(e){ msg.style.color="#b91c1c"; msg.textContent="❌ JSON không hợp lệ"; return; } }
+      if(v === rcPretty(p.value)){ msg.style.color="#b45309"; msg.textContent="⚠ Chưa đổi giá trị"; return; }
+      if(!confirm('Ghi tham số "'+p.key+'" lên Firebase Remote Config?\n\nẢnh hưởng app production NGAY khi app fetch RC. Tiếp tục?')) return;
+      msg.style.color="#0f766e"; msg.textContent="⏳ Đang ghi Firebase...";
+      try{
+        var r = await fetch(CFG_API+"/api/rcsave",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({app_id:cfgAppId, param:p.key, value:v, pin:pin})});
+        var d = await r.json();
+        if(!r.ok){ msg.style.color="#b91c1c"; msg.textContent="❌ "+(d.error||"lỗi"); return; }
+        p.value = v; // cập nhật cache
+        var wrap = document.getElementById("rcv"+i);
+        if(wrap){ wrap.innerHTML = '<div class="cfg-pscalar" style="background:#d1fae5;border-color:#6ee7b7;color:#047857;margin-bottom:8px">✅ Đã ghi lên Firebase (RC v'+(d.version||"?")+')</div>'+fmtPval(p); window.lucide && lucide.createIcons(); }
+      }catch(e){ msg.style.color="#b91c1c"; msg.textContent="❌ "+(e.message||e); }
     };
 
     window.cfgAddSdk = async function(keysJson){
