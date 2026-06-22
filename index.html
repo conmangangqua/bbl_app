@@ -1660,6 +1660,14 @@
     .cfg-spin{width:28px;height:28px;border:3px solid #e2e8f0;border-top-color:#0d9488;border-radius:50%;animation:cfgspin 1s linear infinite;margin:30px auto}
     @keyframes cfgspin{to{transform:rotate(360deg)}}
     .cfg-note{font-size:.78rem;color:#64748b;margin:4px 0 14px;padding:8px 12px;background:#f0fdfa;border:1px solid #99f6e4;border-radius:8px}
+    .cfg-add{margin-top:14px;padding:14px;background:#fff;border:1px dashed #0d9488;border-radius:10px}
+    .cfg-addrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+    .cfg-addrow input{flex:0 0 180px;padding:9px 12px;border:1px solid #cbd5e1;border-radius:9px;font-size:.85rem;font-family:inherit}
+    .cfg-addrow input:focus{outline:none;border-color:#0d9488;box-shadow:0 0 0 3px rgba(13,148,136,.15)}
+    #cfgAddBtn{background:#0d9488;color:#fff;border:none;padding:10px 16px;border-radius:9px;font-size:.85rem;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-family:inherit}
+    #cfgAddBtn:hover{background:#0f766e}
+    #cfgAddBtn:disabled{opacity:.55;cursor:progress}
+    #cfgAddMsg{font-size:.8rem;font-weight:600;margin-top:10px}
   </style>
   <div id="cfgOv" role="dialog" aria-modal="true">
     <div id="cfgModal">
@@ -1750,14 +1758,45 @@
           var ver = f.present ? '<div class="v">'+esc(f.version)+(f.recommended&&f.outdated?' → khuyến nghị '+esc(f.recommended):'')+'</div>' : '';
           html += '<div class="cfg-row"><div><div class="k">'+esc(f.name)+'</div>'+ver+'</div>'+badge(f.present,f.outdated)+'</div>';
         });
-        if ((res.missing||[]).length){
-          html += '<div class="cfg-note">💡 Gợi ý thêm '+res.missing.length+' SDK core: '+
-            res.missing.map(function(m){return esc(m.name);}).join(", ")+'. (Phase 2 — nút Sửa/Save sẽ bổ sung sau.)</div>';
+        if ((res.missing||[]).length && res.has_admob){
+          var mk = res.missing.map(function(m){return m.key;});
+          html += '<div class="cfg-add">'+
+            '<div class="cfg-note" style="margin:0 0 8px">💡 Thiếu '+res.missing.length+' SDK core: <b>'+
+              res.missing.map(function(m){return esc(m.name);}).join(", ")+'</b></div>'+
+            '<div class="cfg-addrow">'+
+              '<input id="cfgPin" type="password" placeholder="PIN để thêm + build" autocomplete="off">'+
+              '<button id="cfgAddBtn" onclick="cfgAddSdk(\''+esc(JSON.stringify(mk))+'\')">'+
+                '<i data-lucide="plus" style="width:14px;height:14px"></i> Thêm + Build dev/prod</button>'+
+            '</div>'+
+            '<div id="cfgAddMsg"></div>'+
+          '</div>';
         }
         body.innerHTML = html;
       }
       window.lucide && lucide.createIcons();
     }
+
+    window.cfgAddSdk = async function(keysJson){
+      var keys = JSON.parse(keysJson);
+      var pin = (document.getElementById("cfgPin")||{}).value || "";
+      var msg = document.getElementById("cfgAddMsg");
+      var btn = document.getElementById("cfgAddBtn");
+      if (!pin){ msg.innerHTML = '<span style="color:#b91c1c">⚠ Nhập PIN</span>'; return; }
+      btn.disabled = true; msg.innerHTML = '⏳ Đang kích pipeline...';
+      try {
+        var r = await fetch(CFG_API + "/api/sdkadd", {
+          method:"POST", headers:{"Content-Type":"application/json"},
+          body: JSON.stringify({ app_id: cfgAppId, sdks: keys, pin: pin })
+        });
+        var d = await r.json();
+        if (!r.ok){ msg.innerHTML = '<span style="color:#b91c1c">❌ '+esc(d.error||"lỗi")+'</span>'; btn.disabled=false; return; }
+        var link = d.pipeline_url ? ' <a href="'+esc(d.pipeline_url)+'" target="_blank" rel="noopener">Xem pipeline ›</a>' : '';
+        msg.innerHTML = '<span style="color:#047857">✅ '+esc(d.message||"Đã kích")+'</span>'+link;
+        cfgCache.sdk = null; // refresh lần mở sau
+      } catch(e){
+        msg.innerHTML = '<span style="color:#b91c1c">❌ '+esc(e.message||e)+'</span>'; btn.disabled=false;
+      }
+    };
   })();</script>
 </body>
 </html>
