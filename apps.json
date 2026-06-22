@@ -329,7 +329,7 @@
     {
       "id": "pebble_browser",
       "name": "Pebble Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pebble_browser_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pebble_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
