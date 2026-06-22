@@ -19,6 +19,19 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.aura.recover"
     },
     {
+      "id": "bloomi",
+      "name": "Bloomi",
+      "icon": "",
+      "platform": "Android",
+      "description": "",
+      "features": [],
+      "downloads": {},
+      "versions": {
+        "dev": "1.0.0+1"
+      },
+      "store": ""
+    },
+    {
       "id": "calliq",
       "name": "Calliq",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/calliq_icon.png",
@@ -272,7 +285,7 @@
     {
       "id": "onyx_browser",
       "name": "Onyx Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/onyx_browser_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/onyx_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
