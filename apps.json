@@ -14,7 +14,8 @@
       },
       "versions": {
         "dev": "1.0.7+26062201",
-        "prod": "1.0.6+26040901"
+        "prod": "1.0.6+26040901",
+        "aab": "1.0.7+26062201"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.aura.recover"
     },
