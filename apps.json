@@ -74,7 +74,7 @@
     {
       "id": "fast_fetch",
       "name": "Fast Fetch",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fast_fetch_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fast_fetch_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -84,7 +84,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/fast_fetch.aab"
       },
       "versions": {
-        "dev": "2.0.0+26062102",
+        "dev": "2.0.1+26062202",
         "prod": "2.0.0+26062102",
         "aab": "2.0.1+26062202"
       },
