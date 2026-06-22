@@ -1131,10 +1131,10 @@
     .btn-fl{background:#5b21b6;color:#fff;border:1px solid #5b21b6;cursor:pointer;display:none!important}
     .btn-fl:hover{background:#4c1d95}
     body.aab-authed:not(.partner-authed) .btn-fl{display:flex!important}
-    /* Kiểm tra cấu hình + SDK — chỉ hiện với tier PARTNER (BBLPartner@123) */
+    /* Kiểm tra cấu hình + SDK — hiện cho MỌI user đã login (build PIN 05082024 + partner). */
     .btn-cfg{background:#0d9488;color:#fff;border:1px solid #0d9488;cursor:pointer;display:none!important}
     .btn-cfg:hover{background:#0f766e}
-    body.partner-authed .btn-cfg{display:flex!important}
+    body.aab-authed .btn-cfg{display:flex!important}
       /* NO_ADS_BUILD — nút phục vụ designer, chỉ hiện sau đăng nhập (như .btn-as) */
     .btn-noadsb{background:#d97706;color:#fff;border:1px solid #d97706;cursor:pointer;display:none!important}
     .btn-noadsb:hover{background:#b45309}
