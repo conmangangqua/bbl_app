@@ -737,7 +737,7 @@
     </div>
   </div></div>
   <script>(function(){
-    var API="https://aab.tranquilmind.co", KEY="aab_authed";
+    var API="https://aab.tranquilmind.co", KEY="aab_authed", TKEY="aab_tier";
     var b=document.body,
         btn=document.getElementById("aablBtn"),
         ov=document.getElementById("aablOv"),
@@ -746,9 +746,20 @@
         ok=document.getElementById("aablOk"),
         cancel=document.getElementById("aablCancel");
     function authed(){return localStorage.getItem(KEY)==="1";}
-    function render(){ if(authed()){b.classList.add("aab-authed");btn.innerHTML='<i data-lucide="log-out" style="width:14px;height:14px;vertical-align:-2px;margin-right:5px"></i>Đăng xuất';} else {b.classList.remove("aab-authed");btn.innerHTML='<i data-lucide="lock-keyhole" style="width:14px;height:14px;vertical-align:-2px;margin-right:5px"></i>Đăng nhập';} }
+    function tier(){return localStorage.getItem(TKEY)||"build";}
+    function render(){
+      if(authed()){
+        b.classList.add("aab-authed");
+        // tier partner (BBLPartner@123) mới mở chức năng mới (Kiểm tra cấu hình + Thêm SDK).
+        b.classList.toggle("partner-authed", tier()==="partner");
+        btn.innerHTML='<i data-lucide="log-out" style="width:14px;height:14px;vertical-align:-2px;margin-right:5px"></i>Đăng xuất';
+      } else {
+        b.classList.remove("aab-authed"); b.classList.remove("partner-authed");
+        btn.innerHTML='<i data-lucide="lock-keyhole" style="width:14px;height:14px;vertical-align:-2px;margin-right:5px"></i>Đăng nhập';
+      }
+    }
     function close(){ov.classList.remove("open");pin.value="";msg.textContent="";}
-    btn.onclick=function(){ if(authed()){ localStorage.removeItem(KEY); render(); window.runHealthCheck && window.runHealthCheck(); } else { ov.classList.add("open"); setTimeout(function(){pin.focus();},50); } };
+    btn.onclick=function(){ if(authed()){ localStorage.removeItem(KEY); localStorage.removeItem(TKEY); render(); window.runHealthCheck && window.runHealthCheck(); } else { ov.classList.add("open"); setTimeout(function(){pin.focus();},50); } };
     cancel.onclick=close;
     ov.addEventListener("click",function(e){ if(e.target===ov) close(); });
     pin.addEventListener("keydown",function(e){ if(e.key==="Enter") ok.click(); });
@@ -760,7 +771,8 @@
         var r=await fetch(API+"/api/auth",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({pin:v})});
         var d=await r.json();
         if(!r.ok||!d.ok) throw new Error(d.error||"Sai mã PIN");
-        localStorage.setItem(KEY,"1"); render(); close(); window.runHealthCheck && window.runHealthCheck();
+        localStorage.setItem(KEY,"1"); localStorage.setItem(TKEY, d.tier||"build");
+        render(); close(); window.runHealthCheck && window.runHealthCheck();
       }catch(e){ msg.style.color="#ef4444"; msg.textContent="❌ "+e.message; }
       finally{ ok.disabled=false; }
     };
@@ -1119,10 +1131,10 @@
     .btn-fl{background:#5b21b6;color:#fff;border:1px solid #5b21b6;cursor:pointer;display:none!important}
     .btn-fl:hover{background:#4c1d95}
     body.aab-authed .btn-fl{display:flex!important}
-    /* Kiểm tra cấu hình + SDK — chỉ hiện sau đăng nhập (như các nút khác) */
+    /* Kiểm tra cấu hình + SDK — chỉ hiện với tier PARTNER (BBLPartner@123) */
     .btn-cfg{background:#0d9488;color:#fff;border:1px solid #0d9488;cursor:pointer;display:none!important}
     .btn-cfg:hover{background:#0f766e}
-    body.aab-authed .btn-cfg{display:flex!important}
+    body.partner-authed .btn-cfg{display:flex!important}
       /* NO_ADS_BUILD — nút phục vụ designer, chỉ hiện sau đăng nhập (như .btn-as) */
     .btn-noadsb{background:#d97706;color:#fff;border:1px solid #d97706;cursor:pointer;display:none!important}
     .btn-noadsb:hover{background:#b45309}
