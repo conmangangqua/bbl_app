@@ -1,6 +1,4 @@
 {
   "_comment": "App id (theo apps.json) → category override tay. Ưu tiên CAO NHẤT, đè cả store/AI. Workflow update-apps-json (release/6h) sẽ pick up khi commit. Để trống → fallback snapshot apps-status (store > AI). VD: \"velvet_drama\": \"Entertainment\"",
-  "_examples": {
-    "my_app_id": "Productivity"
-  }
+  "vaultix_browser": "Tools"
 }

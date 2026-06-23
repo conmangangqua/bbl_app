@@ -74,6 +74,8 @@
     .pill-category.cat-src-ai { background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); box-shadow: 0 4px 12px rgba(124,58,237,0.28); }
     .pill-category.cat-src-gitlab { background: linear-gradient(135deg, #94a3b8 0%, #64748b 100%); box-shadow: 0 4px 12px rgba(100,116,139,0.25); }
     .pill-category i, .pill-category svg { width: 11px; height: 11px; stroke-width: 2.4; }
+    /* badge-row phải WRAP để pill category KHÔNG đẩy ads/health badge ra ngoài (overflow:hidden cắt mất) */
+    .badge-row { flex-wrap: wrap !important; overflow: visible !important; row-gap: 8px; }
   </style>
   <style>/* AAB_TRIGGER_INJECTED */
     .btn-build{grid-column:span 2;background:#0f172a;color:#fff;border:1px solid #0f172a;cursor:pointer;font-family:inherit}
