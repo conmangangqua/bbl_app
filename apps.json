@@ -237,7 +237,7 @@
         "prod": "1.0.0+26062001",
         "aab": "1.0.0+26062001"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
       "category": "Browser",
       "category_source": "rule"
     },
