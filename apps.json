@@ -398,6 +398,21 @@
       "store": ""
     },
     {
+      "id": "quartz_browser",
+      "name": "Quartz Browser",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/quartz_browser_icon.png",
+      "platform": "Android",
+      "description": "",
+      "features": [],
+      "downloads": {
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/quartz_browser_dev.apk"
+      },
+      "versions": {
+        "dev": "1.0.0+1"
+      },
+      "store": ""
+    },
+    {
       "id": "quicksave",
       "name": "Quicksave",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quicksave_icon.png",
