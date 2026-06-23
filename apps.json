@@ -400,15 +400,17 @@
     {
       "id": "quartz_browser",
       "name": "Quartz Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/quartz_browser_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quartz_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
       "downloads": {
-        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/quartz_browser_dev.apk"
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/quartz_browser_dev.apk",
+        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quartz_browser_prod.apk"
       },
       "versions": {
-        "dev": "1.0.0+1"
+        "dev": "1.0.0+1",
+        "prod": "1.0.0+1"
       },
       "store": ""
     },
