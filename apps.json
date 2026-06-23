@@ -18,8 +18,8 @@
         "aab": "1.0.7+26062201"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.aura.recover",
-      "category": "Tools",
-      "category_source": "store"
+      "category": "Recovery",
+      "category_source": "rule"
     },
     {
       "id": "bloomi",
@@ -58,8 +58,8 @@
         "aab": "1.0.0+26062101"
       },
       "store": "",
-      "category": "Communication",
-      "category_source": "store"
+      "category": "Caller ID",
+      "category_source": "rule"
     },
     {
       "id": "decora",
@@ -98,8 +98,8 @@
         "aab": "2.0.1+26062202"
       },
       "store": "https://play.google.com/store/apps/details?id=com.manhnhe.klipi",
-      "category": "Tools",
-      "category_source": "store"
+      "category": "Downloader",
+      "category_source": "rule"
     },
     {
       "id": "fluxvpn",
@@ -118,8 +118,8 @@
         "prod": "1.0.1+26030901"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.vpn.connection",
-      "category": "Tools",
-      "category_source": "store"
+      "category": "VPN",
+      "category_source": "rule"
     },
     {
       "id": "gba_emulator",
@@ -137,8 +137,8 @@
         "prod": "2.0.6+25122500"
       },
       "store": "",
-      "category": "Games",
-      "category_source": "store"
+      "category": "Emulator",
+      "category_source": "rule"
     },
     {
       "id": "genify_ai",
@@ -238,8 +238,8 @@
         "aab": "1.0.0+26062001"
       },
       "store": "",
-      "category": "Tools",
-      "category_source": "store"
+      "category": "Browser",
+      "category_source": "rule"
     },
     {
       "id": "lingowl",
@@ -295,8 +295,8 @@
         "prod": "1.0.0+1"
       },
       "store": "",
-      "category": "Communication",
-      "category_source": "store"
+      "category": "AI Chat",
+      "category_source": "rule"
     },
     {
       "id": "nitroboost",
@@ -316,8 +316,8 @@
         "noads": "1.0.0+1"
       },
       "store": "",
-      "category": "Productivity",
-      "category_source": "store"
+      "category": "Cleaner & Booster",
+      "category_source": "rule"
     },
     {
       "id": "onyx_browser",
@@ -339,8 +339,8 @@
         "noads": "1.0.0+1"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.onyx.browser",
-      "category": "Tools",
-      "category_source": "store"
+      "category": "Browser",
+      "category_source": "rule"
     },
     {
       "id": "pdf_platinum",
@@ -379,8 +379,8 @@
         "prod": "1.0.0+1"
       },
       "store": "",
-      "category": "Tools",
-      "category_source": "store"
+      "category": "Browser",
+      "category_source": "rule"
     },
     {
       "id": "pitch_side",
@@ -457,8 +457,8 @@
         "prod": "1.0.0+1"
       },
       "store": "",
-      "category": "Tools",
-      "category_source": "store"
+      "category": "Browser",
+      "category_source": "rule"
     },
     {
       "id": "quicksave",
@@ -478,8 +478,8 @@
         "aab": "1.0.7+26052201"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tmt.quicksave",
-      "category": "Tools",
-      "category_source": "store"
+      "category": "Downloader",
+      "category_source": "rule"
     },
     {
       "id": "sound_lab",
@@ -539,8 +539,8 @@
         "noads": "1.0.2+26060401"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.vaultix.browser",
-      "category": "Tools",
-      "category_source": "override"
+      "category": "Browser",
+      "category_source": "rule"
     },
     {
       "id": "velvet_drama",
@@ -560,8 +560,8 @@
         "aab": "1.0.0+26061801"
       },
       "store": "",
-      "category": "Entertainment",
-      "category_source": "store"
+      "category": "Streaming",
+      "category_source": "rule"
     },
     {
       "id": "vidnova",
@@ -602,8 +602,8 @@
         "aab": "1.0.3+26062201"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.whispr.caller",
-      "category": "Communication",
-      "category_source": "override"
+      "category": "Caller ID",
+      "category_source": "rule"
     }
   ]
 }
