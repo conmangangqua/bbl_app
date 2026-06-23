@@ -602,8 +602,8 @@
         "aab": "1.0.3+26062201"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.whispr.caller",
-      "category": "Tools",
-      "category_source": "store"
+      "category": "Communication",
+      "category_source": "override"
     }
   ]
 }
