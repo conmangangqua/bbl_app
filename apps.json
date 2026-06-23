@@ -276,8 +276,8 @@
         "prod": "1.0.0+1"
       },
       "store": "",
-      "category": null,
-      "category_source": null
+      "category": "Video",
+      "category_source": "override"
     },
     {
       "id": "mochi_chat",
@@ -581,8 +581,8 @@
         "aab": "1.0.3+26061701"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
-      "category": null,
-      "category_source": null
+      "category": "Video",
+      "category_source": "override"
     },
     {
       "id": "whispr",
