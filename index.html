@@ -466,14 +466,16 @@
         };
         badge.title = titleMap[verdict] || "?";
 
+        // Sếp 2026-06-24: tất cả label phải có chữ "ads" cho rõ — KHÔNG để hiểu nhầm
+        // giữa app on store vs ads on store. Live = ads thật sự đang chạy user thấy.
         const labelMap = {
-          live: '<i data-lucide="check-circle-2"></i>Đã có trên store',
-          shipped: '<i data-lucide="upload-cloud"></i>Đang đẩy store',
-          coded: '<i data-lucide="code-2"></i>Ghép ads local',
+          live: '<i data-lucide="check-circle-2"></i>Ads LIVE user thấy',
+          shipped: '<i data-lucide="upload-cloud"></i>App lên store · chưa bật ads',
+          coded: '<i data-lucide="code-2"></i>Ghép ads local · chưa lên store',
           noads: '<i data-lucide="x-circle"></i>Chưa ghép ads',
           misconfig: '<i data-lucide="alert-triangle"></i>Quên bật ads',
-          testads: '<i data-lucide="flask-conical"></i>Test ads ID',
-          unknown: '<i data-lucide="help-circle"></i>Không rõ',
+          testads: '<i data-lucide="flask-conical"></i>Đang dùng Test ID',
+          unknown: '<i data-lucide="help-circle"></i>Chưa rõ trạng thái ads',
         };
         badge.innerHTML = labelMap[verdict] || '?';
         if(sdkList){
