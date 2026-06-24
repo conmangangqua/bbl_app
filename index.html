@@ -285,6 +285,16 @@
     .ads-badge i, .ads-badge svg { width: 12px; height: 12px; stroke-width: 2.2; flex-shrink: 0; }
     .ads-badge.has-ads { background: linear-gradient(135deg, #fb923c 0%, #f59e0b 100%); color: #fff; box-shadow: 0 4px 12px rgba(245,158,11,0.35); }
     .ads-badge.no-ads { background: linear-gradient(135deg, #94a3b8 0%, #64748b 100%); color: #fff; box-shadow: 0 4px 12px rgba(100,116,139,0.25); }
+    /* Sếp 2026-06-24: badge PROD ADS — check bản LIVE Play Store có ads chưa
+       (khác badge BUILD ADS bên trên — cái đó check build/SDK).
+       4 state: ads (xanh), clean (xám), mismatch (đỏ pulse), unknown (mờ). */
+    .prod-ads-badge { display: inline-flex; align-items: center; gap: 5px; font-size: 0.7rem; font-weight: 800; padding: 6px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.03em; line-height: 1; white-space: nowrap; cursor: help; }
+    .prod-ads-badge i, .prod-ads-badge svg { width: 12px; height: 12px; stroke-width: 2.2; flex-shrink: 0; }
+    .prod-ads-badge.prod-ads { background: linear-gradient(135deg, #16a34a 0%, #047857 100%); color: #fff; box-shadow: 0 4px 12px rgba(5,150,105,0.35); }
+    .prod-ads-badge.prod-clean { background: linear-gradient(135deg, #475569 0%, #334155 100%); color: #fff; box-shadow: 0 4px 10px rgba(51,65,85,0.30); }
+    .prod-ads-badge.prod-mismatch { background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%); color: #fff; box-shadow: 0 4px 12px rgba(220,38,38,0.40); animation: prodAdsPulse 2s ease-in-out infinite; }
+    .prod-ads-badge.prod-unknown { background: rgba(148,163,184,0.18); color: #64748b; border: 1px dashed rgba(148,163,184,0.4); }
+    @keyframes prodAdsPulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.05); } }
     .badge-row { display: flex !important; align-items: center !important; gap: 8px !important; flex-wrap: wrap !important; overflow: visible !important; row-gap: 8px; margin-bottom: 18px; }
   </style>
 </head>
@@ -330,7 +340,7 @@
           : `<span class="btn-stack">${label}</span>`;
         const card = document.createElement("article"); card.className = "app-card"; card.style.animationDelay = `${index * 0.1}s`; card.dataset.appId = app.id;
         card.innerHTML = `<div class="app-icon-box"><img src="${app.icon || 'https://via.placeholder.com/150'}" class="app-icon" alt="${app.name}" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(app.name)}&background=059669&color=fff'"></div>
-          <div class="badge-row"><span class="badge ${isIOS ? 'ios' : 'android'}"><i data-lucide="${isIOS ? 'apple' : 'smartphone'}" style="width:14px;height:14px;vertical-align:-2px;margin-right:5px"></i>${app.platform || 'Android'}</span>${app.category ? `<span class="pill-category cat-src-${app.category_source||'store'}" title="Nguồn category: ${app.category_source==='override'?'Override tay':app.category_source==='ai'?'AI phân loại':app.category_source==='gitlab'?'Fallback subgroup':'Store category'}"><i data-lucide="tag"></i>${app.category}</span>` : ''}<span class="ads-badge" data-ads="loading" style="display:none"></span><span class="health-badge" data-health="loading" style="display:none"></span></div>
+          <div class="badge-row"><span class="badge ${isIOS ? 'ios' : 'android'}"><i data-lucide="${isIOS ? 'apple' : 'smartphone'}" style="width:14px;height:14px;vertical-align:-2px;margin-right:5px"></i>${app.platform || 'Android'}</span>${app.category ? `<span class="pill-category cat-src-${app.category_source||'store'}" title="Nguồn category: ${app.category_source==='override'?'Override tay':app.category_source==='ai'?'AI phân loại':app.category_source==='gitlab'?'Fallback subgroup':'Store category'}"><i data-lucide="tag"></i>${app.category}</span>` : ''}<span class="ads-badge" data-ads="loading" style="display:none"></span><span class="prod-ads-badge" data-prod-ads="loading" style="display:none"></span><span class="health-badge" data-health="loading" style="display:none"></span></div>
           <h2 class="app-title">${app.name}</h2><p class="app-desc">${app.description || ''}</p>
           <div class="btn-grid">${devUrl ? `<a href="${devUrl}" class="btn btn-dev"><i class="btn-ic" data-lucide="wrench"></i>${stack('Dev Build','dev')}</a>` : ""} ${prodUrl ? `<a href="${prodUrl}" class="btn btn-live"><i class="btn-ic" data-lucide="rocket"></i>${stack('Live Build','prod')}</a>` : ""} ${aabUrl ? `<a href="${aabUrl}" class="btn btn-full"><i class="btn-ic" data-lucide="package"></i>${stack('Download AAB','aab')}</a>` : ""} ${storeUrl ? `<a href="${storeUrl}" target="_blank" rel="noopener" class="btn btn-store"><i class="btn-ic" data-lucide="shopping-bag"></i><span class="btn-stack">View on Store</span></a>` : ""}
           <button type="button" class="btn btn-build" onclick="openBuildModal('${app.id}', '${(app.name || '').replace(/'/g, "\\'")}')"><i class="btn-ic" data-lucide="hammer"></i><span class="btn-stack">${buildLabel}</span></button>${noAdsTrigger}${noAdsDl}<button type="button" class="btn btn-gd" onclick="openViewDesc('${app.id}', '${(app.name || '').replace(/'/g, "\'")}')"><i class="btn-ic" data-lucide="file-text"></i><span class="btn-stack">Description</span></button><button type="button" class="btn btn-as" onclick="dlAssets('${app.id}', '${(app.name || '').replace(/'/g, "\'")}', this)"><i class="btn-ic" data-lucide="download"></i><span class="btn-stack">Assets</span></button><button type="button" class="btn btn-ba" onclick="genBaDocs('${app.id}', '${(app.name || '').replace(/'/g, "\'")}', this)"><i class="btn-ic" data-lucide="clipboard-list"></i><span class="btn-stack">BA + Tests</span></button><button type="button" class="btn btn-ss" onclick="openShots('${app.id}', '${(app.name || '').replace(/'/g, "\'")}')"><i class="btn-ic" data-lucide="image"></i><span class="btn-stack">Screenshots</span></button><button type="button" class="btn btn-fl" onclick="openFlow('${app.id}', '${(app.name || '').replace(/'/g, "\'")}')"><i class="btn-ic" data-lucide="git-branch"></i><span class="btn-stack">View Flow</span></button><button type="button" class="btn btn-cfg" onclick="openConfig('${app.id}', '${(app.name || '').replace(/'/g, "\'")}')"><i class="btn-ic" data-lucide="settings-2"></i><span class="btn-stack">Kiểm tra cấu hình</span></button></div>${app.storeUpdated ? `<div class="store-meta"><span class="icon">📅</span>Updated on ${app.storeUpdated}</div>` : ""}`;
@@ -383,9 +393,53 @@
       return '<div style="font-size:.7rem;line-height:1.4;margin-top:2px"><span style="color:#64748b;font-weight:600">'+label+'</span> '+okBadge+'<br><a href="'+safe+'" target="_blank" rel="noopener" style="color:'+color+';word-break:break-all;text-decoration:underline">'+safe+'</a></div>';
     }
     function clearHealthUI(){
-      document.querySelectorAll(".health-badge, .ads-badge").forEach(b => { b.style.display="none"; b.textContent=""; });
+      document.querySelectorAll(".health-badge, .ads-badge, .prod-ads-badge").forEach(b => { b.style.display="none"; b.textContent=""; });
       document.querySelectorAll(".health-urls").forEach(u => u.remove());
       document.querySelectorAll(".app-card").forEach(c => { c.style.boxShadow=""; });
+    }
+    // Sếp 2026-06-24: pain point đồng đội hỏi "con này roll bản có ads chưa?".
+    // Fetch endpoint public của apps-status dashboard (snapshot.json đã cache 1h).
+    // 4 verdict: ads / clean / mismatch / unknown — map ra badge tương ứng.
+    async function runProdAdsCheck(){
+      if(!allApps.length) return;
+      try{
+        const r = await fetch("https://apps-status.tranquilmind.co/api/store-ads-check");
+        if(!r.ok) return;
+        const data = await r.json();
+        const results = data.results || {};
+        // Index theo bundle_id (results key) → match qua app store URL hoặc field bundle.
+        // bbl_app/apps.json không có bundle_id field rõ ràng — extract từ store URL.
+        document.querySelectorAll('.app-card').forEach(card => {
+          const appId = card.dataset.appId;
+          const app = allApps.find(a => a.id === appId);
+          if(!app) return;
+          const storeUrl = app.store || "";
+          const bidMatch = storeUrl.match(/[?&]id=([\w.\-]+)/);
+          if(!bidMatch) return;
+          const bid = bidMatch[1].toLowerCase();
+          const info = results[bid];
+          const badge = card.querySelector('.prod-ads-badge');
+          if(!badge) return;
+          const verdict = info?.verdict || "unknown";
+          badge.className = "prod-ads-badge prod-" + verdict;
+          badge.style.display = "inline-flex";
+          const titleMap = {
+            ads: "Bản LIVE trên Play Store CÓ ads (khai Data Safety: Contains ads" + (info?.has_ga4_revenue ? " · GA4 confirmed revenue" : "") + ")",
+            clean: "Bản LIVE trên Play Store KHÔNG có ads (khai Data Safety: No ads, GA4 ad_revenue=0)",
+            mismatch: "⚠️ LỆCH — Khai 'No ads' trên Play Console NHƯNG GA4 thấy ad revenue. Kiểm tra Data Safety hoặc tắt ads SDK.",
+            unknown: "Chưa khai Data Safety hoặc app chưa publish public Play Store",
+          };
+          badge.title = titleMap[verdict] || "?";
+          const labelMap = {
+            ads: '<i data-lucide="megaphone"></i>PROD ADS',
+            clean: '<i data-lucide="shield-check"></i>PROD CLEAN',
+            mismatch: '<i data-lucide="alert-triangle"></i>LỆCH',
+            unknown: '<i data-lucide="help-circle"></i>?',
+          };
+          badge.innerHTML = labelMap[verdict] || '?';
+        });
+        window.lucide && lucide.createIcons();
+      }catch(e){ /* silent */ }
     }
     async function runAdsCheck(){
       if(!allApps.length) return;
@@ -432,6 +486,7 @@
     }
     async function runHealthCheck(){
       runAdsCheck();
+      runProdAdsCheck();   // Sếp 2026-06-24: badge PROD ADS cạnh BUILD ADS
       if(localStorage.getItem("aab_authed")!=="1"){ clearHealthUI(); return; }
       if(!allApps.length) return;
       const apps = allApps.filter(a => a.id).slice(0, 50).map(a => ({id: a.id, store_url: a.store || null}));
