@@ -290,11 +290,9 @@
        4 state: ads (xanh), clean (xám), mismatch (đỏ pulse), unknown (mờ). */
     .prod-ads-badge { display: inline-flex; align-items: center; gap: 5px; font-size: 0.7rem; font-weight: 800; padding: 6px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.03em; line-height: 1; white-space: nowrap; cursor: help; }
     .prod-ads-badge i, .prod-ads-badge svg { width: 12px; height: 12px; stroke-width: 2.2; flex-shrink: 0; }
-    /* Sếp 2026-06-24 v2: 1 badge tổng phản ánh stage CAO NHẤT đã đạt:
-       live > shipped > coded > noads > unknown. Live đã ngầm có CODED+SHIPPED nên KHÔNG cần hiện 3 mini-icon. */
+    /* Sếp 2026-06-24 v3 simple: 4 state tiếng Việt ngắn gọn. */
     .prod-ads-badge.prod-live { background: linear-gradient(135deg, #16a34a 0%, #047857 100%); color: #fff; box-shadow: 0 4px 12px rgba(5,150,105,0.40); }
-    .prod-ads-badge.prod-shipped { background: linear-gradient(135deg, #f59e0b 0%, #b45309 100%); color: #fff; box-shadow: 0 4px 12px rgba(245,158,11,0.35); }
-    .prod-ads-badge.prod-coded { background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%); color: #fff; box-shadow: 0 4px 10px rgba(99,102,241,0.30); }
+    .prod-ads-badge.prod-wip { background: linear-gradient(135deg, #f59e0b 0%, #b45309 100%); color: #fff; box-shadow: 0 4px 12px rgba(245,158,11,0.35); }
     .prod-ads-badge.prod-noads { background: linear-gradient(135deg, #94a3b8 0%, #64748b 100%); color: #fff; box-shadow: 0 4px 10px rgba(100,116,139,0.25); }
     .prod-ads-badge.prod-unknown { background: rgba(148,163,184,0.18); color: #64748b; border: 1px dashed rgba(148,163,184,0.4); }
     .badge-row { display: flex !important; align-items: center !important; gap: 8px !important; flex-wrap: wrap !important; overflow: visible !important; row-gap: 8px; margin-bottom: 18px; }
@@ -455,38 +453,39 @@
         badge.style.display = "inline-flex";
 
         const sdkList = (coded?.ads || []).join(", ");
+        // Sếp 2026-06-24 v3: simplify thành 4 state tiếng Việt ngắn gọn.
+        // Gộp 'shipped' + 'coded' → 'wip' (đang ghép) cho dễ hiểu.
+        let simpleVerdict = verdict;
+        if (verdict === "shipped" || verdict === "coded") simpleVerdict = "wip";
+        if (verdict === "live") simpleVerdict = "live";
+        if (verdict === "noads") simpleVerdict = "noads";
+        // Map class cho CSS (live=xanh, wip=cam, noads=xám, unknown=mờ)
+        badge.className = "prod-ads-badge prod-" + simpleVerdict;
+
         const titleMap = {
-          live: "▶️ Bản LIVE trên Play Store CÓ ads thật\n" +
-                "• Play Console: Contains ads ✓\n" +
-                "• Production track: COMPLETED ✓\n" +
-                "• Public URL truy cập được ✓" +
-                (sdkList ? "\n• Build SDK: " + sdkList : ""),
-          shipped: "📤 ĐÃ upload Play Console (chưa LIVE public)\n" +
-                   "• Play state: " + (store?.play_state || "?") + " · track " + (store?.play_track || "?") +
-                   (store?.play_version ? "\n• Version: " + store.play_version : "") +
-                   (store?.has_store_ads === true ? "\n• Data Safety: Contains ads ✓" :
-                    store?.has_store_ads === false ? "\n• Data Safety: No ads (chưa khai có ads)" :
-                    "\n• Data Safety: chưa khai") +
-                   (sdkList ? "\n• Build SDK: " + sdkList : ""),
-          coded: "🔧 Build code CÓ ads SDK nhưng CHƯA upload Play Console\n" +
-                 "• SDK: " + (sdkList || "?") + "\nClick để xem chi tiết",
-          noads: "🚫 Build chưa integrate ads SDK",
-          unknown: "Chưa rõ — chưa fetch được data hoặc app chưa có store URL",
+          live: "✅ App đã có ads chạy trên Play Store (bản LIVE user đang dùng)" +
+                (sdkList ? "\n\nSDK: " + sdkList : ""),
+          wip: (verdict === "shipped"
+                  ? "⏳ Đã upload Play Console nhưng CHƯA LIVE public store\n• " + (store?.play_state || "?") + " · " + (store?.play_track || "?")
+                  : "⏳ Build code có ads SDK nhưng CHƯA upload Play Store") +
+               (sdkList ? "\n\nSDK: " + sdkList : ""),
+          noads: "❌ Build chưa ghép ads SDK",
+          unknown: "❓ Chưa rõ — app chưa public store hoặc chưa fetch được",
         };
-        badge.title = titleMap[verdict] || "?";
+        badge.title = titleMap[simpleVerdict] || "?";
 
         const labelMap = {
-          live: '<i data-lucide="megaphone"></i>PROD ADS · LIVE',
-          shipped: '<i data-lucide="upload-cloud"></i>UPLOADED',
-          coded: '<i data-lucide="code-2"></i>CODED',
-          noads: '<i data-lucide="ban"></i>NO ADS',
-          unknown: '<i data-lucide="help-circle"></i>?',
+          live: '<i data-lucide="check-circle-2"></i>ĐÃ CÓ ADS',
+          wip: '<i data-lucide="loader"></i>ĐANG GHÉP',
+          noads: '<i data-lucide="x-circle"></i>CHƯA GHÉP',
+          unknown: '<i data-lucide="help-circle"></i>KHÔNG RÕ',
         };
-        badge.innerHTML = labelMap[verdict] || '?';
-        // Click hiện SDK detail (chỉ cho coded/shipped/live)
-        if(sdkList && (verdict === "coded" || verdict === "shipped" || verdict === "live")){
+        badge.innerHTML = labelMap[simpleVerdict] || '?';
+        badge.style.display = "inline-flex";
+        // Click hiện SDK detail (nếu có)
+        if(sdkList){
           badge.style.cursor = "pointer";
-          badge.onclick = function(){ alert('Ads SDK: ' + sdkList); };
+          badge.onclick = function(){ alert('Ads SDK đã tích hợp:\n' + sdkList); };
         } else {
           badge.style.cursor = "help";
           badge.onclick = null;
@@ -538,10 +537,11 @@
       }catch(e){}
     }
     async function runHealthCheck(){
-      // Sếp 2026-06-24 v2: 1 badge tổng — runProdAdsCheck() đã gọi cả adscheck + store-ads-check.
-      // Bỏ runAdsCheck() riêng (cũ) để tránh duplicate fetch + 2 badge.
-      runProdAdsCheck();
+      // Sếp 2026-06-24: badge PROD ADS CHỈ hiện khi đã login (sensitive — không
+      // muốn user public biết app nào có ads / chưa ship). clearHealthUI() chạy
+      // trước để ẩn mọi badge nếu chưa login.
       if(localStorage.getItem("aab_authed")!=="1"){ clearHealthUI(); return; }
+      runProdAdsCheck();
       if(!allApps.length) return;
       const apps = allApps.filter(a => a.id).slice(0, 50).map(a => ({id: a.id, store_url: a.store || null}));
       try{
