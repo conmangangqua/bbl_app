@@ -288,7 +288,11 @@
     /* Sếp 2026-06-24: badge PROD ADS — check bản LIVE Play Store có ads chưa
        (khác badge BUILD ADS bên trên — cái đó check build/SDK).
        4 state: ads (xanh), clean (xám), mismatch (đỏ pulse), unknown (mờ). */
-    .prod-ads-badge { display: inline-flex; align-items: center; gap: 5px; font-size: 0.7rem; font-weight: 800; padding: 6px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.03em; line-height: 1; white-space: nowrap; cursor: help; }
+    /* Sếp 2026-06-25: TẠM ẨN badge PROD ADS — logic còn false positive
+       (Genify AI LIVE kiếm tiền thật vẫn flag misconfig). Em sẽ research
+       kỹ codebase + fix logic rồi mới bật lại. !important override mọi
+       state class bên dưới. */
+    .prod-ads-badge { display: none !important; align-items: center; gap: 5px; font-size: 0.7rem; font-weight: 800; padding: 6px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.03em; line-height: 1; white-space: nowrap; cursor: help; }
     .prod-ads-badge i, .prod-ads-badge svg { width: 12px; height: 12px; stroke-width: 2.2; flex-shrink: 0; }
     /* Sếp 2026-06-24 v6 ACCURATE: 7 state từ configcheck+sdkcheck+rccheck+store_info. */
     .prod-ads-badge.prod-live { background: linear-gradient(135deg, #16a34a 0%, #047857 100%); color: #fff; box-shadow: 0 4px 12px rgba(5,150,105,0.40); }
