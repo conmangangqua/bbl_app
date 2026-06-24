@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T21:41:37",
+  "generated_at": "2026-06-24T22:38:14",
   "apps": {
     "aura_recover": {
       "updated_on": "Apr 9, 2026",
@@ -12,8 +12,8 @@
       "package_id": "com.tranquil.vpn.connection"
     },
     "genify_ai": {
-      "updated_on": "Jun 4, 2026",
-      "updated_ts": 1780573072,
+      "updated_on": "Jun 17, 2026",
+      "updated_ts": 1781697292,
       "package_id": "com.tranquil.aiart"
     },
     "quicksave": {
@@ -21,26 +21,50 @@
       "updated_ts": 1779896346,
       "package_id": "com.tmt.quicksave"
     },
+    "score_deck": {
+      "updated_on": "Jun 16, 2026",
+      "updated_ts": 1781623788,
+      "package_id": "com.tranquilpartner.scoredeck"
+    },
     "vaultix_browser": {
-      "updated_on": "Jun 8, 2026",
-      "updated_ts": 1780891437,
+      "updated_on": "Jun 16, 2026",
+      "updated_ts": 1781623909,
       "package_id": "com.tranquiltmt.vaultix.browser"
     },
     "onyx_browser": {
-      "updated_on": "Jun 12, 2026",
-      "updated_ts": 1781200965,
+      "updated_on": "Jun 22, 2026",
+      "updated_ts": 1782145380,
       "package_id": "com.tranquiltmt.onyx.browser"
     },
     "goal_arena": {
-      "updated_on": "Jun 2, 2026",
-      "updated_ts": 1780419123,
+      "updated_on": "Jun 13, 2026",
+      "updated_ts": 1781350682,
       "package_id": "com.tranquilpartner.goalarena"
     },
+    "vidnova": {
+      "updated_on": "Jun 17, 2026",
+      "updated_ts": 1781660354,
+      "package_id": "com.tranquilpartner.vidnova.ai"
+    },
+    "whispr": {
+      "updated_on": "Jun 22, 2026",
+      "updated_ts": 1782145455,
+      "package_id": "com.tranquilmind.whispr.caller"
+    },
     "pitch_side": {
-      "updated_on": "Jun 3, 2026",
-      "updated_ts": 1780493303,
-      "package_id": "com.tranquilpartner.scoredeck",
-      "name": "PitchSide"
+      "updated_on": "Jun 17, 2026",
+      "updated_ts": 1781670617,
+      "package_id": "com.tranquilpartner.scoredeck"
+    },
+    "fast_fetch": {
+      "updated_on": "Jun 22, 2026",
+      "updated_ts": 1782105491,
+      "package_id": "com.manhnhe.klipi"
+    },
+    "kestrel_browser": {
+      "updated_on": "Jun 20, 2026",
+      "updated_ts": 1781971937,
+      "package_id": "com.tranquiltmt.kestrel.browser"
     }
   }
 }
