@@ -361,6 +361,13 @@
         (selectedCategory === "" || app.category === selectedCategory) &&
         (app.name.toLowerCase().includes(query) || (app.description && app.description.toLowerCase().includes(query)) || (app.category && app.category.toLowerCase().includes(query)))
       ));
+      // Sếp 2026-06-24: filter rebuild DOM cards mới → .app-desc rỗng vì
+      // apps.json không có description thật. enrichCardDescriptions() fetch
+      // async từ GitHub app_description repo + inject vào DOM. Phải gọi lại
+      // sau mỗi render để description load đúng.
+      window.lucide && lucide.createIcons();
+      runHealthCheck();
+      enrichCardDescriptions();
     };
     Promise.all([
       fetch("apps.json?t=" + Date.now()).then(r => r.json()).catch(()=>({apps:[]})),
@@ -468,14 +475,18 @@
            && (verdict === "shipped" || verdict === "rollout" || verdict === "live")){
           verdict = "mismatch";
         }
-        // TEST ADS ID: build dùng test ads ID (adscheck có thể trả field test_ads
-        // hoặc list ID có chứa 'ca-app-pub-3940256099942544/'). Nếu Sếp chưa
-        // extend adscheck, em check qua field test_ads (boolean) hoặc ad_ids.
-        const adIds = coded?.ad_ids || coded?.ids || [];
-        const GOOGLE_TEST_ID_PREFIX = "ca-app-pub-3940256099942544";
+        // TEST ADS ID: build có test ads ID trong repo.
+        // Sếp 2026-06-24 (incident Quicksave): test IDs có thể là FALLBACK
+        // constants trong code (RemoteConfig override prod ID, fallback test
+        // khi RC fail). App đã LIVE Play Store + kiếm tiền thật KHÔNG nên
+        // bị override thành 'testads' vì gây sai/spam cảnh báo.
+        // → CHỈ override testads cho app CHƯA LIVE (shipped/coded) — đó là
+        // case nguy hiểm thật: chuẩn bị release nhưng vẫn dùng test ID.
+        const adIds = coded?.test_ad_ids || coded?.ad_ids || [];
         const hasTestAdsId = coded?.test_ads === true
-                          || (Array.isArray(adIds) && adIds.some(id => String(id).startsWith(GOOGLE_TEST_ID_PREFIX)));
-        if(hasTestAdsId && coded?.has_ads === true){
+                          || (Array.isArray(adIds) && adIds.length > 0);
+        const isPreLive = verdict === "shipped" || verdict === "coded";
+        if(hasTestAdsId && coded?.has_ads === true && isPreLive){
           verdict = "testads";
         }
 
