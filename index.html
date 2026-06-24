@@ -290,18 +290,16 @@
        4 state: ads (xanh), clean (xám), mismatch (đỏ pulse), unknown (mờ). */
     .prod-ads-badge { display: inline-flex; align-items: center; gap: 5px; font-size: 0.7rem; font-weight: 800; padding: 6px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.03em; line-height: 1; white-space: nowrap; cursor: help; }
     .prod-ads-badge i, .prod-ads-badge svg { width: 12px; height: 12px; stroke-width: 2.2; flex-shrink: 0; }
-    /* Sếp 2026-06-24 v5: 8 state pipeline ads + compliance/test warnings. */
+    /* Sếp 2026-06-24 v6 ACCURATE: 7 state từ configcheck+sdkcheck+rccheck+store_info. */
     .prod-ads-badge.prod-live { background: linear-gradient(135deg, #16a34a 0%, #047857 100%); color: #fff; box-shadow: 0 4px 12px rgba(5,150,105,0.40); }
-    .prod-ads-badge.prod-rollout { background: linear-gradient(135deg, #84cc16 0%, #4d7c0f 100%); color: #fff; box-shadow: 0 4px 12px rgba(132,204,22,0.40); animation: rolloutPulse 2.5s ease-in-out infinite; }
     .prod-ads-badge.prod-shipped { background: linear-gradient(135deg, #f59e0b 0%, #b45309 100%); color: #fff; box-shadow: 0 4px 12px rgba(245,158,11,0.35); }
     .prod-ads-badge.prod-coded { background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%); color: #fff; box-shadow: 0 4px 10px rgba(99,102,241,0.30); }
     .prod-ads-badge.prod-noads { background: linear-gradient(135deg, #94a3b8 0%, #64748b 100%); color: #fff; box-shadow: 0 4px 10px rgba(100,116,139,0.25); }
     .prod-ads-badge.prod-unknown { background: rgba(148,163,184,0.18); color: #64748b; border: 1px dashed rgba(148,163,184,0.4); }
-    /* Cảnh báo: build có SDK nhưng Play Console khai "No ads" → policy lệch. */
-    .prod-ads-badge.prod-mismatch { background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%); color: #fff; box-shadow: 0 4px 12px rgba(220,38,38,0.45); animation: prodAdsAlert 2s ease-in-out infinite; }
-    /* Cảnh báo: build dùng test ads ID (Google ca-app-pub-3940256099942544/...) → không kiếm tiền thật. */
+    /* MISCONFIG: SDK installed nhưng RC showAllAds=false hoặc thiếu ad_config_new → quên bật ads */
+    .prod-ads-badge.prod-misconfig { background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%); color: #fff; box-shadow: 0 4px 12px rgba(220,38,38,0.45); animation: prodAdsAlert 2s ease-in-out infinite; }
+    /* TEST ADS ID: AdMob App ID hoặc RC slot IDs dùng test publisher 3940256099942544 */
     .prod-ads-badge.prod-testads { background: linear-gradient(135deg, #eab308 0%, #a16207 100%); color: #fff; box-shadow: 0 4px 12px rgba(234,179,8,0.40); animation: prodAdsAlert 2.5s ease-in-out infinite; }
-    @keyframes rolloutPulse { 0%,100% { opacity: 1; } 50% { opacity: 0.85; } }
     @keyframes prodAdsAlert { 0%,100% { transform: scale(1); } 50% { transform: scale(1.05); } }
     .badge-row { display: flex !important; align-items: center !important; gap: 8px !important; flex-wrap: wrap !important; overflow: visible !important; row-gap: 8px; margin-bottom: 18px; }
   </style>
@@ -412,38 +410,20 @@
       document.querySelectorAll(".health-urls").forEach(u => u.remove());
       document.querySelectorAll(".app-card").forEach(c => { c.style.boxShadow=""; });
     }
-    // Sếp 2026-06-24 v2: 1 badge tổng phản ánh stage CAO NHẤT đã đạt.
-    // Merge 2 source:
-    //   adscheck (build SDK)        → stage CODED
-    //   store-ads-check (Play data) → stage SHIPPED + LIVE
-    // Verdict cuối ưu tiên giảm dần: live > shipped > coded > noads > unknown.
-    // Sếp note: "Live có ads rồi thì coded chả có hiện làm gì" → 1 badge cao nhất.
+    // Sếp 2026-06-24 v6 ACCURATE: backend store-ads-check đã tổng hợp 3 API
+    // configcheck + sdkcheck + rccheck + Play store_info → return verdict
+    // CHÍNH XÁC. Frontend chỉ render, KHÔNG còn merge/compute verdict.
+    // (Em đã code SAI 3 lần — Sếp dạy phải research kỹ infrastructure trước.)
     async function runProdAdsCheck(){
       if(!allApps.length) return;
-      const apps = allApps.filter(a => a.id).slice(0, 50).map(a => ({id: a.id}));
-      let codedMap = {};   // appId → has_ads (CODED stage từ adscheck)
-      let storeMap = {};   // bundle_id → {verdict, has_store_ads, play_state, ...} từ store-ads-check
-      // 1. Fetch song song 2 endpoint
+      let storeMap = {};
       try{
-        const [adscheckR, storeR] = await Promise.all([
-          fetch("https://aab.tranquilmind.co/api/adscheck", {
-            method: "POST",
-            headers: {"Content-Type": "application/json"},
-            body: JSON.stringify({apps})
-          }).catch(() => null),
-          fetch("https://apps-status.tranquilmind.co/api/store-ads-check").catch(() => null),
-        ]);
-        if(adscheckR && adscheckR.ok){
-          const d = await adscheckR.json();
-          Object.entries(d.results || {}).forEach(([appId, info]) => { codedMap[appId] = info; });
-        }
-        if(storeR && storeR.ok){
-          const d = await storeR.json();
-          Object.entries(d.results || {}).forEach(([bid, info]) => { storeMap[bid.toLowerCase()] = info; });
-        }
+        const r = await fetch("https://apps-status.tranquilmind.co/api/store-ads-check");
+        if(!r.ok) return;
+        const d = await r.json();
+        Object.entries(d.results || {}).forEach(([bid, info]) => { storeMap[bid.toLowerCase()] = info; });
       }catch(e){ return; }
 
-      // 2. Render badge per card
       document.querySelectorAll('.app-card').forEach(card => {
         const appId = card.dataset.appId;
         const app = allApps.find(a => a.id === appId);
@@ -451,97 +431,58 @@
         const storeUrl = app.store || "";
         const bidMatch = storeUrl.match(/[?&]id=([\w.\-]+)/);
         const bid = bidMatch ? bidMatch[1].toLowerCase() : null;
-        const coded = codedMap[appId];                   // {has_ads, ads:[]}
-        const store = bid ? storeMap[bid] : null;        // {verdict, has_store_ads, ...}
+        const info = bid ? storeMap[bid] : null;
         const badge = card.querySelector('.prod-ads-badge');
         if(!badge) return;
 
-        // Verdict ưu tiên giảm dần (Sếp 2026-06-24 v5):
-        //   8 state: live > rollout > shipped > coded > noads > unknown
-        //   Cảnh báo override: mismatch / testads.
-        let verdict = "unknown";
-        let rolloutPct = store?.rollout_pct;
-
-        // 1. Base verdict theo pipeline stage cao nhất.
-        if(store?.verdict === "live") verdict = "live";
-        else if(store?.verdict === "rollout") verdict = "rollout";
-        else if(store?.verdict === "shipped") verdict = "shipped";
-        else if(coded?.has_ads === true) verdict = "coded";
-        else if(coded?.has_ads === false) verdict = "noads";
-
-        // 2. Override compliance check (chỉ apply nếu đã ship + có data ads).
-        // MISMATCH: build có SDK ads + Play Console khai 'No ads' → policy lệch.
-        if(coded?.has_ads === true && store?.has_store_ads === false
-           && (verdict === "shipped" || verdict === "rollout" || verdict === "live")){
-          verdict = "mismatch";
-        }
-        // TEST ADS ID: build có test ads ID trong repo.
-        // Sếp 2026-06-24 (incident Quicksave): test IDs có thể là FALLBACK
-        // constants trong code (RemoteConfig override prod ID, fallback test
-        // khi RC fail). App đã LIVE Play Store + kiếm tiền thật KHÔNG nên
-        // bị override thành 'testads' vì gây sai/spam cảnh báo.
-        // → CHỈ override testads cho app CHƯA LIVE (shipped/coded) — đó là
-        // case nguy hiểm thật: chuẩn bị release nhưng vẫn dùng test ID.
-        const adIds = coded?.test_ad_ids || coded?.ad_ids || [];
-        const hasTestAdsId = coded?.test_ads === true
-                          || (Array.isArray(adIds) && adIds.length > 0);
-        const isPreLive = verdict === "shipped" || verdict === "coded";
-        if(hasTestAdsId && coded?.has_ads === true && isPreLive){
-          verdict = "testads";
-        }
-
+        const verdict = info?.verdict || "unknown";
         badge.className = "prod-ads-badge prod-" + verdict;
         badge.style.display = "inline-flex";
 
-        const sdkList = (coded?.ads || []).join(", ");
-        // Sếp 2026-06-24 v4: 5 state rõ ràng từng pipeline stage.
-        //   live    → Ghép ads & đã có trên store (xanh đậm) — đỉnh pipeline
-        //   shipped → Ghép ads & đang đẩy store    (cam)    — uploaded chưa LIVE
-        //   coded   → Ghép ads local              (tím)    — build có SDK chưa ship
-        //   noads   → Chưa ghép ads                (xám)    — build chưa SDK
-        //   unknown → Không rõ                     (mờ)
-        badge.className = "prod-ads-badge prod-" + verdict;
-
+        const sdkList = (info?.mediation_sdks || []).map(s => s.name).join(", ");
         const titleMap = {
-          live: "✅ App đã ghép ads + bản LIVE 100% public store user đang dùng" +
-                (sdkList ? "\n\nSDK: " + sdkList : ""),
-          rollout: "📊 Đang staged rollout production track " + (rolloutPct ?? "?") + "% users" +
-                   (store?.play_version ? "\n• Version: " + store.play_version : "") +
+          live: "✅ Bản LIVE Play Store có ads thật\n" +
+                "• AdMob App ID: " + (info?.admob_app_id_value || "?") + "\n" +
+                "• RC ad_config_new: showAllAds=true · " + (info?.rc_enabled_slots || 0) + "/" + (info?.rc_total_slots || 0) + " slot enable\n" +
+                "• Play Store: Contains ads ✓ · " + (info?.play_state || "visible") +
+                (sdkList ? "\n• SDK mediation: " + sdkList : ""),
+          shipped: "📤 Đã upload Play Console (chưa LIVE đầy đủ)\n" +
+                   "• Play state: " + (info?.play_state || "?") + " · track " + (info?.play_track || "?") +
+                   (info?.play_version ? "\n• Version: " + info.play_version : "") +
                    (sdkList ? "\n• SDK: " + sdkList : ""),
-          shipped: "📤 Đã upload Play Console (chưa rollout production)\n" +
-                   "• Play state: " + (store?.play_state || "?") + " · track " + (store?.play_track || "?") +
-                   (store?.play_version ? "\n• Version: " + store.play_version : "") +
-                   (sdkList ? "\n• SDK: " + sdkList : ""),
-          coded: "🔧 Build code có ads SDK local, CHƯA upload Play Store" +
-                 (sdkList ? "\n\nSDK: " + sdkList : ""),
-          noads: "❌ Build chưa ghép ads SDK",
-          mismatch: "⚠️ LỆCH KHAI Data Safety!\n" +
-                    "• Build có ads SDK: " + (sdkList || "?") + "\n" +
-                    "• NHƯNG Play Console khai 'No ads' trong Data Safety\n" +
-                    "→ Google có thể flag policy violation. Vào Play Console → App content → Data Safety → cập nhật 'Contains ads'.",
-          testads: "⚠️ Đang dùng test ads ID!\n" +
-                   "• Build có ads SDK nhưng config Google test ID 'ca-app-pub-3940256099942544/...'\n" +
-                   "→ Release lên Play Store sẽ KHÔNG kiếm tiền thật (ads vẫn hiện nhưng không count).\n" +
-                   "→ Switch sang production AdUnit ID trong RemoteConfig hoặc constant code.",
-          unknown: "❓ Không rõ — chưa fetch được data",
+          coded: "🔧 Build có AdMob SDK local, CHƯA upload Play Store\n" +
+                 "• AdMob App ID: " + (info?.admob_app_id_value || "?") +
+                 (sdkList ? "\n• SDK: " + sdkList : ""),
+          noads: "❌ Build chưa ghép AdMob (no admob_app_id hoặc no SDK)",
+          misconfig: "⚠️ Đã ghép SDK nhưng QUÊN BẬT ads!\n" +
+                     "• SDK mediation: " + (sdkList || "?") + "\n" +
+                     "• RC ad_config_new.showAllAds: " + (info?.rc_show_all_ads === true ? "true" : info?.rc_show_all_ads === false ? "FALSE (đang tắt)" : "missing") + "\n" +
+                     "→ Vào Firebase Console → Remote Config → ad_config_new → bật showAllAds=true",
+          testads: "🧪 Đang dùng Google TEST ads ID!\n" +
+                   "• AdMob App ID: " + (info?.admob_app_id_value || "?") + "\n" +
+                   "• Test slot trong RC: " + (info?.rc_test_ids_in_use ? "có" : "không") + "\n" +
+                   "→ Switch sang production AdUnit IDs trong Firebase RC trước khi release production.",
+          unknown: "❓ Chưa fetch được configcheck/sdkcheck/rccheck",
         };
         badge.title = titleMap[verdict] || "?";
 
         const labelMap = {
           live: '<i data-lucide="check-circle-2"></i>Đã có trên store',
-          rollout: '<i data-lucide="trending-up"></i>Đẩy ' + (rolloutPct ?? "?") + '%',
           shipped: '<i data-lucide="upload-cloud"></i>Đang đẩy store',
           coded: '<i data-lucide="code-2"></i>Ghép ads local',
           noads: '<i data-lucide="x-circle"></i>Chưa ghép ads',
-          mismatch: '<i data-lucide="alert-triangle"></i>Lệch khai Data Safety',
+          misconfig: '<i data-lucide="alert-triangle"></i>Quên bật ads',
           testads: '<i data-lucide="flask-conical"></i>Test ads ID',
           unknown: '<i data-lucide="help-circle"></i>Không rõ',
         };
         badge.innerHTML = labelMap[verdict] || '?';
-        badge.style.display = "inline-flex";
         if(sdkList){
           badge.style.cursor = "pointer";
-          badge.onclick = function(){ alert('Ads SDK đã tích hợp:\n' + sdkList); };
+          badge.onclick = function(){
+            alert('SDK mediation đã tích hợp:\n' + sdkList +
+                  (info?.outdated_sdks?.length ? '\n\n⚠️ Outdated:\n' + info.outdated_sdks.map(o => '• ' + o.name + ': ' + o.current + ' → ' + o.recommended).join('\n') : '') +
+                  (info?.missing_sdks?.length ? '\n\n❌ Missing core:\n• ' + info.missing_sdks.join('\n• ') : ''));
+          };
         } else {
           badge.style.cursor = "help";
           badge.onclick = null;
