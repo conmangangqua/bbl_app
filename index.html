@@ -294,10 +294,14 @@
        sẽ bật trở lại. */
     .prod-ads-badge { display: inline-flex; align-items: center; gap: 5px; font-size: 0.7rem; font-weight: 800; padding: 6px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.03em; line-height: 1; white-space: nowrap; cursor: help; }
     .prod-ads-badge i, .prod-ads-badge svg { width: 12px; height: 12px; stroke-width: 2.2; flex-shrink: 0; }
-    /* Sếp 2026-06-25: simple 3 state — Có ads / Không ads / ? (giống apps-status). */
+    /* Sếp 2026-06-25 v2: 4 state — Có ads / Không ads / Lệch compliance / ?
+       Source: store_info.contains_ads (Play Console Data Safety scrape) +
+       adscheck.has_ads (source code grep sdk-compliance-auditor). */
     .prod-ads-badge.prod-ads { background: linear-gradient(135deg, #fb923c 0%, #f59e0b 100%); color: #fff; box-shadow: 0 4px 12px rgba(245,158,11,0.35); }
     .prod-ads-badge.prod-noads { background: linear-gradient(135deg, #94a3b8 0%, #64748b 100%); color: #fff; box-shadow: 0 4px 10px rgba(100,116,139,0.25); }
+    .prod-ads-badge.prod-mismatch { background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%); color: #fff; box-shadow: 0 4px 12px rgba(220,38,38,0.45); animation: prodAdsAlert 2s ease-in-out infinite; }
     .prod-ads-badge.prod-unknown { background: rgba(148,163,184,0.18); color: #64748b; border: 1px dashed rgba(148,163,184,0.4); }
+    @keyframes prodAdsAlert { 0%,100% { transform: scale(1); } 50% { transform: scale(1.05); } }
     .badge-row { display: flex !important; align-items: center !important; gap: 8px !important; flex-wrap: wrap !important; overflow: visible !important; row-gap: 8px; margin-bottom: 18px; }
   </style>
 </head>
@@ -430,30 +434,61 @@
         const badge = card.querySelector('.prod-ads-badge');
         if(!badge) return;
 
-        // Source duy nhất: Play Console Data Safety (Sếp tự khai báo).
+        // Sếp 2026-06-25: 2 source check chéo:
+        //   1. Play Console Data Safety (Sếp tự khai báo): has_store_ads
+        //   2. Source code grep (sdk-compliance-auditor): has_ads_sdk_in_code + ads_sdks[]
         let verdict;
-        if(info?.has_store_ads === true) verdict = "ads";
-        else if(info?.has_store_ads === false) verdict = "noads";
-        else verdict = "unknown";
+        if(info?.compliance_mismatch === true){
+          // Sếp khai No ads NHƯNG code có AdMob/Mintegral/... → policy risk
+          verdict = "mismatch";
+        } else if(info?.has_store_ads === true){
+          verdict = "ads";
+        } else if(info?.has_store_ads === false){
+          verdict = "noads";
+        } else {
+          verdict = "unknown";
+        }
 
         badge.className = "prod-ads-badge prod-" + verdict;
         badge.style.display = "inline-flex";
 
+        const sdkList = (info?.ads_sdks || []).join(", ");
         const titleMap = {
-          ads: "📣 Play Console khai: Contains ads (Data Safety)",
-          noads: "🛡️ Play Console khai: No ads (Data Safety)",
-          unknown: "❓ Chưa khai Data Safety hoặc app chưa publish public Play Store",
+          ads: "📣 Play Console: Contains ads (Data Safety)" +
+               (sdkList ? "\n\nSDK code: " + sdkList : ""),
+          noads: "🛡️ Play Console: No ads (Data Safety)" +
+                 (sdkList ? "\n\n⚠️ Code có SDK: " + sdkList : "\n• Code cũng không có ads SDK ✓"),
+          mismatch: "⚠️ COMPLIANCE LỆCH\n" +
+                    "• Play Console khai: No ads\n" +
+                    "• NHƯNG code có: " + (sdkList || "?") + "\n" +
+                    "→ Risk Google quét retroactive flag policy violation.\n" +
+                    "→ Vào Play Console → Data Safety → khai báo Contains ads.",
+          unknown: "❓ Chưa khai Data Safety hoặc app chưa publish public Play Store" +
+                   (sdkList ? "\n\nSDK code: " + sdkList : ""),
         };
         badge.title = titleMap[verdict] || "?";
 
         const labelMap = {
           ads: '<i data-lucide="megaphone"></i>Có ads',
           noads: '<i data-lucide="shield-check"></i>Không ads',
+          mismatch: '<i data-lucide="alert-triangle"></i>Lệch compliance',
           unknown: '<i data-lucide="help-circle"></i>?',
         };
         badge.innerHTML = labelMap[verdict] || '?';
-        badge.style.cursor = "help";
-        badge.onclick = null;
+
+        // Click hiện SDK detail (nếu có)
+        if(sdkList){
+          badge.style.cursor = "pointer";
+          badge.onclick = function(){
+            alert('SDK ads trong source code:\n• ' + (info.ads_sdks || []).join('\n• ') +
+                  '\n\nPlay Console Data Safety: ' +
+                  (info.has_store_ads === true ? 'Contains ads' :
+                   info.has_store_ads === false ? 'No ads' : 'Chưa khai'));
+          };
+        } else {
+          badge.style.cursor = "help";
+          badge.onclick = null;
+        }
       });
       window.lucide && lucide.createIcons();
     }
