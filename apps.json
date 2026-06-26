@@ -62,23 +62,6 @@
       "category_source": "rule"
     },
     {
-      "id": "callvibe",
-      "name": "Callvibe",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/callvibe_icon.png",
-      "platform": "Android",
-      "description": "",
-      "features": [],
-      "downloads": {
-        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/callvibe_dev.apk"
-      },
-      "versions": {
-        "dev": "1.0.0+1"
-      },
-      "store": "",
-      "category": "Communication",
-      "category_source": "store"
-    },
-    {
       "id": "decora",
       "name": "Decora",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/decora_icon.png",
