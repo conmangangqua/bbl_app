@@ -36,7 +36,7 @@
         "dev": "1.0.0+1",
         "prod": "1.0.0+1"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.bloomi",
+      "store": "",
       "category": "Health & Fitness",
       "category_source": "store"
     },
@@ -195,7 +195,7 @@
         "dev": "1.0.0+1",
         "prod": "1.0.0+1"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.glucomate",
+      "store": "",
       "category": "Health & Fitness",
       "category_source": "store"
     },
@@ -452,7 +452,7 @@
       "versions": {
         "dev": "1.0.3+26062601",
         "prod": "1.0.3+26062501",
-        "aab": "1.0.2+26061703"
+        "aab": "1.0.3+26062601"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.scoredeck",
       "category": "Sports",
