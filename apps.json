@@ -385,7 +385,7 @@
     {
       "id": "pdf_platinum",
       "name": "Pdf Platinum",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pdf_platinum_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pdf_platinum_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
