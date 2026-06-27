@@ -143,7 +143,7 @@
     {
       "id": "gba_emulator",
       "name": "Gba Emulator",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/gba_emulator_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/gba_emulator_icon.png",
       "platform": "iOS",
       "description": "",
       "features": [],
@@ -646,7 +646,7 @@
         "prod": "1.0.0+1"
       },
       "store": "",
-      "category": "Productivity",
+      "category": "Tools",
       "category_source": "store"
     },
     {
