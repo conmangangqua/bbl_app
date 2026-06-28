@@ -123,19 +123,21 @@
     {
       "id": "fetchly_downloader",
       "name": "Fetchly Downloader",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fetchly_downloader_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fetchly_downloader_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
       "downloads": {
-        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fetchly_downloader_dev.apk"
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fetchly_downloader_dev.apk",
+        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fetchly_downloader_prod.apk"
       },
       "versions": {
-        "dev": "1.0.0+1"
+        "dev": "1.0.0+1",
+        "prod": "1.0.0+1"
       },
       "store": "",
-      "category": null,
-      "category_source": null
+      "category": "Downloader",
+      "category_source": "rule"
     },
     {
       "id": "fluxvpn",
