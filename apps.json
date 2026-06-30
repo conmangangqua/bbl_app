@@ -557,6 +557,23 @@
       "category_source": null
     },
     {
+      "id": "reverie_drama",
+      "name": "Reverie Drama",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/reverie_drama_icon.png",
+      "platform": "Android",
+      "description": "",
+      "features": [],
+      "downloads": {
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/reverie_drama_dev.apk"
+      },
+      "versions": {
+        "dev": "1.0.0+1"
+      },
+      "store": "",
+      "category": null,
+      "category_source": null
+    },
+    {
       "id": "sound_lab",
       "name": "Sound Lab",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/sound_lab_icon.png",
@@ -578,7 +595,7 @@
     {
       "id": "task_nest",
       "name": "Task Nest",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/task_nest_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/task_nest_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
