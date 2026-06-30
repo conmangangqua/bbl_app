@@ -517,7 +517,7 @@
     {
       "id": "quartz_browser",
       "name": "Quartz Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quartz_browser_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/quartz_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -527,7 +527,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/quartz_browser.aab"
       },
       "versions": {
-        "dev": "1.0.0+26062401",
+        "dev": "1.0.1+26062801",
         "prod": "1.0.0+26062401",
         "aab": "1.0.1+26062801"
       },
