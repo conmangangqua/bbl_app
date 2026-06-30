@@ -45,7 +45,7 @@
     {
       "id": "calliq",
       "name": "Calliq",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/calliq_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/calliq_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -55,7 +55,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/calliq.aab"
       },
       "versions": {
-        "dev": "1.0.0+26062901",
+        "dev": "1.0.0+1",
         "prod": "1.0.0+26062901",
         "aab": "1.0.0+26062901"
       },
