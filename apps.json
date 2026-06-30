@@ -620,7 +620,7 @@
     {
       "id": "velvet_drama",
       "name": "Velvet Drama",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/velvet_drama_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/velvet_drama_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -631,7 +631,7 @@
       },
       "versions": {
         "dev": "1.0.0+1",
-        "prod": "1.0.0+26061801",
+        "prod": "1.0.0+1",
         "aab": "1.0.0+26061801"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.velvet.drama",
