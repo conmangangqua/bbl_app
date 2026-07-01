@@ -43,27 +43,6 @@
       "category_source": "store"
     },
     {
-      "id": "calliq",
-      "name": "Calliq",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/calliq_icon.png",
-      "platform": "Android",
-      "description": "",
-      "features": [],
-      "downloads": {
-        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/calliq_dev.apk",
-        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/calliq_prod.apk",
-        "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/calliq.aab"
-      },
-      "versions": {
-        "dev": "1.0.0+1",
-        "prod": "1.0.0+1",
-        "aab": "1.0.0+26062901"
-      },
-      "store": "",
-      "category": "Caller ID",
-      "category_source": "rule"
-    },
-    {
       "id": "decora",
       "name": "Decora",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/decora_icon.png",
@@ -685,27 +664,6 @@
       "store": "",
       "category": "Tools",
       "category_source": "store"
-    },
-    {
-      "id": "whispr",
-      "name": "Whispr",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/whispr_icon.png",
-      "platform": "Android",
-      "description": "",
-      "features": [],
-      "downloads": {
-        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/whispr_dev.apk",
-        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/whispr_prod.apk",
-        "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/whispr.aab"
-      },
-      "versions": {
-        "dev": "1.0.3+26062201",
-        "prod": "1.0.3+26062201",
-        "aab": "1.0.3+26062201"
-      },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.whispr.caller",
-      "category": "Caller ID",
-      "category_source": "rule"
     }
   ]
 }
