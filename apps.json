@@ -18,9 +18,9 @@
         "aab": "1.0.7+26062201"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.aura.recover",
-      "category": "Recovery",
-      "category_source": "rule",
-      "store_updated": "Jun 25, 2026",
+      "category": null,
+      "category_source": null,
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -41,8 +41,8 @@
         "aab": "1.0.0+26063001"
       },
       "store": "",
-      "category": "Health & Fitness",
-      "category_source": "store",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
@@ -62,8 +62,8 @@
         "prod": "1.0.0+26061201"
       },
       "store": "",
-      "category": "Art & Design",
-      "category_source": "store",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
@@ -83,8 +83,8 @@
         "prod": "1.0.0+26063001"
       },
       "store": "",
-      "category": "Communication",
-      "category_source": "store",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
@@ -106,10 +106,10 @@
         "aab": "2.0.1+26062202"
       },
       "store": "https://play.google.com/store/apps/details?id=com.manhnhe.klipi",
-      "category": "Downloader",
-      "category_source": "rule",
-      "store_updated": "Jun 22, 2026",
-      "store_version": "26062202 (2.0.1)"
+      "category": null,
+      "category_source": null,
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "fetchly_downloader",
@@ -127,8 +127,8 @@
         "prod": "1.0.0+1"
       },
       "store": "",
-      "category": "Downloader",
-      "category_source": "rule",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
@@ -149,9 +149,9 @@
         "prod": "1.0.1+26030901"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.vpn.connection",
-      "category": "VPN",
-      "category_source": "rule",
-      "store_updated": "Mar 9, 2026",
+      "category": null,
+      "category_source": null,
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -170,8 +170,8 @@
         "prod": "2.0.6+25122500"
       },
       "store": "",
-      "category": "Emulator",
-      "category_source": "rule",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
@@ -193,10 +193,10 @@
         "aab": "1.0.6+26070101"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.aiart",
-      "category": "Photography",
-      "category_source": "store",
-      "store_updated": "Jun 17, 2026",
-      "store_version": "26061701 (1.0.5)"
+      "category": null,
+      "category_source": null,
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "glucomate",
@@ -216,8 +216,8 @@
         "aab": "1.0.0+26062801"
       },
       "store": "",
-      "category": "Health & Fitness",
-      "category_source": "store",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
@@ -239,10 +239,10 @@
         "aab": "1.0.1+26061702"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.goalarena",
-      "category": "Sports",
-      "category_source": "store",
-      "store_updated": "Jun 13, 2026",
-      "store_version": "1.0.0 (26060202)"
+      "category": null,
+      "category_source": null,
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "inkmath",
@@ -260,8 +260,8 @@
         "prod": "1.0.0+1"
       },
       "store": "",
-      "category": "Education",
-      "category_source": "store",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
@@ -283,9 +283,9 @@
         "aab": "1.0.0+26062001"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
-      "category": "Browser",
-      "category_source": "rule",
-      "store_updated": "Jun 20, 2026",
+      "category": null,
+      "category_source": null,
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -308,8 +308,8 @@
         "noads": "1.0.0+1"
       },
       "store": "",
-      "category": "Education",
-      "category_source": "store",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
@@ -354,8 +354,8 @@
         "aab": "1.0.0+26062801"
       },
       "store": "",
-      "category": "AI Chat",
-      "category_source": "rule",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
@@ -379,8 +379,8 @@
         "noads": "1.0.0+1"
       },
       "store": "",
-      "category": "Cleaner & Booster",
-      "category_source": "rule",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
@@ -402,9 +402,9 @@
         "aab": "1.0.0+26063001"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
-      "category": "Browser",
-      "category_source": "rule",
-      "store_updated": "Jun 30, 2026",
+      "category": null,
+      "category_source": null,
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -427,10 +427,10 @@
         "noads": "1.0.0+1"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.onyx.browser",
-      "category": "Browser",
-      "category_source": "rule",
-      "store_updated": "Jun 22, 2026",
-      "store_version": "26062201 (1.0.5)"
+      "category": null,
+      "category_source": null,
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "pdf_platinum",
@@ -450,8 +450,8 @@
         "aab": "1.0.0+26052901"
       },
       "store": "",
-      "category": "Productivity",
-      "category_source": "store",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
@@ -475,9 +475,9 @@
         "noads": "1.0.0+1"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.pebble.browser",
-      "category": "Browser",
-      "category_source": "rule",
-      "store_updated": "Jun 24, 2026",
+      "category": null,
+      "category_source": null,
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -498,10 +498,10 @@
         "aab": "1.0.3+26062602"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.scoredeck",
-      "category": "Sports",
-      "category_source": "store",
-      "store_updated": "Jun 26, 2026",
-      "store_version": "26062602 (1.0.3)"
+      "category": null,
+      "category_source": null,
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "pixa_ai",
@@ -519,8 +519,8 @@
         "prod": "1.0.0+26060401"
       },
       "store": "",
-      "category": "Art & Design",
-      "category_source": "store",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
@@ -542,8 +542,8 @@
         "aab": "1.0.0+26063001"
       },
       "store": "",
-      "category": "Photography",
-      "category_source": "store",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
@@ -565,8 +565,8 @@
         "aab": "1.0.1+26062801"
       },
       "store": "",
-      "category": "Browser",
-      "category_source": "rule",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
@@ -588,9 +588,9 @@
         "aab": "1.0.7+26052201"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tmt.quicksave",
-      "category": "Downloader",
-      "category_source": "rule",
-      "store_updated": "May 27, 2026",
+      "category": null,
+      "category_source": null,
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -609,8 +609,8 @@
         "prod": "1.0.0+26053101"
       },
       "store": "",
-      "category": "Tools",
-      "category_source": "store",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
@@ -630,15 +630,15 @@
         "prod": "1.0.0+1"
       },
       "store": "",
-      "category": "Productivity",
-      "category_source": "store",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
     {
       "id": "vaultix_browser",
       "name": "Vaultix Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/vaultix_browser_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/vaultix_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -655,8 +655,8 @@
         "noads": "1.0.2+26060401"
       },
       "store": "",
-      "category": "Browser",
-      "category_source": "rule",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
@@ -678,10 +678,10 @@
         "aab": "1.0.0+26061801"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.velvet.drama",
-      "category": "Streaming",
-      "category_source": "rule",
-      "store_updated": "Jun 17, 2026",
-      "store_version": "26061801 (1.0.0)"
+      "category": null,
+      "category_source": null,
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "vidnova",
@@ -703,8 +703,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
       "category": "Video",
       "category_source": "override",
-      "store_updated": "Jun 16, 2026",
-      "store_version": "26061701 (1.0.3)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "voxlock",
@@ -724,8 +724,8 @@
         "aab": "1.0.0+26062801"
       },
       "store": "",
-      "category": "Tools",
-      "category_source": "store",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
@@ -747,10 +747,10 @@
         "aab": "1.0.3+26062201"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.whispr.caller",
-      "category": "Caller ID",
-      "category_source": "rule",
-      "store_updated": "Jun 22, 2026",
-      "store_version": "26062201 (1.0.3)"
+      "category": null,
+      "category_source": null,
+      "store_updated": null,
+      "store_version": null
     }
   ]
 }
