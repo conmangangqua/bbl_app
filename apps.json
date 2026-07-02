@@ -192,7 +192,7 @@
         "prod": "1.0.6+26070101",
         "aab": "1.0.6+26070101"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquil.aiart",
       "category": null,
       "category_source": null,
       "store_updated": null,
@@ -401,7 +401,7 @@
         "prod": "1.0.0+26063001",
         "aab": "1.0.0+26063001"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
       "category": null,
       "category_source": null,
       "store_updated": null,
@@ -474,7 +474,7 @@
         "aab": "1.0.0+26062401",
         "noads": "1.0.0+1"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.pebble.browser",
       "category": null,
       "category_source": null,
       "store_updated": null,
