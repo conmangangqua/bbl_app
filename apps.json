@@ -19,7 +19,9 @@
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.aura.recover",
       "category": "Recovery",
-      "category_source": "rule"
+      "category_source": "rule",
+      "store_updated": "Jun 25, 2026",
+      "store_version": null
     },
     {
       "id": "bloomi",
@@ -40,7 +42,9 @@
       },
       "store": "",
       "category": "Health & Fitness",
-      "category_source": "store"
+      "category_source": "store",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "decora",
@@ -59,7 +63,9 @@
       },
       "store": "",
       "category": "Art & Design",
-      "category_source": "store"
+      "category_source": "store",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "dream_ring",
@@ -78,7 +84,9 @@
       },
       "store": "",
       "category": "Communication",
-      "category_source": "store"
+      "category_source": "store",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "fast_fetch",
@@ -99,7 +107,9 @@
       },
       "store": "https://play.google.com/store/apps/details?id=com.manhnhe.klipi",
       "category": "Downloader",
-      "category_source": "rule"
+      "category_source": "rule",
+      "store_updated": "Jun 22, 2026",
+      "store_version": "26062202 (2.0.1)"
     },
     {
       "id": "fetchly_downloader",
@@ -118,7 +128,9 @@
       },
       "store": "",
       "category": "Downloader",
-      "category_source": "rule"
+      "category_source": "rule",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "fluxvpn",
@@ -138,7 +150,9 @@
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.vpn.connection",
       "category": "VPN",
-      "category_source": "rule"
+      "category_source": "rule",
+      "store_updated": "Mar 9, 2026",
+      "store_version": null
     },
     {
       "id": "gba_emulator",
@@ -157,7 +171,9 @@
       },
       "store": "",
       "category": "Emulator",
-      "category_source": "rule"
+      "category_source": "rule",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "genify_ai",
@@ -178,7 +194,9 @@
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.aiart",
       "category": "Photography",
-      "category_source": "store"
+      "category_source": "store",
+      "store_updated": "Jun 17, 2026",
+      "store_version": "26061701 (1.0.5)"
     },
     {
       "id": "glucomate",
@@ -199,7 +217,9 @@
       },
       "store": "",
       "category": "Health & Fitness",
-      "category_source": "store"
+      "category_source": "store",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "goal_arena",
@@ -220,7 +240,9 @@
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.goalarena",
       "category": "Sports",
-      "category_source": "store"
+      "category_source": "store",
+      "store_updated": "Jun 13, 2026",
+      "store_version": "1.0.0 (26060202)"
     },
     {
       "id": "inkmath",
@@ -239,7 +261,9 @@
       },
       "store": "",
       "category": "Education",
-      "category_source": "store"
+      "category_source": "store",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "kestrel_browser",
@@ -260,7 +284,9 @@
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
       "category": "Browser",
-      "category_source": "rule"
+      "category_source": "rule",
+      "store_updated": "Jun 20, 2026",
+      "store_version": null
     },
     {
       "id": "lingowl",
@@ -283,7 +309,9 @@
       },
       "store": "",
       "category": "Education",
-      "category_source": "store"
+      "category_source": "store",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "lumio",
@@ -304,7 +332,9 @@
       },
       "store": "",
       "category": "Video",
-      "category_source": "override"
+      "category_source": "override",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "mochi_chat",
@@ -325,7 +355,9 @@
       },
       "store": "",
       "category": "AI Chat",
-      "category_source": "rule"
+      "category_source": "rule",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "nitroboost",
@@ -348,7 +380,9 @@
       },
       "store": "",
       "category": "Cleaner & Booster",
-      "category_source": "rule"
+      "category_source": "rule",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "obsidian_browser",
@@ -369,7 +403,9 @@
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
       "category": "Browser",
-      "category_source": "rule"
+      "category_source": "rule",
+      "store_updated": "Jun 30, 2026",
+      "store_version": null
     },
     {
       "id": "onyx_browser",
@@ -392,7 +428,9 @@
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.onyx.browser",
       "category": "Browser",
-      "category_source": "rule"
+      "category_source": "rule",
+      "store_updated": "Jun 22, 2026",
+      "store_version": "26062201 (1.0.5)"
     },
     {
       "id": "pdf_platinum",
@@ -413,7 +451,9 @@
       },
       "store": "",
       "category": "Productivity",
-      "category_source": "store"
+      "category_source": "store",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "pebble_browser",
@@ -436,7 +476,9 @@
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.pebble.browser",
       "category": "Browser",
-      "category_source": "rule"
+      "category_source": "rule",
+      "store_updated": "Jun 24, 2026",
+      "store_version": null
     },
     {
       "id": "pitch_side",
@@ -457,7 +499,9 @@
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.scoredeck",
       "category": "Sports",
-      "category_source": "store"
+      "category_source": "store",
+      "store_updated": "Jun 26, 2026",
+      "store_version": "26062602 (1.0.3)"
     },
     {
       "id": "pixa_ai",
@@ -476,7 +520,9 @@
       },
       "store": "",
       "category": "Art & Design",
-      "category_source": "store"
+      "category_source": "store",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "pixora_ai",
@@ -497,7 +543,9 @@
       },
       "store": "",
       "category": "Photography",
-      "category_source": "store"
+      "category_source": "store",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "quartz_browser",
@@ -518,7 +566,9 @@
       },
       "store": "",
       "category": "Browser",
-      "category_source": "rule"
+      "category_source": "rule",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "quicksave",
@@ -539,7 +589,9 @@
       },
       "store": "https://play.google.com/store/apps/details?id=com.tmt.quicksave",
       "category": "Downloader",
-      "category_source": "rule"
+      "category_source": "rule",
+      "store_updated": "May 27, 2026",
+      "store_version": null
     },
     {
       "id": "sound_lab",
@@ -558,7 +610,9 @@
       },
       "store": "",
       "category": "Tools",
-      "category_source": "store"
+      "category_source": "store",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "task_nest",
@@ -577,7 +631,9 @@
       },
       "store": "",
       "category": "Productivity",
-      "category_source": "store"
+      "category_source": "store",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "vaultix_browser",
@@ -600,7 +656,9 @@
       },
       "store": "",
       "category": "Browser",
-      "category_source": "rule"
+      "category_source": "rule",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "velvet_drama",
@@ -621,7 +679,9 @@
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.velvet.drama",
       "category": "Streaming",
-      "category_source": "rule"
+      "category_source": "rule",
+      "store_updated": "Jun 17, 2026",
+      "store_version": "26061801 (1.0.0)"
     },
     {
       "id": "vidnova",
@@ -642,7 +702,9 @@
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
       "category": "Video",
-      "category_source": "override"
+      "category_source": "override",
+      "store_updated": "Jun 16, 2026",
+      "store_version": "26061701 (1.0.3)"
     },
     {
       "id": "voxlock",
@@ -663,7 +725,9 @@
       },
       "store": "",
       "category": "Tools",
-      "category_source": "store"
+      "category_source": "store",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "whispr",
@@ -684,7 +748,9 @@
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.whispr.caller",
       "category": "Caller ID",
-      "category_source": "rule"
+      "category_source": "rule",
+      "store_updated": "Jun 22, 2026",
+      "store_version": "26062201 (1.0.3)"
     }
   ]
 }
