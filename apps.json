@@ -91,7 +91,7 @@
     {
       "id": "fast_fetch",
       "name": "Fast Fetch",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fast_fetch_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fast_fetch_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -102,7 +102,7 @@
       },
       "versions": {
         "dev": "2.0.2+26070201",
-        "prod": "2.0.1+26062202",
+        "prod": "2.0.2+26070201",
         "aab": "2.0.1+26062202"
       },
       "store": "https://play.google.com/store/apps/details?id=com.manhnhe.klipi",
