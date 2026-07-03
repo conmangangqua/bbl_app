@@ -378,7 +378,7 @@
         "aab": "1.0.0+26062802",
         "noads": "1.0.0+1"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tmt.nitroboost",
       "category": null,
       "category_source": null,
       "store_updated": null,
@@ -550,7 +550,7 @@
     {
       "id": "quartz_browser",
       "name": "Quartz Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quartz_browser_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/quartz_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
