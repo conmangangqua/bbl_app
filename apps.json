@@ -114,7 +114,7 @@
     {
       "id": "fetchly_downloader",
       "name": "Fetchly Downloader",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fetchly_downloader_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fetchly_downloader_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -123,7 +123,7 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fetchly_downloader_prod.apk"
       },
       "versions": {
-        "dev": "1.0.0+1",
+        "dev": "1.0.0+26070301",
         "prod": "1.0.0+1"
       },
       "store": "",
