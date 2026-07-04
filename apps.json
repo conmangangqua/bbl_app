@@ -75,7 +75,6 @@
       "description": "",
       "features": [],
       "downloads": {
-        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/dream_ring_dev.apk",
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/dream_ring_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/dream_ring.aab"
       },
@@ -196,7 +195,7 @@
         "prod": "1.0.6+26070101",
         "aab": "1.0.6+26070101"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquil.aiart",
+      "store": "",
       "category": null,
       "category_source": null,
       "store_updated": null,
@@ -242,7 +241,7 @@
         "prod": "1.0.2+26070101",
         "aab": "1.0.2+26070101"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.goalarena",
+      "store": "",
       "category": null,
       "category_source": null,
       "store_updated": null,
@@ -286,7 +285,7 @@
         "prod": "1.0.0+26062001",
         "aab": "1.0.0+26062001"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
+      "store": "",
       "category": null,
       "category_source": null,
       "store_updated": null,
