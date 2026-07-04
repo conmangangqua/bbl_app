@@ -70,7 +70,7 @@
     {
       "id": "dream_ring",
       "name": "Dream Ring",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/dream_ring_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/dream_ring_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -80,7 +80,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/dream_ring.aab"
       },
       "versions": {
-        "dev": "1.0.0+26070401",
+        "dev": "1.0.0+26070402",
         "prod": "1.0.0+26070401",
         "aab": "1.0.0+26070402"
       },
@@ -205,7 +205,7 @@
     {
       "id": "glucomate",
       "name": "Glucomate",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/glucomate_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/glucomate_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
