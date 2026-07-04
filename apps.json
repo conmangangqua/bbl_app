@@ -226,7 +226,7 @@
     {
       "id": "goal_arena",
       "name": "Goal Arena",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/goal_arena_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/goal_arena_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -389,7 +389,7 @@
     {
       "id": "obsidian_browser",
       "name": "Obsidian Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/obsidian_browser_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/obsidian_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
