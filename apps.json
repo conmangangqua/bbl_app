@@ -389,7 +389,7 @@
     {
       "id": "obsidian_browser",
       "name": "Obsidian Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/obsidian_browser_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/obsidian_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -566,7 +566,7 @@
         "prod": "1.0.0+26070301",
         "aab": "1.0.0+26070301"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.quartz.browser",
       "category": null,
       "category_source": null,
       "store_updated": null,
