@@ -696,7 +696,7 @@
     {
       "id": "voltplay",
       "name": "Voltplay",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/voltplay_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/voltplay_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
