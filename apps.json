@@ -407,7 +407,7 @@
       "versions": {
         "dev": "1.0.0+26063001",
         "prod": "1.0.0+26063001",
-        "aab": "1.0.0+26063001"
+        "aab": "1.0.1+26070601"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
       "category": "Browser",
@@ -754,10 +754,10 @@
         "prod": "1.0.0+26062801",
         "aab": "1.0.0+26062801"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voxlock",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": null,
+      "store_updated": "Jul 3, 2026",
       "store_version": null
     },
     {
