@@ -759,6 +759,25 @@
       "category_source": "rule",
       "store_updated": "Jun 22, 2026",
       "store_version": "26062201 (1.0.3)"
+    },
+    {
+      "id": "wifi_key_map",
+      "name": "Wifi Key Map",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/wifi_key_map_icon.png",
+      "platform": "Android",
+      "description": "",
+      "features": [],
+      "downloads": {
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/wifi_key_map_dev.apk"
+      },
+      "versions": {
+        "dev": "1.0.0+26063001"
+      },
+      "store": "",
+      "category": null,
+      "category_source": null,
+      "store_updated": null,
+      "store_version": null
     }
   ]
 }
