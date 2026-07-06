@@ -118,7 +118,7 @@
     {
       "id": "fetchly_downloader",
       "name": "Fetchly Downloader",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fetchly_downloader_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fetchly_downloader_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -129,7 +129,7 @@
       },
       "versions": {
         "dev": "1.0.1+26070601",
-        "prod": "1.0.1+26070401",
+        "prod": "1.0.1+26070601",
         "aab": "1.0.1+26070601"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
