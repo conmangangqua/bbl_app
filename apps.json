@@ -364,7 +364,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.mochi.chat",
       "category": "AI Chat",
       "category_source": "rule",
-      "store_updated": null,
+      "store_updated": "Jun 28, 2026",
       "store_version": null
     },
     {
@@ -510,7 +510,7 @@
     {
       "id": "pixa_ai",
       "name": "Pixa Ai",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pixa_ai_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pixa_ai_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
