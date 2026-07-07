@@ -782,7 +782,7 @@
     {
       "id": "wifi_key_map",
       "name": "Wifi Key Map",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/wifi_key_map_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/wifi_key_map_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
