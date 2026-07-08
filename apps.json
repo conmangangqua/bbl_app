@@ -40,10 +40,10 @@
         "prod": "1.0.0+26063001",
         "aab": "1.0.0+26063001"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.bloomi",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": null,
+      "store_updated": "Jun 30, 2026",
       "store_version": null
     },
     {
@@ -315,10 +315,10 @@
         "aab": "1.0.0+26070601",
         "noads": "1.0.0+1"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.lingowl",
       "category": "Education",
       "category_source": "store",
-      "store_updated": null,
+      "store_updated": "Jul 6, 2026",
       "store_version": null
     },
     {
@@ -795,8 +795,8 @@
         "prod": "1.0.0+26063001"
       },
       "store": "",
-      "category": null,
-      "category_source": null,
+      "category": "Tools",
+      "category_source": "store",
       "store_updated": null,
       "store_version": null
     }
