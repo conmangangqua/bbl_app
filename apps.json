@@ -26,7 +26,7 @@
     {
       "id": "bloomi",
       "name": "Bloomi",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/bloomi_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/bloomi_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -247,7 +247,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.glucomate",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": "Jun 27, 2026",
+      "store_updated": "Jul 8, 2026",
       "store_version": null
     },
     {
