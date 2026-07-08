@@ -207,7 +207,7 @@
     {
       "id": "genify_ai",
       "name": "Genify Ai",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/genify_ai_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/genify_ai_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -217,7 +217,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/genify_ai.aab"
       },
       "versions": {
-        "dev": "1.0.8+26070702",
+        "dev": "1.0.8+26070801",
         "prod": "1.0.8+26070702",
         "aab": "1.0.8+26070801"
       },
