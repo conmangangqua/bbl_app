@@ -299,7 +299,7 @@
     {
       "id": "kestrel_browser",
       "name": "Kestrel Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/kestrel_browser_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/kestrel_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -418,16 +418,18 @@
     {
       "id": "obsidian_browser",
       "name": "Obsidian Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/obsidian_browser_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/obsidian_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/obsidian_browser_dev.apk",
+        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/obsidian_browser_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/obsidian_browser.aab"
       },
       "versions": {
         "dev": "1.0.1+26070602",
+        "prod": "1.0.1+26070602",
         "aab": "1.0.1+26070602"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
