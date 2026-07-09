@@ -384,10 +384,10 @@
         "prod": "1.0.0+26062801",
         "aab": "1.0.0+26062801"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.mochi.chat",
+      "store": "",
       "category": "AI Chat",
       "category_source": "rule",
-      "store_updated": "Jun 28, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -409,10 +409,10 @@
         "aab": "1.0.0+26062802",
         "noads": "1.0.0+1"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tmt.nitroboost",
+      "store": "",
       "category": "Cleaner & Booster",
       "category_source": "rule",
-      "store_updated": "Jul 2, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -432,10 +432,10 @@
         "prod": "1.0.1+26070602",
         "aab": "1.0.1+26070602"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
+      "store": "",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Jun 30, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
