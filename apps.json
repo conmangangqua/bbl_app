@@ -26,7 +26,7 @@
     {
       "id": "bloomi",
       "name": "Bloomi",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/bloomi_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/bloomi_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -37,7 +37,7 @@
       },
       "versions": {
         "dev": "1.0.1+26071001",
-        "prod": "1.0.0+26063001",
+        "prod": "1.0.1+26071001",
         "aab": "1.0.0+26063001"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.bloomi",
