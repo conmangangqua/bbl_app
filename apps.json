@@ -817,11 +817,13 @@
       "features": [],
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/wifi_key_map_dev.apk",
-        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/wifi_key_map_prod.apk"
+        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/wifi_key_map_prod.apk",
+        "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/wifi_key_map.aab"
       },
       "versions": {
         "dev": "1.0.0+26063001",
-        "prod": "1.0.0+26063001"
+        "prod": "1.0.0+26063001",
+        "aab": "1.0.0+26071001"
       },
       "store": "",
       "category": "Tools",
