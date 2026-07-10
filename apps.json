@@ -2,7 +2,7 @@
   "apps": [
     {
       "id": "aura_recover",
-      "name": "Aura Recover",
+      "name": "AuraRecover: File Recovery Pro",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/aura_recover_icon.png",
       "platform": "Android",
       "description": "",
@@ -25,7 +25,7 @@
     },
     {
       "id": "bloomi",
-      "name": "Bloomi",
+      "name": "Bloomi: Period & Cycle Tracker",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/bloomi_icon.png",
       "platform": "Android",
       "description": "",
@@ -48,7 +48,7 @@
     },
     {
       "id": "calliq",
-      "name": "Calliq",
+      "name": "Calliq: Caller ID & Block",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/calliq_icon.png",
       "platform": "Android",
       "description": "",
@@ -71,7 +71,7 @@
     },
     {
       "id": "decora",
-      "name": "Decora",
+      "name": "Decora: DIY Wallpaper Maker",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/decora_icon.png",
       "platform": "Android",
       "description": "",
@@ -117,7 +117,7 @@
     },
     {
       "id": "fast_fetch",
-      "name": "Fast Fetch",
+      "name": "Fast Fetch: File Saver Browser",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fast_fetch_icon.png",
       "platform": "Android",
       "description": "",
@@ -140,7 +140,7 @@
     },
     {
       "id": "fetchly_downloader",
-      "name": "Fetchly Downloader",
+      "name": "Fetchly: All Video Downloader",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fetchly_downloader_icon.png",
       "platform": "Android",
       "description": "",
@@ -163,7 +163,7 @@
     },
     {
       "id": "fluxvpn",
-      "name": "Fluxvpn",
+      "name": "FluxVPN: Secure VPN Proxy",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fluxvpn_icon.png",
       "platform": "Android",
       "description": "",
@@ -206,7 +206,7 @@
     },
     {
       "id": "genify_ai",
-      "name": "Genify Ai",
+      "name": "Genart: AI Image Generator",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/genify_ai_icon.png",
       "platform": "Android",
       "description": "",
@@ -229,7 +229,7 @@
     },
     {
       "id": "glucomate",
-      "name": "Glucomate",
+      "name": "GlucoMate: Blood Sugar & BP",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/glucomate_icon.png",
       "platform": "Android",
       "description": "",
@@ -252,7 +252,7 @@
     },
     {
       "id": "goal_arena",
-      "name": "Goal Arena",
+      "name": "GoalArena: Football Live Score",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/goal_arena_icon.png",
       "platform": "Android",
       "description": "",
@@ -275,7 +275,7 @@
     },
     {
       "id": "inkmath",
-      "name": "Inkmath",
+      "name": "InkMath: Math Solver & Graph",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/inkmath_icon.png",
       "platform": "Android",
       "description": "",
@@ -298,7 +298,7 @@
     },
     {
       "id": "kestrel_browser",
-      "name": "Kestrel Browser",
+      "name": "Kestrel: Private Browser",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/kestrel_browser_icon.png",
       "platform": "Android",
       "description": "",
@@ -321,7 +321,7 @@
     },
     {
       "id": "lingowl",
-      "name": "Lingowl",
+      "name": "Lingo Owl: AI English Tutor",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/lingowl_icon.png",
       "platform": "Android",
       "description": "",
@@ -369,7 +369,7 @@
     },
     {
       "id": "mochi_chat",
-      "name": "Mochi Chat",
+      "name": "Mochi: AI Companion Chat",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/mochi_chat_icon.png",
       "platform": "Android",
       "description": "",
@@ -392,7 +392,7 @@
     },
     {
       "id": "nitroboost",
-      "name": "Nitroboost",
+      "name": "NitroBoost: Game Booster",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/nitroboost_icon.png",
       "platform": "Android",
       "description": "",
@@ -417,7 +417,7 @@
     },
     {
       "id": "obsidian_browser",
-      "name": "Obsidian Browser",
+      "name": "Obsidian: Private Browser",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/obsidian_browser_icon.png",
       "platform": "Android",
       "description": "",
@@ -440,7 +440,7 @@
     },
     {
       "id": "onyx_browser",
-      "name": "Onyx Browser",
+      "name": "Onyx: Private Browser",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/onyx_browser_icon.png",
       "platform": "Android",
       "description": "",
@@ -465,7 +465,7 @@
     },
     {
       "id": "pdf_platinum",
-      "name": "Pdf Platinum",
+      "name": "PDF Platinum: Scanner & Edit",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pdf_platinum_icon.png",
       "platform": "Android",
       "description": "",
@@ -488,7 +488,7 @@
     },
     {
       "id": "pebble_browser",
-      "name": "Pebble Browser",
+      "name": "Pebble: Private Browser",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pebble_browser_icon.png",
       "platform": "Android",
       "description": "",
@@ -513,7 +513,7 @@
     },
     {
       "id": "pitch_side",
-      "name": "Pitch Side",
+      "name": "PitchSide: Live Football Score",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pitch_side_icon.png",
       "platform": "Android",
       "description": "",
@@ -580,7 +580,7 @@
     },
     {
       "id": "quartz_browser",
-      "name": "Quartz Browser",
+      "name": "Quartz: Private Web Browser",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quartz_browser_icon.png",
       "platform": "Android",
       "description": "",
@@ -603,7 +603,7 @@
     },
     {
       "id": "quicksave",
-      "name": "Quicksave",
+      "name": "QuickSave: Video Downloader",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quicksave_icon.png",
       "platform": "Android",
       "description": "",
@@ -695,7 +695,7 @@
     },
     {
       "id": "velvet_drama",
-      "name": "Velvet Drama",
+      "name": "Velvet: Short Drama & Episode",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/velvet_drama_icon.png",
       "platform": "Android",
       "description": "",
@@ -718,7 +718,7 @@
     },
     {
       "id": "vidnova",
-      "name": "Vidnova",
+      "name": "Vid Nova: Video Editor & Maker",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/vidnova_icon.png",
       "platform": "Android",
       "description": "",
@@ -764,7 +764,7 @@
     },
     {
       "id": "voxlock",
-      "name": "Voxlock",
+      "name": "Voxlock: Voice Lock Screen",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/voxlock_icon.png",
       "platform": "Android",
       "description": "",
@@ -787,7 +787,7 @@
     },
     {
       "id": "whispr",
-      "name": "Whispr",
+      "name": "Whispr: Caller ID & Spam Block",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/whispr_icon.png",
       "platform": "Android",
       "description": "",
