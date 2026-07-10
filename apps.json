@@ -207,7 +207,7 @@
     {
       "id": "genify_ai",
       "name": "Genart: AI Image Generator",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/genify_ai_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/genify_ai_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
