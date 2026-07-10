@@ -765,7 +765,7 @@
     {
       "id": "voxlock",
       "name": "Voxlock",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/voxlock_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/voxlock_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -775,7 +775,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/voxlock.aab"
       },
       "versions": {
-        "dev": "1.0.0+26062801",
+        "dev": "1.0.1+26070701",
         "prod": "1.0.0+26062801",
         "aab": "1.0.1+26070701"
       },
