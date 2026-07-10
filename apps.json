@@ -581,7 +581,7 @@
     {
       "id": "quartz_browser",
       "name": "Quartz: Private Web Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quartz_browser_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/quartz_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
