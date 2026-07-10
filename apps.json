@@ -153,7 +153,7 @@
       "versions": {
         "dev": "1.0.1+26071001",
         "prod": "1.0.1+26070601",
-        "aab": "1.0.1+26070601"
+        "aab": "1.0.1+26071001"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
       "category": "Downloader",
