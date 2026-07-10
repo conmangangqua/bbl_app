@@ -141,7 +141,7 @@
     {
       "id": "fetchly_downloader",
       "name": "Fetchly: All Video Downloader",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fetchly_downloader_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fetchly_downloader_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
