@@ -20,7 +20,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.aura.recover",
       "category": "Recovery",
       "category_source": "rule",
-      "store_updated": "Jun 25, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -43,7 +43,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.bloomi",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": "Jun 30, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -66,8 +66,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.calliq.caller",
       "category": "Caller ID",
       "category_source": "rule",
-      "store_updated": "Jul 8, 2026",
-      "store_version": "26070801 (1.0.1)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "decora",
@@ -89,7 +89,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.decora.wallpaper",
       "category": "Personalization",
       "category_source": "store",
-      "store_updated": "Jul 4, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -135,8 +135,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.manhnhe.klipi",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Jul 2, 2026",
-      "store_version": "26070201 (2.0.2)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "fetchly_downloader",
@@ -158,8 +158,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
       "category": "Downloader",
       "category_source": "rule",
-      "store_updated": "Jul 3, 2026",
-      "store_version": "26071001 (1.0.1)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "fluxvpn",
@@ -180,7 +180,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.vpn.connection",
       "category": "VPN",
       "category_source": "rule",
-      "store_updated": "Mar 9, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -224,8 +224,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.aiart",
       "category": "Photography",
       "category_source": "store",
-      "store_updated": "Jul 8, 2026",
-      "store_version": "26070801 (1.0.8)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "glucomate",
@@ -247,7 +247,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.glucomate",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": "Jul 10, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -270,8 +270,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.goalarena",
       "category": "Sports",
       "category_source": "store",
-      "store_updated": "Jul 2, 2026",
-      "store_version": "26070101 (1.0.2)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "inkmath",
@@ -293,7 +293,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.inkmath",
       "category": "Education",
       "category_source": "store",
-      "store_updated": "Jul 5, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -311,13 +311,13 @@
       "versions": {
         "dev": "1.0.0+26062001",
         "prod": "1.0.0+26062001",
-        "aab": "1.0.0+26062001"
+        "aab": "1.0.1+26071001"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Jun 20, 2026",
-      "store_version": "26062001 (1.0.0)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "lingowl",
@@ -341,7 +341,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.lingowl",
       "category": "Education",
       "category_source": "store",
-      "store_updated": "Jul 6, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -364,7 +364,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.lumio.ai",
       "category": "Video",
       "category_source": "override",
-      "store_updated": "Jul 2, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -387,7 +387,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.mochi.chat",
       "category": "AI Chat",
       "category_source": "rule",
-      "store_updated": "Jun 28, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -412,7 +412,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tmt.nitroboost",
       "category": "Cleaner & Booster",
       "category_source": "rule",
-      "store_updated": "Jul 2, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -435,8 +435,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Jun 30, 2026",
-      "store_version": "26071002 (1.0.1)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "onyx_browser",
@@ -460,8 +460,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.onyx.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Jun 22, 2026",
-      "store_version": "26062201 (1.0.5)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "pdf_platinum",
@@ -483,7 +483,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.pdf.platinum",
       "category": "Productivity",
       "category_source": "store",
-      "store_updated": "Jul 4, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -508,8 +508,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.pebble.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Jun 24, 2026",
-      "store_version": "26062401 (1.0.0)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "pitch_side",
@@ -531,8 +531,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.scoredeck",
       "category": "Sports",
       "category_source": "store",
-      "store_updated": "Jun 26, 2026",
-      "store_version": "26062602 (1.0.3)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "pixa_ai",
@@ -598,7 +598,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.quartz.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Jul 3, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -621,7 +621,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tmt.quicksave",
       "category": "Downloader",
       "category_source": "rule",
-      "store_updated": "May 27, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -713,8 +713,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.velvet.drama",
       "category": "Streaming",
       "category_source": "rule",
-      "store_updated": "Jul 2, 2026",
-      "store_version": "26070201 (1.0.1)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "vidnova",
@@ -736,8 +736,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
       "category": "Video",
       "category_source": "override",
-      "store_updated": "Jun 16, 2026",
-      "store_version": "26061701 (1.0.3)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "voltplay",
@@ -782,7 +782,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voxlock",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": "Jul 7, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -805,8 +805,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.whispr.caller",
       "category": "Caller ID",
       "category_source": "rule",
-      "store_updated": "Jun 22, 2026",
-      "store_version": "26062201 (1.0.3)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "wifi_key_map",
