@@ -185,7 +185,7 @@
     },
     {
       "id": "gba_emulator",
-      "name": "Gba Emulator",
+      "name": "Retro Game Player",
       "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/gba_emulator_icon.png",
       "platform": "iOS",
       "description": "",
