@@ -230,7 +230,7 @@
     {
       "id": "glucomate",
       "name": "Glucomate",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/glucomate_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/glucomate_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -241,7 +241,7 @@
       },
       "versions": {
         "dev": "1.0.2+26071001",
-        "prod": "1.0.1+26070801",
+        "prod": "1.0.2+26071001",
         "aab": "1.0.2+26071001"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.glucomate",
