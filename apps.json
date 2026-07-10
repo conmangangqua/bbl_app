@@ -118,7 +118,7 @@
     {
       "id": "fast_fetch",
       "name": "Fast Fetch: File Saver Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fast_fetch_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fast_fetch_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -436,7 +436,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Jun 30, 2026",
-      "store_version": null
+      "store_version": "26071002 (1.0.1)"
     },
     {
       "id": "onyx_browser",
