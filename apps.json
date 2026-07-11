@@ -40,10 +40,10 @@
         "prod": "1.0.1+26071001",
         "aab": "1.0.0+26063001"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.bloomi",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": null,
+      "store_updated": "Jun 30, 2026",
       "store_version": null
     },
     {
@@ -219,7 +219,7 @@
       "versions": {
         "dev": "1.0.8+26070801",
         "prod": "1.0.8+26070801",
-        "aab": "1.0.8+26070801"
+        "aab": "1.0.9+26071101"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.aiart",
       "category": "Photography",
