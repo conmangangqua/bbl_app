@@ -537,7 +537,7 @@
     {
       "id": "pixa_ai",
       "name": "Pixa Ai",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pixa_ai_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pixa_ai_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -547,7 +547,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/pixa_ai.aab"
       },
       "versions": {
-        "dev": "1.0.0+26060401",
+        "dev": "1.0.0+26071102",
         "prod": "1.0.0+26060401",
         "aab": "1.0.0+26071102"
       },
