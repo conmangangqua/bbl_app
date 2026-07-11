@@ -3,7 +3,7 @@
     {
       "id": "aura_recover",
       "name": "AuraRecover: File Recovery Pro",
-      "icon": "icons/aura_recover.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/aura_recover_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -26,7 +26,7 @@
     {
       "id": "bloomi",
       "name": "Bloomi: Period & Cycle Tracker",
-      "icon": "icons/bloomi.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/bloomi_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -49,7 +49,7 @@
     {
       "id": "calliq",
       "name": "Calliq: Caller ID & Block",
-      "icon": "icons/calliq.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/calliq_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -72,7 +72,7 @@
     {
       "id": "decora",
       "name": "Decora: DIY Wallpaper Maker",
-      "icon": "icons/decora.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/decora_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -95,7 +95,7 @@
     {
       "id": "dream_ring",
       "name": "Dream Ring",
-      "icon": "icons/dream_ring.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/dream_ring_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -118,7 +118,7 @@
     {
       "id": "fast_fetch",
       "name": "Fast Fetch: File Saver Browser",
-      "icon": "icons/fast_fetch.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fast_fetch_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -141,7 +141,7 @@
     {
       "id": "fetchly_downloader",
       "name": "Fetchly: All Video Downloader",
-      "icon": "icons/fetchly_downloader.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fetchly_downloader_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -155,16 +155,16 @@
         "prod": "1.0.1+26071001",
         "aab": "1.0.1+26071001"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
       "category": "Downloader",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jul 3, 2026",
+      "store_version": "26071001 (1.0.1)"
     },
     {
       "id": "fluxvpn",
       "name": "FluxVPN: Secure VPN Proxy",
-      "icon": "icons/fluxvpn.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fluxvpn_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -186,7 +186,7 @@
     {
       "id": "gba_emulator",
       "name": "Retro Game Player",
-      "icon": "icons/gba_emulator.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/gba_emulator_icon.png",
       "platform": "iOS",
       "description": "",
       "features": [],
@@ -207,7 +207,7 @@
     {
       "id": "genify_ai",
       "name": "Genart: AI Image Generator",
-      "icon": "icons/genify_ai.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/genify_ai_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -230,7 +230,7 @@
     {
       "id": "glucomate",
       "name": "GlucoMate: Blood Sugar & BP",
-      "icon": "icons/glucomate.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/glucomate_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -253,7 +253,7 @@
     {
       "id": "goal_arena",
       "name": "GoalArena: Football Live Score",
-      "icon": "icons/goal_arena.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/goal_arena_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -276,7 +276,7 @@
     {
       "id": "inkmath",
       "name": "InkMath: Math Solver & Graph",
-      "icon": "icons/inkmath.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/inkmath_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -299,7 +299,7 @@
     {
       "id": "kestrel_browser",
       "name": "Kestrel: Private Browser",
-      "icon": "icons/kestrel_browser.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/kestrel_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -322,7 +322,7 @@
     {
       "id": "lingowl",
       "name": "Lingo Owl: AI English Tutor",
-      "icon": "icons/lingowl.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/lingowl_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -347,7 +347,7 @@
     {
       "id": "lumio",
       "name": "Lumio",
-      "icon": "icons/lumio.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/lumio_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -370,7 +370,7 @@
     {
       "id": "mochi_chat",
       "name": "Mochi: AI Companion Chat",
-      "icon": "icons/mochi_chat.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/mochi_chat_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -393,7 +393,7 @@
     {
       "id": "nitroboost",
       "name": "NitroBoost: Game Booster",
-      "icon": "icons/nitroboost.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/nitroboost_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -418,7 +418,7 @@
     {
       "id": "obsidian_browser",
       "name": "Obsidian: Private Browser",
-      "icon": "icons/obsidian_browser.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/obsidian_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -441,7 +441,7 @@
     {
       "id": "onyx_browser",
       "name": "Onyx: Private Browser",
-      "icon": "icons/onyx_browser.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/onyx_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -466,7 +466,7 @@
     {
       "id": "pdf_platinum",
       "name": "PDF Platinum: Scanner & Edit",
-      "icon": "icons/pdf_platinum.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pdf_platinum_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -489,7 +489,7 @@
     {
       "id": "pebble_browser",
       "name": "Pebble: Private Browser",
-      "icon": "icons/pebble_browser.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pebble_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -514,7 +514,7 @@
     {
       "id": "pitch_side",
       "name": "PitchSide: Live Football Score",
-      "icon": "icons/pitch_side.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pitch_side_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -537,7 +537,7 @@
     {
       "id": "pixa_ai",
       "name": "Pixa Ai",
-      "icon": "icons/pixa_ai.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pixa_ai_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -558,7 +558,7 @@
     {
       "id": "pixora_ai",
       "name": "Pixora Ai",
-      "icon": "icons/pixora_ai.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pixora_ai_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -581,7 +581,7 @@
     {
       "id": "quartz_browser",
       "name": "Quartz: Private Web Browser",
-      "icon": "icons/quartz_browser.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/quartz_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -604,7 +604,7 @@
     {
       "id": "quicksave",
       "name": "QuickSave: Video Downloader",
-      "icon": "icons/quicksave.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quicksave_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -627,7 +627,7 @@
     {
       "id": "sound_lab",
       "name": "Sound Lab",
-      "icon": "icons/sound_lab.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/sound_lab_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -650,7 +650,7 @@
     {
       "id": "task_nest",
       "name": "Task Nest",
-      "icon": "icons/task_nest.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/task_nest_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -673,7 +673,7 @@
     {
       "id": "vaultix_browser",
       "name": "Vaultix Browser",
-      "icon": "icons/vaultix_browser.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/vaultix_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -698,7 +698,7 @@
     {
       "id": "velvet_drama",
       "name": "Velvet: Short Drama & Episode",
-      "icon": "icons/velvet_drama.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/velvet_drama_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -721,7 +721,7 @@
     {
       "id": "vidnova",
       "name": "Vid Nova: Video Editor & Maker",
-      "icon": "icons/vidnova.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/vidnova_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -744,7 +744,7 @@
     {
       "id": "voltplay",
       "name": "Voltplay",
-      "icon": "icons/voltplay.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/voltplay_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -767,7 +767,7 @@
     {
       "id": "voxlock",
       "name": "Voxlock: Voice Lock Screen",
-      "icon": "icons/voxlock.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/voxlock_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -790,7 +790,7 @@
     {
       "id": "whispr",
       "name": "Whispr: Caller ID & Spam Block",
-      "icon": "icons/whispr.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/whispr_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -813,7 +813,7 @@
     {
       "id": "wifi_key_map",
       "name": "Wifi Key Map",
-      "icon": "icons/wifi_key_map.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/wifi_key_map_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
