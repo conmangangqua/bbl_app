@@ -40,10 +40,10 @@
         "prod": "1.0.1+26071001",
         "aab": "1.0.0+26063001"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.bloomi",
+      "store": "",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": "Jun 30, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -316,7 +316,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Jun 20, 2026",
+      "store_updated": "Jul 10, 2026",
       "store_version": "26071001 (1.0.1)"
     },
     {
