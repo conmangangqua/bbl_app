@@ -409,10 +409,10 @@
         "aab": "1.0.0+26062802",
         "noads": "1.0.0+1"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tmt.nitroboost",
       "category": "Cleaner & Booster",
       "category_source": "rule",
-      "store_updated": null,
+      "store_updated": "Jul 2, 2026",
       "store_version": null
     },
     {
@@ -432,11 +432,11 @@
         "prod": "1.0.1+26070602",
         "aab": "1.0.1+26071002"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jun 30, 2026",
+      "store_version": "26071002 (1.0.1)"
     },
     {
       "id": "onyx_browser",
@@ -505,11 +505,11 @@
         "aab": "1.0.0+26062401",
         "noads": "1.0.0+1"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.pebble.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jun 24, 2026",
+      "store_version": "26062401 (1.0.0)"
     },
     {
       "id": "pitch_side",
@@ -792,7 +792,7 @@
     {
       "id": "whispr",
       "name": "Whispr: Caller ID & Spam Block",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/whispr_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/whispr_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -806,11 +806,11 @@
         "prod": "1.0.3+26062201",
         "aab": "1.0.3+26062201"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.whispr.caller",
       "category": "Caller ID",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jun 22, 2026",
+      "store_version": "26062201 (1.0.3)"
     },
     {
       "id": "wifi_key_map",
