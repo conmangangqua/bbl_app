@@ -583,7 +583,7 @@
     {
       "id": "quartz_browser",
       "name": "Quartz: Private Web Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/quartz_browser_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quartz_browser_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -792,7 +792,7 @@
     {
       "id": "whispr",
       "name": "Whispr: Caller ID & Spam Block",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/whispr_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/whispr_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
