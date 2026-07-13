@@ -159,7 +159,7 @@
       "category": "Downloader",
       "category_source": "rule",
       "store_updated": "Jul 10, 2026",
-      "store_version": "26071001 (1.0.1)"
+      "store_version": "26071301 (1.0.2)"
     },
     {
       "id": "fluxvpn",
@@ -833,7 +833,7 @@
       "category": "Tools",
       "category_source": "store",
       "store_updated": "Jul 10, 2026",
-      "store_version": "26071001 (1.0.0)"
+      "store_version": "26071301 (1.0.1)"
     }
   ]
 }
