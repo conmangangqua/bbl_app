@@ -549,7 +549,7 @@
       "versions": {
         "dev": "1.0.0+26071203",
         "prod": "1.0.0+26071203",
-        "aab": "1.0.0+26071203"
+        "aab": "1.0.0+26071301"
       },
       "store": "",
       "category": "Art & Design",
@@ -666,7 +666,7 @@
         "prod": "1.0.0+1",
         "aab": "1.0.0+26071001"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.tasknest",
       "category": "Productivity",
       "category_source": "store",
       "store_updated": null,
