@@ -26,7 +26,7 @@
     {
       "id": "bloomi",
       "name": "Bloomi: Period & Cycle Tracker",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/bloomi_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/bloomi_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
