@@ -44,7 +44,7 @@
       "category": "Health & Fitness",
       "category_source": "store",
       "store_updated": "Jun 30, 2026",
-      "store_version": null
+      "store_version": "26063001 (1.0.0)"
     },
     {
       "id": "calliq",
@@ -90,7 +90,7 @@
       "category": "Personalization",
       "category_source": "store",
       "store_updated": "Jul 4, 2026",
-      "store_version": null
+      "store_version": "26070501 (1.0.0)"
     },
     {
       "id": "dream_ring",
@@ -141,7 +141,7 @@
     {
       "id": "fetchly_downloader",
       "name": "Fetchly: All Video Downloader",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fetchly_downloader_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fetchly_downloader_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -151,7 +151,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/fetchly_downloader.aab"
       },
       "versions": {
-        "dev": "1.0.1+26071001",
+        "dev": "1.0.2+26071301",
         "prod": "1.0.1+26071001",
         "aab": "1.0.2+26071301"
       },
@@ -248,7 +248,7 @@
       "category": "Health & Fitness",
       "category_source": "store",
       "store_updated": "Jul 10, 2026",
-      "store_version": null
+      "store_version": "26071001 (1.0.2)"
     },
     {
       "id": "goal_arena",
@@ -294,7 +294,7 @@
       "category": "Education",
       "category_source": "store",
       "store_updated": "Jul 5, 2026",
-      "store_version": null
+      "store_version": "26070501 (1.0.0)"
     },
     {
       "id": "kestrel_browser",
@@ -342,7 +342,7 @@
       "category": "Education",
       "category_source": "store",
       "store_updated": "Jul 6, 2026",
-      "store_version": null
+      "store_version": "26070601 (1.0.0)"
     },
     {
       "id": "lumio",
@@ -388,7 +388,7 @@
       "category": "AI Chat",
       "category_source": "rule",
       "store_updated": "Jul 13, 2026",
-      "store_version": null
+      "store_version": "26071301 (1.0.1)"
     },
     {
       "id": "nitroboost",
@@ -413,7 +413,7 @@
       "category": "Cleaner & Booster",
       "category_source": "rule",
       "store_updated": "Jul 2, 2026",
-      "store_version": null
+      "store_version": "26062802 (1.0.0)"
     },
     {
       "id": "obsidian_browser",
@@ -484,7 +484,7 @@
       "category": "Productivity",
       "category_source": "store",
       "store_updated": "Jul 4, 2026",
-      "store_version": null
+      "store_version": "26070401 (1.0.0)"
     },
     {
       "id": "pebble_browser",
@@ -601,7 +601,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Jul 3, 2026",
-      "store_version": null
+      "store_version": "26070301 (1.0.0)"
     },
     {
       "id": "quicksave",
@@ -670,7 +670,7 @@
       "category": "Productivity",
       "category_source": "store",
       "store_updated": "Jul 10, 2026",
-      "store_version": null
+      "store_version": "26071001 (1.0.0)"
     },
     {
       "id": "vaultix_browser",
@@ -787,7 +787,7 @@
       "category": "Tools",
       "category_source": "store",
       "store_updated": "Jul 7, 2026",
-      "store_version": null
+      "store_version": "26070701 (1.0.1)"
     },
     {
       "id": "whispr",
@@ -833,7 +833,7 @@
       "category": "Tools",
       "category_source": "store",
       "store_updated": "Jul 10, 2026",
-      "store_version": null
+      "store_version": "26071001 (1.0.0)"
     }
   ]
 }
