@@ -792,7 +792,7 @@
     {
       "id": "whispr",
       "name": "Whispr: Caller ID & Spam Block",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/whispr_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/whispr_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -803,8 +803,8 @@
       },
       "versions": {
         "dev": "1.0.4+26071501",
-        "prod": "1.0.3+26062201",
-        "aab": "1.0.3+26062201"
+        "prod": "1.0.4+26071501",
+        "aab": "1.0.4+26071501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.whispr.caller",
       "category": "Caller ID",
