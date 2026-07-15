@@ -44,7 +44,7 @@
       "category": "Health & Fitness",
       "category_source": "store",
       "store_updated": "Jun 30, 2026",
-      "store_version": "26063001 (1.0.0)"
+      "store_version": "26071501 (1.0.1)"
     },
     {
       "id": "calliq",
@@ -109,10 +109,10 @@
         "prod": "1.0.0+26070402",
         "aab": "1.0.0+26070701"
       },
-      "store": "",
-      "category": "Communication",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.dreamring",
+      "category": "Entertainment",
       "category_source": "store",
-      "store_updated": null,
+      "store_updated": "Jul 8, 2026",
       "store_version": null
     },
     {
@@ -317,7 +317,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Jul 11, 2026",
-      "store_version": "26071102 (1.0.2)"
+      "store_version": "26071501 (1.0.3)"
     },
     {
       "id": "lingowl",
@@ -741,7 +741,7 @@
       "category": "Video",
       "category_source": "override",
       "store_updated": "Jun 16, 2026",
-      "store_version": "26061701 (1.0.3)"
+      "store_version": "26071501 (1.0.4)"
     },
     {
       "id": "voltplay",
