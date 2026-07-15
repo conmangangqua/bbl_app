@@ -551,11 +551,11 @@
         "prod": "1.0.0+26071301",
         "aab": "1.0.0+26071401"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.pixaai",
       "category": "Art & Design",
       "category_source": "store",
       "store_updated": null,
-      "store_version": null
+      "store_version": "26071203 (1.0.0)"
     },
     {
       "id": "pixora_ai",
