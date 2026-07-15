@@ -130,7 +130,7 @@
       "versions": {
         "dev": "2.0.2+26070201",
         "prod": "2.0.2+26070201",
-        "aab": "2.0.2+26070201"
+        "aab": "2.0.3+26071501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.manhnhe.klipi",
       "category": "Browser",
@@ -552,9 +552,9 @@
         "aab": "1.0.0+26071401"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.pixaai",
-      "category": "Art & Design",
+      "category": "Photography",
       "category_source": "store",
-      "store_updated": null,
+      "store_updated": "Jul 11, 2026",
       "store_version": "26071203 (1.0.0)"
     },
     {
