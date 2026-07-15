@@ -43,7 +43,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.bloomi",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": "Jun 30, 2026",
+      "store_updated": "Jul 15, 2026",
       "store_version": "26071501 (1.0.1)"
     },
     {
@@ -316,7 +316,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Jul 11, 2026",
+      "store_updated": "Jul 15, 2026",
       "store_version": "26071501 (1.0.3)"
     },
     {
@@ -760,10 +760,10 @@
         "prod": "1.0.0+26062802",
         "aab": "1.0.0+26071001"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": null,
+      "store_updated": "Jul 11, 2026",
       "store_version": null
     },
     {
