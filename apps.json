@@ -666,11 +666,11 @@
         "prod": "1.0.0+1",
         "aab": "1.0.0+26071001"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.tasknest",
       "category": "Productivity",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jul 10, 2026",
+      "store_version": "26071001 (1.0.0)"
     },
     {
       "id": "vaultix_browser",
@@ -735,7 +735,7 @@
       "versions": {
         "dev": "1.0.3+26061701",
         "prod": "1.0.3+26061701",
-        "aab": "1.0.3+26061701"
+        "aab": "1.0.4+26071501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
       "category": "Video",
@@ -829,11 +829,11 @@
         "prod": "1.0.1+26071301",
         "aab": "1.0.1+26071301"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.wifi.password.map",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jul 13, 2026",
+      "store_version": "26071301 (1.0.1)"
     }
   ]
 }
