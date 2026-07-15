@@ -815,7 +815,7 @@
     {
       "id": "wifi_key_map",
       "name": "Wifi Key Map",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/wifi_key_map_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/wifi_key_map_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -826,7 +826,7 @@
       },
       "versions": {
         "dev": "1.0.1+26071301",
-        "prod": "1.0.0+26071001",
+        "prod": "1.0.1+26071301",
         "aab": "1.0.1+26071301"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.wifi.password.map",
