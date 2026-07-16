@@ -158,7 +158,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
       "category": "Downloader",
       "category_source": "rule",
-      "store_updated": "Jul 10, 2026",
+      "store_updated": "Jul 13, 2026",
       "store_version": "26071301 (1.0.2)"
     },
     {
@@ -741,7 +741,7 @@
       "category": "Video",
       "category_source": "override",
       "store_updated": "Jun 16, 2026",
-      "store_version": "26071501 (1.0.4)"
+      "store_version": "26071601 (1.0.4)"
     },
     {
       "id": "voltplay",
