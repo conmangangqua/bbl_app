@@ -40,11 +40,11 @@
         "prod": "1.0.1+26071501",
         "aab": "1.0.1+26071501"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.bloomi",
+      "store": "",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": "Jul 15, 2026",
-      "store_version": "26071501 (1.0.1)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "calliq",
@@ -63,11 +63,11 @@
         "prod": "1.0.1+26070801",
         "aab": "1.0.1+26070801"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.calliq.caller",
+      "store": "",
       "category": "Caller ID",
       "category_source": "rule",
-      "store_updated": "Jul 8, 2026",
-      "store_version": "26070801 (1.0.1)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "decora",
@@ -86,11 +86,11 @@
         "prod": "1.0.0+26061201",
         "aab": "1.0.0+26070501"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.decora.wallpaper",
+      "store": "",
       "category": "Personalization",
       "category_source": "store",
-      "store_updated": "Jul 4, 2026",
-      "store_version": "26070501 (1.0.0)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "dream_ring",
