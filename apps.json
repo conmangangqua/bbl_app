@@ -505,11 +505,11 @@
         "aab": "1.0.0+26062401",
         "noads": "1.0.0+1"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.pebble.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jun 24, 2026",
+      "store_version": "26062401 (1.0.0)"
     },
     {
       "id": "pitch_side",
