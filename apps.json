@@ -810,7 +810,7 @@
       "category": "Caller ID",
       "category_source": "rule",
       "store_updated": "Jun 22, 2026",
-      "store_version": "26062201 (1.0.3)"
+      "store_version": "26071501 (1.0.4)"
     },
     {
       "id": "wifi_key_map",
