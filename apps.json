@@ -737,11 +737,11 @@
         "prod": "1.0.4+26071501",
         "aab": "1.0.4+26071902"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
+      "store": "",
       "category": "Video",
       "category_source": "override",
-      "store_updated": "Jun 16, 2026",
-      "store_version": "26071801 (1.0.4)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "voltplay",
