@@ -72,7 +72,7 @@
     {
       "id": "decora",
       "name": "Decora: DIY Wallpaper Maker",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/decora_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/decora_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -83,7 +83,7 @@
       },
       "versions": {
         "dev": "1.0.0+26070501",
-        "prod": "1.0.0+26061201",
+        "prod": "1.0.0+26070501",
         "aab": "1.0.0+26070501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.decora.wallpaper",
