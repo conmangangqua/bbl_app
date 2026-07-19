@@ -432,11 +432,11 @@
         "prod": "1.0.1+26070602",
         "aab": "1.0.1+26071002"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
+      "store": "",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Jul 10, 2026",
-      "store_version": "26071002 (1.0.1)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "onyx_browser",
@@ -735,7 +735,7 @@
       "versions": {
         "dev": "1.0.4+26071501",
         "prod": "1.0.4+26071501",
-        "aab": "1.0.4+26071801"
+        "aab": "1.0.4+26071901"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
       "category": "Video",
