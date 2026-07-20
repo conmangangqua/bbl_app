@@ -95,7 +95,7 @@
     {
       "id": "dream_ring",
       "name": "Dream Ring",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/dream_ring_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/dream_ring_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -105,7 +105,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/dream_ring.aab"
       },
       "versions": {
-        "dev": "1.0.0+26070402",
+        "dev": "1.0.0+26070701",
         "prod": "1.0.0+26070402",
         "aab": "1.0.1+26072001"
       },
