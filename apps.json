@@ -17,10 +17,10 @@
         "prod": "1.0.7+26062201",
         "aab": "1.0.7+26062201"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquil.aura.recover",
+      "store": "",
       "category": "Recovery",
       "category_source": "rule",
-      "store_updated": "Jun 25, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -177,10 +177,10 @@
         "dev": "1.0.1+26030901",
         "prod": "1.0.1+26030901"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquil.vpn.connection",
+      "store": "",
       "category": "VPN",
       "category_source": "rule",
-      "store_updated": "Mar 9, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -620,10 +620,10 @@
         "prod": "1.0.7+26052201",
         "aab": "1.0.7+26052201"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tmt.quicksave",
+      "store": "",
       "category": "Downloader",
       "category_source": "rule",
-      "store_updated": "May 27, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
