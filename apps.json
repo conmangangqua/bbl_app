@@ -737,11 +737,11 @@
         "prod": "1.0.4+26072002",
         "aab": "1.0.4+26072101"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
       "category": "Video",
       "category_source": "override",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jun 16, 2026",
+      "store_version": "26071902 (1.0.4)"
     },
     {
       "id": "voltplay",
@@ -760,10 +760,10 @@
         "prod": "1.0.0+26062802",
         "aab": "1.0.0+26071001"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": null,
+      "store_updated": "Jul 11, 2026",
       "store_version": null
     },
     {
