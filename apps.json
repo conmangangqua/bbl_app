@@ -38,13 +38,13 @@
       "versions": {
         "dev": "1.0.1+26071501",
         "prod": "1.0.1+26071501",
-        "aab": "1.0.1+26072001"
+        "aab": "1.0.1+26072101"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.bloomi",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": "Jul 15, 2026",
-      "store_version": "26071501 (1.0.1)"
+      "store_updated": "Jul 20, 2026",
+      "store_version": "26072001 (1.0.1)"
     },
     {
       "id": "calliq",
@@ -112,7 +112,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.dreamring",
       "category": "Entertainment",
       "category_source": "store",
-      "store_updated": "Jul 8, 2026",
+      "store_updated": "Jul 20, 2026",
       "store_version": null
     },
     {
@@ -135,8 +135,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.manhnhe.klipi",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Jul 2, 2026",
-      "store_version": "26070201 (2.0.2)"
+      "store_updated": "Jul 21, 2026",
+      "store_version": "26072101 (2.0.3)"
     },
     {
       "id": "fetchly_downloader",
@@ -316,8 +316,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Jul 15, 2026",
-      "store_version": "26071501 (1.0.3)"
+      "store_updated": "Jul 21, 2026",
+      "store_version": "26072001 (1.0.4)"
     },
     {
       "id": "lingowl",
@@ -694,7 +694,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.vaultix.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": null,
+      "store_updated": "Jun 16, 2026",
       "store_version": "26061602 (1.0.4)"
     },
     {
@@ -717,8 +717,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.velvet.drama",
       "category": "Streaming",
       "category_source": "rule",
-      "store_updated": "Jul 2, 2026",
-      "store_version": "26070201 (1.0.1)"
+      "store_updated": "Jul 20, 2026",
+      "store_version": "26072001 (1.0.2)"
     },
     {
       "id": "vidnova",
@@ -741,7 +741,7 @@
       "category": "Video",
       "category_source": "override",
       "store_updated": "Jun 16, 2026",
-      "store_version": "26071902 (1.0.4)"
+      "store_version": "26072101 (1.0.4)"
     },
     {
       "id": "voltplay",
