@@ -723,7 +723,7 @@
     {
       "id": "vidnova",
       "name": "Vid Nova: Video Editor & Maker",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/vidnova_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/vidnova_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -733,7 +733,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/vidnova.aab"
       },
       "versions": {
-        "dev": "1.0.4+26071501",
+        "dev": "1.0.4+26072002",
         "prod": "1.0.4+26071501",
         "aab": "1.0.4+26072002"
       },
