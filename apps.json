@@ -502,7 +502,7 @@
       "versions": {
         "dev": "1.0.0+26062401",
         "prod": "1.0.0+26062401",
-        "aab": "1.0.0+26062401",
+        "aab": "1.0.0+26072201",
         "noads": "1.0.0+1"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.pebble.browser",
@@ -595,7 +595,7 @@
       "versions": {
         "dev": "1.0.0+26070301",
         "prod": "1.0.0+26070301",
-        "aab": "1.0.0+26070301"
+        "aab": "1.0.0+26072201"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.quartz.browser",
       "category": "Browser",
