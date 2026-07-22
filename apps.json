@@ -44,7 +44,7 @@
       "category": "Health & Fitness",
       "category_source": "store",
       "store_updated": "Jul 21, 2026",
-      "store_version": "26072102 (1.0.2)"
+      "store_version": "26072202 (1.0.3)"
     },
     {
       "id": "calliq",
@@ -478,7 +478,7 @@
       "versions": {
         "dev": "1.0.1+26071701",
         "prod": "1.0.1+26071701",
-        "aab": "1.0.0+26070401"
+        "aab": "1.0.1+26071701"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.pdf.platinum",
       "category": "Productivity",
