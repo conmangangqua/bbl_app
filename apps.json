@@ -466,7 +466,7 @@
     {
       "id": "pdf_platinum",
       "name": "PDF Platinum: Scanner & Edit",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pdf_platinum_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pdf_platinum_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -741,7 +741,7 @@
       "category": "Video",
       "category_source": "override",
       "store_updated": "Jun 16, 2026",
-      "store_version": "26072101 (1.0.4)"
+      "store_version": "26072203 (1.0.4)"
     },
     {
       "id": "voltplay",
