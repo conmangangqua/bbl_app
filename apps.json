@@ -528,11 +528,11 @@
         "prod": "1.0.3+26062602",
         "aab": "1.0.4+26070402"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.scoredeck",
       "category": "Sports",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jun 26, 2026",
+      "store_version": "26062602 (1.0.3)"
     },
     {
       "id": "pixa_ai",
@@ -551,11 +551,11 @@
         "prod": "1.0.0+26071301",
         "aab": "1.0.0+26072201"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.pixaai",
       "category": "Photography",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jul 11, 2026",
+      "store_version": "26071203 (1.0.0)"
     },
     {
       "id": "pixora_ai",
@@ -723,7 +723,7 @@
     {
       "id": "vidnova",
       "name": "Vid Nova: Video Editor & Maker",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/vidnova_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/vidnova_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -733,7 +733,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/vidnova.aab"
       },
       "versions": {
-        "dev": "1.0.4+26072202",
+        "dev": "1.0.5+26072203",
         "prod": "1.0.4+26072202",
         "aab": "1.0.4+26072202"
       },
