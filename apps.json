@@ -361,10 +361,10 @@
         "prod": "1.0.1+26072202",
         "aab": "1.0.0+26072201"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.lumio.ai",
+      "store": "",
       "category": "Video",
       "category_source": "override",
-      "store_updated": "Jul 2, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -384,11 +384,11 @@
         "prod": "1.0.1+26071301",
         "aab": "1.0.1+26071301"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.mochi.chat",
+      "store": "",
       "category": "AI Chat",
       "category_source": "rule",
-      "store_updated": "Jul 13, 2026",
-      "store_version": "26071301 (1.0.1)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "nitroboost",
@@ -502,7 +502,7 @@
       "versions": {
         "dev": "1.0.0+26062401",
         "prod": "1.0.0+26062401",
-        "aab": "1.0.0+26072201",
+        "aab": "1.0.1+26072301",
         "noads": "1.0.0+1"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.pebble.browser",
