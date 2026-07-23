@@ -388,7 +388,7 @@
       "category": "AI Chat",
       "category_source": "rule",
       "store_updated": "Jul 13, 2026",
-      "store_version": "26071301 (1.0.1)"
+      "store_version": "26072302 (1.0.2)"
     },
     {
       "id": "nitroboost",
@@ -483,7 +483,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.pdf.platinum",
       "category": "Productivity",
       "category_source": "store",
-      "store_updated": "Jul 4, 2026",
+      "store_updated": "Jul 22, 2026",
       "store_version": "26072202 (1.0.1)"
     },
     {
@@ -549,7 +549,7 @@
       "versions": {
         "dev": "1.0.1+26072202",
         "prod": "1.0.1+26072202",
-        "aab": "1.0.0+26072201"
+        "aab": "1.0.1+26072301"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.pixaai",
       "category": "Photography",
@@ -694,7 +694,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.vaultix.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Jun 16, 2026",
+      "store_updated": "Jul 22, 2026",
       "store_version": "26072301 (1.0.5)"
     },
     {
@@ -740,7 +740,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
       "category": "Video",
       "category_source": "override",
-      "store_updated": "Jun 16, 2026",
+      "store_updated": "Jul 22, 2026",
       "store_version": "26072203 (1.0.4)"
     },
     {
