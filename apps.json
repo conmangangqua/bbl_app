@@ -555,7 +555,7 @@
       "category": "Photography",
       "category_source": "store",
       "store_updated": "Jul 11, 2026",
-      "store_version": "26071203 (1.0.0)"
+      "store_version": "26072301 (1.0.1)"
     },
     {
       "id": "pixora_ai",
@@ -601,7 +601,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Jul 3, 2026",
-      "store_version": "26070301 (1.0.0)"
+      "store_version": "26072301 (1.0.1)"
     },
     {
       "id": "quicksave",
@@ -764,7 +764,7 @@
       "category": "Tools",
       "category_source": "store",
       "store_updated": "Jul 11, 2026",
-      "store_version": null
+      "store_version": "26072301 (1.0.1)"
     },
     {
       "id": "voxlock",
