@@ -153,7 +153,7 @@
       "versions": {
         "dev": "1.0.2+26071301",
         "prod": "1.0.2+26071301",
-        "aab": "1.0.2+26072201"
+        "aab": "1.0.3+26072301"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
       "category": "Downloader",
@@ -361,10 +361,10 @@
         "prod": "1.0.1+26072202",
         "aab": "1.0.0+26072201"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.lumio.ai",
       "category": "Video",
       "category_source": "override",
-      "store_updated": null,
+      "store_updated": "Jul 2, 2026",
       "store_version": null
     },
     {
@@ -384,11 +384,11 @@
         "prod": "1.0.1+26071301",
         "aab": "1.0.1+26071301"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.mochi.chat",
       "category": "AI Chat",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jul 13, 2026",
+      "store_version": "26071301 (1.0.1)"
     },
     {
       "id": "nitroboost",
