@@ -347,7 +347,7 @@
     {
       "id": "lumio",
       "name": "Lumio",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/lumio_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/lumio_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -509,7 +509,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Jun 24, 2026",
-      "store_version": "26062401 (1.0.0)"
+      "store_version": "26072301 (1.0.1)"
     },
     {
       "id": "pitch_side",
