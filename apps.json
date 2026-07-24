@@ -483,7 +483,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.pdf.platinum",
       "category": "Productivity",
       "category_source": "store",
-      "store_updated": "Jul 22, 2026",
+      "store_updated": "Jul 23, 2026",
       "store_version": "26072301 (1.0.2)"
     },
     {
@@ -554,7 +554,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.pixaai",
       "category": "Photography",
       "category_source": "store",
-      "store_updated": "Jul 11, 2026",
+      "store_updated": "Jul 23, 2026",
       "store_version": "26072301 (1.0.1)"
     },
     {
@@ -600,7 +600,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.quartz.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Jul 3, 2026",
+      "store_updated": "Jul 23, 2026",
       "store_version": "26072301 (1.0.1)"
     },
     {
@@ -746,7 +746,7 @@
     {
       "id": "voltplay",
       "name": "Voltplay",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/voltplay_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/voltplay_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -757,13 +757,13 @@
       },
       "versions": {
         "dev": "1.0.1+26072301",
-        "prod": "1.0.0+26062802",
+        "prod": "1.0.1+26072301",
         "aab": "1.0.1+26072301"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": "Jul 11, 2026",
+      "store_updated": "Jul 23, 2026",
       "store_version": "26072301 (1.0.1)"
     },
     {
