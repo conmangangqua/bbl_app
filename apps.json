@@ -311,7 +311,7 @@
       "versions": {
         "dev": "1.0.5+26072401",
         "prod": "1.0.4+26072001",
-        "aab": "1.0.5+26072301"
+        "aab": "1.0.5+26072401"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
       "category": "Browser",
