@@ -571,8 +571,7 @@
       },
       "versions": {
         "dev": "1.0.0+26072201",
-        "prod": "1.0.0+26072201",
-        "aab": "1.0.0+26072202"
+        "prod": "1.0.0+26072201"
       },
       "store": "",
       "category": "Photography",
@@ -734,8 +733,7 @@
       },
       "versions": {
         "dev": "1.0.5+26072203",
-        "prod": "1.0.5+26072203",
-        "aab": "1.0.5+26072401"
+        "prod": "1.0.5+26072203"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
       "category": "Video",
