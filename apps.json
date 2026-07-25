@@ -629,7 +629,7 @@
     {
       "id": "sound_lab",
       "name": "Sound Lab",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/sound_lab_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/sound_lab_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -639,7 +639,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/sound_lab.aab"
       },
       "versions": {
-        "dev": "1.0.0+26070301",
+        "dev": "1.0.0+26072201",
         "prod": "1.0.0+26070301",
         "aab": "1.0.0+26072201"
       },
