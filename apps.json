@@ -135,8 +135,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.manhnhe.klipi",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Jul 21, 2026",
-      "store_version": "26072101 (2.0.3)"
+      "store_updated": "Jul 24, 2026",
+      "store_version": "26072301 (2.0.4)"
     },
     {
       "id": "fetchly_downloader",
@@ -478,7 +478,7 @@
       "versions": {
         "dev": "1.0.2+26072301",
         "prod": "1.0.2+26072301",
-        "aab": "1.0.2+26072301"
+        "aab": "1.0.2+26072501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.pdf.platinum",
       "category": "Productivity",
