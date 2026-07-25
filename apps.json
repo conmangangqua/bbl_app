@@ -141,7 +141,7 @@
     {
       "id": "fetchly_downloader",
       "name": "Fetchly: All Video Downloader",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fetchly_downloader_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/fetchly_downloader_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -151,7 +151,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/fetchly_downloader.aab"
       },
       "versions": {
-        "dev": "1.0.2+26071301",
+        "dev": "1.0.3+26072301",
         "prod": "1.0.2+26071301",
         "aab": "1.0.3+26072301"
       },
