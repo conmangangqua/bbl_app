@@ -347,7 +347,7 @@
     {
       "id": "lumio",
       "name": "Lumio",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/lumio_icon.png",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/lumio_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -357,7 +357,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/lumio.aab"
       },
       "versions": {
-        "dev": "1.0.1+26072202",
+        "dev": "1.0.1+26072401",
         "prod": "1.0.1+26072202",
         "aab": "1.0.1+26072401"
       },
@@ -571,7 +571,8 @@
       },
       "versions": {
         "dev": "1.0.0+26072201",
-        "prod": "1.0.0+26072201"
+        "prod": "1.0.0+26072201",
+        "aab": "1.0.0+26072202"
       },
       "store": "",
       "category": "Photography",
@@ -733,7 +734,8 @@
       },
       "versions": {
         "dev": "1.0.5+26072203",
-        "prod": "1.0.5+26072203"
+        "prod": "1.0.5+26072203",
+        "aab": "1.0.5+26072401"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
       "category": "Video",
