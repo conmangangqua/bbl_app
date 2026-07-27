@@ -1,0 +1,146 @@
+{
+  "aura_recover": {
+    "sha": "457f8494818075f92b452c4465348f9ced1edc4b94260e41daf493a6109964e3",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/aura_recover_icon.png"
+  },
+  "bloomi": {
+    "sha": "17c6200a015fefb3caded1807625fae9b1eff3685e914aca9aea2f6cc08cb762",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/bloomi_icon.png"
+  },
+  "calliq": {
+    "sha": "ad371aab7e505d18b4f41f01d2a739f8dd53e07d71c84fffa0ced43b6f5c74fd",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/calliq_icon.png"
+  },
+  "decora": {
+    "sha": "1d294dadebc540df8412233d29bc9ae0536a43443b01d377d98424328af3c482",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/decora_icon.png"
+  },
+  "dream_ring": {
+    "sha": "0982b7bac797c7d160d8dc01748f539e408fd83075f145c1c98b9e94aeca1bd4",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/dream_ring_icon.png"
+  },
+  "fast_fetch": {
+    "sha": "6cfd3764f88758a999b919fc6441ae47d942913676b4dcb72bf5662b0fd93196",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fast_fetch_icon.png"
+  },
+  "fetchly_downloader": {
+    "sha": "2685cb1b0abde1840526810fb98de9bad16b10703f04e90b38f739b0f8392145",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fetchly_downloader_icon.png"
+  },
+  "fluxvpn": {
+    "sha": "106805dc32c90f3dec0cff4c03af417b388a521a724b0030c6a1264da64039de",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fluxvpn_icon.png"
+  },
+  "gba_emulator": {
+    "sha": "fab2e29a12efa4893905e58168e8cf981b30d629ff4d954ae5ee448fc285f1a1",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/gba_emulator_icon.png"
+  },
+  "genify_ai": {
+    "sha": "f98ca5664b7e1d90579b56415123ae2a0e25a4163f52bfad72ad38fcb74408ed",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/genify_ai_icon.png"
+  },
+  "glucomate": {
+    "sha": "efa8270b159d2be99452caca67a85b6dccc007b1359205313bef1754e35282b3",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/glucomate_icon.png"
+  },
+  "goal_arena": {
+    "sha": "39df2900c3616ac40d74b692a7cb02eab3a4330894ec575bf4e3a97f479f603e",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/goal_arena_icon.png"
+  },
+  "inkmath": {
+    "sha": "541a29c82417e6bfa7107a4e6f1908e43977f94c0af7461dc8971672c0b1d208",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/inkmath_icon.png"
+  },
+  "kestrel_browser": {
+    "sha": "f79d9ea1961d0507d6cf047962e6128c4c9824a1b35b93ad45b7abed7823feec",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/kestrel_browser_icon.png"
+  },
+  "lingowl": {
+    "sha": "9f792e50dc899b19dda5df86081ac1013d436944ff82c6179f31244cdbaa9c0c",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/lingowl_icon.png"
+  },
+  "lumio": {
+    "sha": "dfa39023a265dc783d89868e31d376b4442786662c663e8b31cfdef3b0c62a6b",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/lumio_icon.png"
+  },
+  "mochi_chat": {
+    "sha": "0deb00457b2289ebb3f15c2c05af69e62f7ef133827de6c3dd6c069de637d4c7",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/mochi_chat_icon.png"
+  },
+  "nitroboost": {
+    "sha": "15cc1dfb6053a1b62bc6c444c306d6cce476c2e2c539e73e94b29e9f535fa373",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/nitroboost_icon.png"
+  },
+  "obsidian_browser": {
+    "sha": "bb973d170af04daa330ac7529eb48ce34a185def7a12621616b6610d911310fe",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/obsidian_browser_icon.png"
+  },
+  "onyx_browser": {
+    "sha": "f460a7cdc7ad7d4ef87879f8c3e6a07db69f682bb97986f0f6b6d003a589655c",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/onyx_browser_icon.png"
+  },
+  "pdf_platinum": {
+    "sha": "c8d834a93cb399b171aa23032b363a8d55f2c57ebabd8813bdb0e93c4a2f432c",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pdf_platinum_icon.png"
+  },
+  "pebble_browser": {
+    "sha": "ba845ef5dd2b12ab7fdc6f748f31ce99eae1c081e2a22ff0737a01e9c74daf47",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pebble_browser_icon.png"
+  },
+  "pitch_side": {
+    "sha": "fab7d67bb14164228c2ee4c74bd6be4f5c0d67d02876bdc4c004e4bb79d27051",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pitch_side_icon.png"
+  },
+  "pixa_ai": {
+    "sha": "3649759952306166f989c49448b48f337475794553469f0dbea5d987229943d1",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pixa_ai_icon.png"
+  },
+  "pixora_ai": {
+    "sha": "0134307e1465b466a5986fa757f70a43e361ff99d2a2c2eee39f39e0613dd503",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pixora_ai_icon.png"
+  },
+  "quartz_browser": {
+    "sha": "6fc64609f524014091dcbb2ac5999a26490903755843ce6f40ac5c4fa1fcecbd",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quartz_browser_icon.png"
+  },
+  "quicksave": {
+    "sha": "fbb26396cc14c1ba7c08cd624b42f9bbeb86f48b600e5157cb47e0bcdbcb243c",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quicksave_icon.png"
+  },
+  "sound_lab": {
+    "sha": "ec13567db3f06c6a9ebe560f719394074a0ed3c354166388c0e2f9b8ee4fa01e",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/sound_lab_icon.png"
+  },
+  "task_nest": {
+    "sha": "a18e0c90bf6801e760f3cab6faec568bcee900f8c601df509bdba9ade225900d",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/task_nest_icon.png"
+  },
+  "vaultix_browser": {
+    "sha": "8cfa6bd8716dc1699ecada305acef61f8ae3e3ddad557965c9b1db3056b7a79f",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/vaultix_browser_icon.png"
+  },
+  "velvet_drama": {
+    "sha": "1b310c1378646aded7435f8d270e09f805361ffee12b040881a91c661dbaa5a3",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/velvet_drama_icon.png"
+  },
+  "vidnova": {
+    "sha": "7db9af8de9e95fe14cc93cc05f6f5c3132129268cade72dac048349201383371",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/vidnova_icon.png"
+  },
+  "voltplay": {
+    "sha": "2b61ade9f8ca8bd45a824a4f0e73273af65d84631efa896460b2dc58071ef4e6",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/voltplay_icon.png"
+  },
+  "voxlock": {
+    "sha": "b9f5d606092aac792d2e642eddc9f50204c62f76863eeb2a4021d9ca9ee1a782",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/voxlock_icon.png"
+  },
+  "whispr": {
+    "sha": "90601672098b949ab19f0af09dec132f270b2b733571703c87e6519ec7b11463",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/whispr_icon.png"
+  },
+  "wifi_key_map": {
+    "sha": "dd46edd1c30589d840dcb6dbabd0b0e57b27055878495677cc91b8f4f600e59e",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/wifi_key_map_icon.png"
+  }
+}
