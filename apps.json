@@ -597,11 +597,11 @@
         "prod": "1.0.0+26070301",
         "aab": "1.0.1+26072301"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.quartz.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jul 23, 2026",
+      "store_version": "26072301 (1.0.1)"
     },
     {
       "id": "quicksave",
@@ -643,10 +643,10 @@
         "prod": "1.0.0+26070301",
         "aab": "1.0.0+26072201"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.soundlab",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": null,
+      "store_updated": "Jul 6, 2026",
       "store_version": null
     },
     {
@@ -666,11 +666,11 @@
         "prod": "1.0.0+26071001",
         "aab": "1.0.0+26071001"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.tasknest",
       "category": "Productivity",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jul 10, 2026",
+      "store_version": "26071001 (1.0.0)"
     },
     {
       "id": "vaultix_browser",
@@ -691,11 +691,11 @@
         "aab": "1.0.5+26072301",
         "noads": "1.0.2+26060401"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.vaultix.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jul 22, 2026",
+      "store_version": "26072301 (1.0.5)"
     },
     {
       "id": "velvet_drama",
@@ -714,11 +714,11 @@
         "prod": "1.0.0+26061801",
         "aab": "1.0.2+26072001"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.velvet.drama",
       "category": "Streaming",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jul 20, 2026",
+      "store_version": "26072001 (1.0.2)"
     },
     {
       "id": "vidnova",
