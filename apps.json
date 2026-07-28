@@ -435,7 +435,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Jul 10, 2026",
+      "store_updated": "Jul 27, 2026",
       "store_version": "26072701 (1.0.2)"
     },
     {
@@ -756,7 +756,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/voltplay.aab"
       },
       "versions": {
-        "dev": "1.0.1+26072301",
+        "dev": "1.0.2+26072801",
         "prod": "1.0.1+26072301",
         "aab": "1.0.1+26072301"
       },
@@ -809,8 +809,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.whispr.caller",
       "category": "Caller ID",
       "category_source": "rule",
-      "store_updated": "Jul 17, 2026",
-      "store_version": "26071501 (1.0.4)"
+      "store_updated": "Jul 27, 2026",
+      "store_version": "26072701 (1.0.5)"
     },
     {
       "id": "wifi_key_map",
