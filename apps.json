@@ -380,7 +380,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/mochi_chat.aab"
       },
       "versions": {
-        "dev": "1.0.2+26072302",
+        "dev": "1.0.3+26072901",
         "prod": "1.0.2+26072302",
         "aab": "1.0.2+26072801"
       },
@@ -484,7 +484,7 @@
       "category": "Productivity",
       "category_source": "store",
       "store_updated": "Jul 23, 2026",
-      "store_version": "26072301 (1.0.2)"
+      "store_version": "26072902 (1.0.3)"
     },
     {
       "id": "pebble_browser",
