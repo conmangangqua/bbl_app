@@ -388,7 +388,7 @@
       "category": "AI Chat",
       "category_source": "rule",
       "store_updated": "Jul 13, 2026",
-      "store_version": "26072801 (1.0.2)"
+      "store_version": "26073002 (1.0.2)"
     },
     {
       "id": "nitroboost",
@@ -547,7 +547,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/pixa_ai.aab"
       },
       "versions": {
-        "dev": "1.0.1+26072202",
+        "dev": "1.0.1+26072301",
         "prod": "1.0.1+26072202",
         "aab": "1.0.1+26072301"
       },
