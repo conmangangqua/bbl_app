@@ -80,8 +80,8 @@
     "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/onyx_browser_icon.png"
   },
   "pdf_platinum": {
-    "sha": "c8d834a93cb399b171aa23032b363a8d55f2c57ebabd8813bdb0e93c4a2f432c",
-    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pdf_platinum_icon.png"
+    "sha": "42328ada680ab35abc0d519ac69abbabdc9cc07a4849fef9d4b785cf4437ea0c",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pdf_platinum_icon.png"
   },
   "pebble_browser": {
     "sha": "ba845ef5dd2b12ab7fdc6f748f31ce99eae1c081e2a22ff0737a01e9c74daf47",
