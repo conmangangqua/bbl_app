@@ -225,7 +225,7 @@
       "category": "Art & Design",
       "category_source": "store",
       "store_updated": "Jul 12, 2026",
-      "store_version": "26071101 (1.0.9)"
+      "store_version": "26072901 (1.1.0)"
     },
     {
       "id": "glucomate",
@@ -248,7 +248,7 @@
       "category": "Health & Fitness",
       "category_source": "store",
       "store_updated": "Jul 10, 2026",
-      "store_version": "26071001 (1.0.2)"
+      "store_version": "26073101 (1.0.3)"
     },
     {
       "id": "goal_arena",
@@ -413,7 +413,7 @@
       "category": "Cleaner & Booster",
       "category_source": "rule",
       "store_updated": "Jul 2, 2026",
-      "store_version": "26062802 (1.0.0)"
+      "store_version": "26080101 (1.0.1)"
     },
     {
       "id": "obsidian_browser",
