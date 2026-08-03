@@ -381,7 +381,7 @@
       },
       "versions": {
         "dev": "1.0.3+26080301",
-        "prod": "1.0.3+26072901",
+        "prod": "1.0.3+26080301",
         "aab": "1.0.2+26073002"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.mochi.chat",
