@@ -130,7 +130,7 @@
       "versions": {
         "dev": "2.0.3+26071501",
         "prod": "2.0.3+26071501",
-        "aab": "2.0.4+26072301"
+        "aab": "2.0.4+26080501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.manhnhe.klipi",
       "category": "Browser",
@@ -288,7 +288,7 @@
       "versions": {
         "dev": "1.0.0+26070501",
         "prod": "1.0.0+26070501",
-        "aab": "1.0.0+26070501"
+        "aab": "1.0.0+26080501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.inkmath",
       "category": "Education",
