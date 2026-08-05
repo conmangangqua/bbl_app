@@ -503,7 +503,7 @@
       "versions": {
         "dev": "1.0.1+26072301",
         "prod": "1.0.1+26072301",
-        "aab": "1.0.1+26072301",
+        "aab": "1.0.2+26080501",
         "noads": "1.0.0+1"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.pebble.browser",
