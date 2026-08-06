@@ -242,7 +242,7 @@
       },
       "versions": {
         "dev": "1.0.4+26080601",
-        "prod": "1.0.3+26073101",
+        "prod": "1.0.4+26080601",
         "aab": "1.0.3+26073101"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.glucomate",
