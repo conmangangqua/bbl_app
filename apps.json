@@ -84,7 +84,7 @@
       "versions": {
         "dev": "1.0.1+26072601",
         "prod": "1.0.1+26072001",
-        "aab": "1.0.1+26072601"
+        "aab": "1.0.1+26080601"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.decora.wallpaper",
       "category": "Personalization",
@@ -106,7 +106,8 @@
       },
       "versions": {
         "dev": "1.0.1+26072201",
-        "prod": "1.0.1+26072201"
+        "prod": "1.0.1+26072201",
+        "aab": "1.0.1+26080501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.dreamring",
       "category": "Entertainment",
@@ -335,6 +336,7 @@
       "versions": {
         "dev": "1.0.1+26072001",
         "prod": "1.0.1+26072001",
+        "aab": "1.0.0+26070601",
         "noads": "1.0.0+1"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.lingowl",
