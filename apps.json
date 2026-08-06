@@ -484,7 +484,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.pdf.platinum",
       "category": "Productivity",
       "category_source": "store",
-      "store_updated": "Jul 30, 2026",
+      "store_updated": "Aug 5, 2026",
       "store_version": "26080502 (1.0.4)"
     },
     {
@@ -759,7 +759,7 @@
       "versions": {
         "dev": "1.0.2+26072801",
         "prod": "1.0.2+26072801",
-        "aab": "1.0.2+26072801"
+        "aab": "1.0.3+26080601"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
       "category": "Tools",
