@@ -462,7 +462,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Jun 22, 2026",
-      "store_version": "26062201 (1.0.5)"
+      "store_version": "26080501 (1.0.5)"
     },
     {
       "id": "pdf_platinum",
@@ -782,7 +782,7 @@
       "versions": {
         "dev": "1.0.1+26070701",
         "prod": "1.0.1+26070701",
-        "aab": "1.0.1+26070701"
+        "aab": "1.0.2+26080601"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voxlock",
       "category": "Personalization",
