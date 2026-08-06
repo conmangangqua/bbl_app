@@ -429,7 +429,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/obsidian_browser.aab"
       },
       "versions": {
-        "dev": "1.0.2+26072701",
+        "dev": "1.0.3+26080601",
         "prod": "1.0.2+26072701",
         "aab": "1.0.3+26080502"
       },
