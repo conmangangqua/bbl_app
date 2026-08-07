@@ -249,7 +249,7 @@
       "category": "Health & Fitness",
       "category_source": "store",
       "store_updated": "Aug 1, 2026",
-      "store_version": "26080601 (1.0.4)"
+      "store_version": "26080701 (1.0.4)"
     },
     {
       "id": "goal_arena",
@@ -692,11 +692,11 @@
         "aab": "1.0.6+26080502",
         "noads": "1.0.2+26060401"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.vaultix.browser",
+      "store": "",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Aug 5, 2026",
-      "store_version": "26080502 (1.0.6)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "velvet_drama",
