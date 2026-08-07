@@ -644,10 +644,10 @@
         "prod": "1.0.1+26080701",
         "aab": "1.0.0+26072201"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.soundlab",
+      "store": "",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": "Jul 6, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -695,8 +695,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.vaultix.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 5, 2026",
+      "store_version": "26080502 (1.0.6)"
     },
     {
       "id": "velvet_drama",
@@ -830,11 +830,11 @@
         "prod": "1.0.1+26071301",
         "aab": "1.0.1+26080501"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.wifi.password.map",
+      "store": "",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": "Jul 13, 2026",
-      "store_version": "26071301 (1.0.1)"
+      "store_updated": null,
+      "store_version": null
     }
   ]
 }
