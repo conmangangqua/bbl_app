@@ -640,7 +640,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/sound_lab.aab"
       },
       "versions": {
-        "dev": "1.0.0+26072201",
+        "dev": "1.0.1+26080701",
         "prod": "1.0.0+26070301",
         "aab": "1.0.0+26072201"
       },
