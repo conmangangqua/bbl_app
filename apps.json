@@ -268,11 +268,11 @@
         "prod": "1.0.2+26070101",
         "aab": "1.0.2+26070101"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.goalarena",
+      "store": "",
       "category": "Sports",
       "category_source": "store",
-      "store_updated": "Jul 2, 2026",
-      "store_version": "26070101 (1.0.2)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "inkmath",
@@ -291,11 +291,11 @@
         "prod": "1.0.0+26070501",
         "aab": "1.0.0+26080501"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.inkmath",
+      "store": "",
       "category": "Education",
       "category_source": "store",
-      "store_updated": "Jul 5, 2026",
-      "store_version": "26070501 (1.0.0)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "kestrel_browser",
@@ -314,11 +314,11 @@
         "prod": "1.0.5+26072401",
         "aab": "1.0.5+26072401"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
+      "store": "",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Jul 24, 2026",
-      "store_version": "26072401 (1.0.5)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "lingowl",
@@ -595,7 +595,7 @@
       },
       "versions": {
         "dev": "1.0.1+26072303",
-        "prod": "1.0.1+26072302",
+        "prod": "1.0.1+26072303",
         "aab": "1.0.1+26072301"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.quartz.browser",
