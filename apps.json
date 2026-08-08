@@ -155,7 +155,7 @@
         "prod": "1.0.3+26072301",
         "aab": "1.0.3+26072701"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
       "category": "Downloader",
       "category_source": "rule",
       "store_updated": null,
@@ -245,7 +245,7 @@
         "prod": "1.0.4+26080601",
         "aab": "1.0.4+26080701"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.glucomate",
       "category": "Health & Fitness",
       "category_source": "store",
       "store_updated": null,
@@ -761,7 +761,7 @@
         "prod": "1.0.2+26072801",
         "aab": "1.0.3+26080601"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
       "category": "Tools",
       "category_source": "store",
       "store_updated": null,
