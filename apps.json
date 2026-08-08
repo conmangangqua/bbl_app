@@ -155,11 +155,11 @@
         "prod": "1.0.3+26072301",
         "aab": "1.0.3+26072701"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
+      "store": "",
       "category": "Downloader",
       "category_source": "rule",
-      "store_updated": "Jul 24, 2026",
-      "store_version": "26072301 (1.0.3)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "fluxvpn",
@@ -245,11 +245,11 @@
         "prod": "1.0.4+26080601",
         "aab": "1.0.4+26080701"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.glucomate",
+      "store": "",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": "Aug 1, 2026",
-      "store_version": "26080701 (1.0.4)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "goal_arena",
@@ -761,11 +761,11 @@
         "prod": "1.0.2+26072801",
         "aab": "1.0.3+26080601"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
+      "store": "",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": "Aug 5, 2026",
-      "store_version": "26080601 (1.0.3)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "voxlock",
