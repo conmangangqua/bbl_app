@@ -152,7 +152,7 @@
       },
       "versions": {
         "dev": "1.0.4+26080901",
-        "prod": "1.0.3+26072301",
+        "prod": "1.0.4+26080901",
         "aab": "1.0.3+26072701"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
@@ -761,11 +761,11 @@
         "prod": "1.0.2+26072801",
         "aab": "1.0.3+26080601"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 5, 2026",
+      "store_version": "26080601 (1.0.3)"
     },
     {
       "id": "voxlock",
