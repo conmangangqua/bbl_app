@@ -151,7 +151,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/fetchly_downloader.aab"
       },
       "versions": {
-        "dev": "1.0.3+26072301",
+        "dev": "1.0.4+26080901",
         "prod": "1.0.3+26072301",
         "aab": "1.0.3+26072701"
       },
@@ -510,7 +510,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Jul 23, 2026",
-      "store_version": "26080501 (1.0.2)"
+      "store_version": "26080901 (1.0.2)"
     },
     {
       "id": "pitch_side",
@@ -761,11 +761,11 @@
         "prod": "1.0.2+26072801",
         "aab": "1.0.3+26080601"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
+      "store": "",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": "Aug 5, 2026",
-      "store_version": "26080601 (1.0.3)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "voxlock",
