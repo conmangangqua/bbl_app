@@ -40,11 +40,11 @@
         "prod": "1.0.4+26072901",
         "aab": "1.0.4+26072901"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.bloomi",
+      "store": "",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": "Jul 29, 2026",
-      "store_version": "26072901 (1.0.4)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "calliq",
@@ -136,7 +136,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Jul 24, 2026",
-      "store_version": "26072301 (2.0.4)"
+      "store_version": "26081001 (2.0.5)"
     },
     {
       "id": "fetchly_downloader",
@@ -555,8 +555,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.pixaai",
       "category": "Photography",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jul 23, 2026",
+      "store_version": "26072301 (1.0.1)"
     },
     {
       "id": "pixora_ai",
