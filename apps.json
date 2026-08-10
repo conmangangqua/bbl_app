@@ -40,7 +40,7 @@
         "prod": "1.0.4+26072901",
         "aab": "1.0.4+26072901"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.bloomi",
       "category": "Health & Fitness",
       "category_source": "store",
       "store_updated": null,
