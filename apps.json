@@ -245,11 +245,11 @@
         "prod": "1.0.4+26080601",
         "aab": "1.0.4+26080701"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.glucomate",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 7, 2026",
+      "store_version": "26080701 (1.0.4)"
     },
     {
       "id": "goal_arena",
