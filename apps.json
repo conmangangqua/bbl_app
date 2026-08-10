@@ -477,7 +477,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/pdf_platinum.aab"
       },
       "versions": {
-        "dev": "1.0.3+26072902",
+        "dev": "1.0.4+26080502",
         "prod": "1.0.3+26072902",
         "aab": "1.0.4+26080502"
       },
