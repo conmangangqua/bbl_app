@@ -40,11 +40,11 @@
         "prod": "1.0.4+26072901",
         "aab": "1.0.4+26072901"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.bloomi",
+      "store": "",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": "Jul 29, 2026",
-      "store_version": "26072901 (1.0.4)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "calliq",
@@ -63,11 +63,11 @@
         "prod": "1.0.2+26080403",
         "aab": "1.0.2+26080403"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.calliq.caller",
+      "store": "",
       "category": "Caller ID",
       "category_source": "rule",
-      "store_updated": "Jul 8, 2026",
-      "store_version": "26070801 (1.0.1)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "decora",
@@ -86,11 +86,11 @@
         "prod": "1.0.1+26080601",
         "aab": "1.0.2+26080902"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.decora.wallpaper",
+      "store": "",
       "category": "Personalization",
       "category_source": "store",
-      "store_updated": "Jul 26, 2026",
-      "store_version": "26080902 (1.0.2)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "dream_ring",
@@ -109,10 +109,10 @@
         "prod": "1.0.1+26072201",
         "aab": "1.0.1+26080501"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.dreamring",
+      "store": "",
       "category": "Entertainment",
       "category_source": "store",
-      "store_updated": "Jul 20, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
@@ -155,11 +155,11 @@
         "prod": "1.0.4+26080901",
         "aab": "1.0.3+26072701"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
+      "store": "",
       "category": "Downloader",
       "category_source": "rule",
-      "store_updated": "Jul 24, 2026",
-      "store_version": "26072301 (1.0.3)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "fluxvpn",
@@ -383,7 +383,7 @@
       "versions": {
         "dev": "1.0.3+26080301",
         "prod": "1.0.3+26080301",
-        "aab": "1.0.3+26080301"
+        "aab": "1.0.4+26081001"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.mochi.chat",
       "category": "AI Chat",
@@ -788,7 +788,7 @@
       "category": "Personalization",
       "category_source": "store",
       "store_updated": "Aug 5, 2026",
-      "store_version": "26080601 (1.0.2)"
+      "store_version": "26081001 (1.0.3)"
     },
     {
       "id": "whispr",
@@ -807,11 +807,11 @@
         "prod": "1.0.5+26080501",
         "aab": "1.0.5+26080501"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.whispr.caller",
+      "store": "",
       "category": "Caller ID",
       "category_source": "rule",
-      "store_updated": "Jul 27, 2026",
-      "store_version": "26072701 (1.0.5)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "wifi_key_map",
@@ -834,7 +834,7 @@
       "category": "Tools",
       "category_source": "store",
       "store_updated": "Jul 13, 2026",
-      "store_version": "26071301 (1.0.1)"
+      "store_version": "26081003 (1.0.2)"
     }
   ]
 }
