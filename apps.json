@@ -437,7 +437,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Aug 5, 2026",
-      "store_version": null
+      "store_version": "26081002 (1.0.4)"
     },
     {
       "id": "onyx_browser",
@@ -713,7 +713,7 @@
       "versions": {
         "dev": "1.0.3+26080901",
         "prod": "1.0.3+26080901",
-        "aab": "1.0.2+26072001"
+        "aab": "1.0.3+26080901"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.velvet.drama",
       "category": "Streaming",
