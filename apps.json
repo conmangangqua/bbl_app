@@ -159,7 +159,7 @@
       "category": "Downloader",
       "category_source": "rule",
       "store_updated": "Jul 24, 2026",
-      "store_version": "26072301 (1.0.3)"
+      "store_version": "26081001 (1.0.4)"
     },
     {
       "id": "fluxvpn",
@@ -437,7 +437,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Aug 5, 2026",
-      "store_version": "26080601 (1.0.3)"
+      "store_version": null
     },
     {
       "id": "onyx_browser",
