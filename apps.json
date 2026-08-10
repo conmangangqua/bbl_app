@@ -245,11 +245,11 @@
         "prod": "1.0.4+26080601",
         "aab": "1.0.4+26080701"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.glucomate",
+      "store": "",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": "Aug 7, 2026",
-      "store_version": "26080701 (1.0.4)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "goal_arena",
@@ -828,7 +828,7 @@
       "versions": {
         "dev": "1.0.1+26071301",
         "prod": "1.0.1+26071301",
-        "aab": "1.0.1+26080501"
+        "aab": "1.0.2+26081002"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.wifi.password.map",
       "category": "Tools",
