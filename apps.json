@@ -311,7 +311,8 @@
       },
       "versions": {
         "dev": "1.0.5+26072401",
-        "prod": "1.0.5+26072401"
+        "prod": "1.0.5+26072401",
+        "aab": "1.0.5+26072401"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
       "category": "Browser",
@@ -387,8 +388,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.mochi.chat",
       "category": "AI Chat",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 4, 2026",
+      "store_version": "26081001 (1.0.4)"
     },
     {
       "id": "nitroboost",
