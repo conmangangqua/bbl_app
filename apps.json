@@ -388,7 +388,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.mochi.chat",
       "category": "AI Chat",
       "category_source": "rule",
-      "store_updated": "Aug 4, 2026",
+      "store_updated": "Aug 10, 2026",
       "store_version": "26081001 (1.0.4)"
     },
     {
@@ -436,7 +436,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Aug 5, 2026",
+      "store_updated": "Aug 10, 2026",
       "store_version": "26081002 (1.0.4)"
     },
     {
@@ -578,7 +578,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.pixora.ai",
       "category": "Photography",
       "category_source": "store",
-      "store_updated": null,
+      "store_updated": "Aug 6, 2026",
       "store_version": null
     },
     {
@@ -718,8 +718,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.velvet.drama",
       "category": "Streaming",
       "category_source": "rule",
-      "store_updated": "Jul 20, 2026",
-      "store_version": "26080901 (1.0.3)"
+      "store_updated": "Aug 10, 2026",
+      "store_version": "26081201 (1.0.4)"
     },
     {
       "id": "vidnova",
