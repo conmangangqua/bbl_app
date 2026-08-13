@@ -241,6 +241,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/glucomate.aab"
       },
       "versions": {
+        "dev": "1.0.5+26081001",
         "prod": "1.0.5+26081001",
         "aab": "1.0.4+26080701"
       },
@@ -733,7 +734,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/vidnova.aab"
       },
       "versions": {
-        "dev": "1.0.5+26072203",
+        "dev": "1.0.6+26081301",
         "prod": "1.0.5+26072203",
         "aab": "1.0.6+26081301"
       },
