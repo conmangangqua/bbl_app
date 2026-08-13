@@ -60,8 +60,7 @@
       },
       "versions": {
         "dev": "1.0.2+26080403",
-        "prod": "1.0.2+26080403",
-        "aab": "1.0.2+26081201"
+        "prod": "1.0.2+26080403"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.calliq.caller",
       "category": "Caller ID",
@@ -82,15 +81,15 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/decora.aab"
       },
       "versions": {
-        "dev": "1.0.1+26080601",
-        "prod": "1.0.1+26080601",
+        "dev": "1.0.2+26080902",
+        "prod": "1.0.2+26080902",
         "aab": "1.0.3+26081301"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.decora.wallpaper",
       "category": "Personalization",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 9, 2026",
+      "store_version": "26080902 (1.0.2)"
     },
     {
       "id": "dream_ring",
@@ -152,7 +151,6 @@
       },
       "versions": {
         "dev": "1.0.4+26080901",
-        "prod": "1.0.4+26080901",
         "aab": "1.0.4+26081001"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
@@ -175,7 +173,6 @@
       },
       "versions": {
         "dev": "1.0.1+26030901",
-        "prod": "1.0.1+26030901",
         "aab": "1.0.1+26080501"
       },
       "store": "",
@@ -196,8 +193,7 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/gba_emulator_prod.plist"
       },
       "versions": {
-        "dev": "2.0.6+25122500",
-        "prod": "2.0.6+25122500"
+        "dev": "2.0.6+25122500"
       },
       "store": "",
       "category": "Emulator",
