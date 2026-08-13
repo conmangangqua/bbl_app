@@ -13,6 +13,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/aura_recover.aab"
       },
       "versions": {
+        "dev": "1.0.7+26062201",
         "prod": "1.0.7+26062201",
         "aab": "1.0.7+26062201"
       },
@@ -105,7 +106,8 @@
       },
       "versions": {
         "dev": "1.0.1+26072201",
-        "prod": "1.0.1+26072201"
+        "prod": "1.0.1+26072201",
+        "aab": "1.0.1+26080501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.dreamring",
       "category": "Entertainment",
@@ -126,7 +128,9 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/fast_fetch.aab"
       },
       "versions": {
-        "prod": "2.0.5+26080901"
+        "dev": "2.0.5+26080901",
+        "prod": "2.0.5+26080901",
+        "aab": "2.0.5+26081001"
       },
       "store": "https://play.google.com/store/apps/details?id=com.manhnhe.klipi",
       "category": "Browser",
@@ -237,7 +241,6 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/glucomate.aab"
       },
       "versions": {
-        "dev": "1.0.5+26081001",
         "prod": "1.0.5+26081001",
         "aab": "1.0.4+26080701"
       },
@@ -307,7 +310,8 @@
       },
       "versions": {
         "dev": "1.0.5+26072401",
-        "prod": "1.0.5+26072401"
+        "prod": "1.0.5+26072401",
+        "aab": "1.0.5+26072401"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
       "category": "Browser",
@@ -659,7 +663,8 @@
       },
       "versions": {
         "dev": "1.0.0+26071001",
-        "prod": "1.0.0+26071001"
+        "prod": "1.0.0+26071001",
+        "aab": "1.0.0+26071001"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.tasknest",
       "category": "Productivity",
@@ -821,7 +826,7 @@
       },
       "versions": {
         "dev": "1.0.2+26081003",
-        "prod": "1.0.1+26071301",
+        "prod": "1.0.2+26081003",
         "aab": "1.0.2+26081003"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.wifi.password.map",
