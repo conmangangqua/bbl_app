@@ -3,7 +3,7 @@
     {
       "id": "aura_recover",
       "name": "AuraRecover: File Recovery Pro",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/aura_recover_icon.png",
+      "icon": "icons/aura_recover.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -26,7 +26,7 @@
     {
       "id": "bloomi",
       "name": "Bloomi: Period & Cycle Tracker",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/bloomi_icon.png",
+      "icon": "icons/bloomi.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -49,7 +49,7 @@
     {
       "id": "calliq",
       "name": "Calliq: Caller ID & Block",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/calliq_icon.png",
+      "icon": "icons/calliq.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -72,7 +72,7 @@
     {
       "id": "decora",
       "name": "Decora: DIY Wallpaper Maker",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/decora_icon.png",
+      "icon": "icons/decora.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -84,18 +84,18 @@
       "versions": {
         "dev": "1.0.1+26080601",
         "prod": "1.0.1+26080601",
-        "aab": "1.0.2+26080902"
+        "aab": "1.0.3+26081301"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.decora.wallpaper",
+      "store": "",
       "category": "Personalization",
       "category_source": "store",
-      "store_updated": "Aug 9, 2026",
-      "store_version": "26080902 (1.0.2)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "dream_ring",
       "name": "Dream Ring",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/dream_ring_icon.png",
+      "icon": "icons/dream_ring.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -118,7 +118,7 @@
     {
       "id": "fast_fetch",
       "name": "Fast Fetch: File Saver Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fast_fetch_icon.png",
+      "icon": "icons/fast_fetch.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -141,7 +141,7 @@
     {
       "id": "fetchly_downloader",
       "name": "Fetchly: All Video Downloader",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fetchly_downloader_icon.png",
+      "icon": "icons/fetchly_downloader.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -164,7 +164,7 @@
     {
       "id": "fluxvpn",
       "name": "FluxVPN: Secure VPN Proxy",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/fluxvpn_icon.png",
+      "icon": "icons/fluxvpn.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -187,7 +187,7 @@
     {
       "id": "gba_emulator",
       "name": "Retro Game Player",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/gba_emulator_icon.png",
+      "icon": "icons/gba_emulator.webp",
       "platform": "iOS",
       "description": "",
       "features": [],
@@ -208,7 +208,7 @@
     {
       "id": "genify_ai",
       "name": "Genart: AI Image Generator",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/genify_ai_icon.png",
+      "icon": "icons/genify_ai.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -231,7 +231,7 @@
     {
       "id": "glucomate",
       "name": "GlucoMate: Blood Sugar & BP",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/glucomate_icon.png",
+      "icon": "icons/glucomate.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -254,7 +254,7 @@
     {
       "id": "goal_arena",
       "name": "GoalArena: Football Live Score",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/goal_arena_icon.png",
+      "icon": "icons/goal_arena.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -277,7 +277,7 @@
     {
       "id": "inkmath",
       "name": "InkMath: Math Solver & Graph",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/inkmath_icon.png",
+      "icon": "icons/inkmath.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -300,7 +300,7 @@
     {
       "id": "kestrel_browser",
       "name": "Kestrel: Private Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/kestrel_browser_icon.png",
+      "icon": "icons/kestrel_browser.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -323,7 +323,7 @@
     {
       "id": "lingowl",
       "name": "Lingo Owl: AI English Tutor",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/lingowl_icon.png",
+      "icon": "icons/lingowl.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -348,7 +348,7 @@
     {
       "id": "lumio",
       "name": "Lumio",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/lumio_icon.png",
+      "icon": "icons/lumio.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -371,7 +371,7 @@
     {
       "id": "mochi_chat",
       "name": "Mochi: AI Companion Chat",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/mochi_chat_icon.png",
+      "icon": "icons/mochi_chat.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -380,7 +380,11 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/mochi_chat_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/mochi_chat.aab"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.4+26081001",
+        "prod": "1.0.4+26081001",
+        "aab": "1.0.4+26081001"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.mochi.chat",
       "category": "AI Chat",
       "category_source": "rule",
@@ -390,7 +394,7 @@
     {
       "id": "nitroboost",
       "name": "NitroBoost: Game Booster",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/nitroboost_icon.png",
+      "icon": "icons/nitroboost.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -400,7 +404,12 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/nitroboost.aab",
         "noads": "https://github.com/conmangangqua/bbl_app/releases/download/noads/nitroboost_dev_noads.apk"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.1+26080301",
+        "prod": "1.0.1+26080301",
+        "aab": "1.0.1+26080301",
+        "noads": "1.0.0+1"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tmt.nitroboost",
       "category": "Cleaner & Booster",
       "category_source": "rule",
@@ -410,7 +419,7 @@
     {
       "id": "obsidian_browser",
       "name": "Obsidian: Private Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/obsidian_browser_icon.png",
+      "icon": "icons/obsidian_browser.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -419,7 +428,11 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/obsidian_browser_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/obsidian_browser.aab"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.3+26080601",
+        "prod": "1.0.3+26080601",
+        "aab": "1.0.4+26081002"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
       "category": "Browser",
       "category_source": "rule",
@@ -429,7 +442,7 @@
     {
       "id": "onyx_browser",
       "name": "Onyx: Private Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/onyx_browser_icon.png",
+      "icon": "icons/onyx_browser.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -439,7 +452,12 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/onyx_browser.aab",
         "noads": "https://github.com/conmangangqua/bbl_app/releases/download/noads/onyx_browser_dev_noads.apk"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.5+26080501",
+        "prod": "1.0.5+26080501",
+        "aab": "1.0.5+26080501",
+        "noads": "1.0.0+1"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.onyx.browser",
       "category": "Browser",
       "category_source": "rule",
@@ -449,7 +467,7 @@
     {
       "id": "pdf_platinum",
       "name": "PDF Platinum: Scanner & Edit",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pdf_platinum_icon.png",
+      "icon": "icons/pdf_platinum.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -458,7 +476,11 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pdf_platinum_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/pdf_platinum.aab"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.4+26080502",
+        "prod": "1.0.4+26080502",
+        "aab": "1.0.4+26080502"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.pdf.platinum",
       "category": "Productivity",
       "category_source": "store",
@@ -468,7 +490,7 @@
     {
       "id": "pebble_browser",
       "name": "Pebble: Private Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pebble_browser_icon.png",
+      "icon": "icons/pebble_browser.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -478,7 +500,12 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/pebble_browser.aab",
         "noads": "https://github.com/conmangangqua/bbl_app/releases/download/noads/pebble_browser_dev_noads.apk"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.2+26080602",
+        "prod": "1.0.2+26080602",
+        "aab": "1.0.2+26080901",
+        "noads": "1.0.0+1"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.pebble.browser",
       "category": "Browser",
       "category_source": "rule",
@@ -488,7 +515,7 @@
     {
       "id": "pitch_side",
       "name": "PitchSide: Live Football Score",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pitch_side_icon.png",
+      "icon": "icons/pitch_side.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -497,7 +524,11 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pitch_side_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/pitch_side.aab"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.3+26062602",
+        "prod": "1.0.3+26062602",
+        "aab": "1.0.4+26070402"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.scoredeck",
       "category": "Sports",
       "category_source": "store",
@@ -507,7 +538,7 @@
     {
       "id": "pixa_ai",
       "name": "Pixa Ai",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pixa_ai_icon.png",
+      "icon": "icons/pixa_ai.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -516,7 +547,11 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pixa_ai_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/pixa_ai.aab"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.1+26072301",
+        "prod": "1.0.1+26072301",
+        "aab": "1.0.1+26072301"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.pixaai",
       "category": "Photography",
       "category_source": "store",
@@ -526,7 +561,7 @@
     {
       "id": "pixora_ai",
       "name": "Pixora Ai",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pixora_ai_icon.png",
+      "icon": "icons/pixora_ai.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -535,7 +570,11 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pixora_ai_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/pixora_ai.aab"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.0+26072201",
+        "prod": "1.0.0+26072201",
+        "aab": "1.0.0+26072503"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.pixora.ai",
       "category": "Photography",
       "category_source": "store",
@@ -545,7 +584,7 @@
     {
       "id": "quartz_browser",
       "name": "Quartz: Private Web Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quartz_browser_icon.png",
+      "icon": "icons/quartz_browser.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -554,7 +593,11 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quartz_browser_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/quartz_browser.aab"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.1+26072303",
+        "prod": "1.0.1+26072303",
+        "aab": "1.0.2+26080801"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.quartz.browser",
       "category": "Browser",
       "category_source": "rule",
@@ -564,7 +607,7 @@
     {
       "id": "quicksave",
       "name": "QuickSave: Video Downloader",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quicksave_icon.png",
+      "icon": "icons/quicksave.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -573,7 +616,11 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/quicksave_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/quicksave.aab"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.7+26052201",
+        "prod": "1.0.7+26052201",
+        "aab": "1.0.7+26080501"
+      },
       "store": "",
       "category": "Downloader",
       "category_source": "rule",
@@ -583,7 +630,7 @@
     {
       "id": "sound_lab",
       "name": "Sound Lab",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/sound_lab_icon.png",
+      "icon": "icons/sound_lab.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -592,7 +639,11 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/sound_lab_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/sound_lab.aab"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.1+26080701",
+        "prod": "1.0.1+26080701",
+        "aab": "1.0.0+26072201"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.soundlab",
       "category": "Tools",
       "category_source": "store",
@@ -602,7 +653,7 @@
     {
       "id": "task_nest",
       "name": "Task Nest",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/task_nest_icon.png",
+      "icon": "icons/task_nest.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -611,7 +662,11 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/task_nest_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/task_nest.aab"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.0+26071001",
+        "prod": "1.0.0+26071001",
+        "aab": "1.0.0+26071001"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.tasknest",
       "category": "Productivity",
       "category_source": "store",
@@ -621,7 +676,7 @@
     {
       "id": "vaultix_browser",
       "name": "Vaultix Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/vaultix_browser_icon.png",
+      "icon": "icons/vaultix_browser.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -631,7 +686,12 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/vaultix_browser.aab",
         "noads": "https://github.com/conmangangqua/bbl_app/releases/download/noads/vaultix_browser_dev_noads.apk"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.6+26080503",
+        "prod": "1.0.6+26080503",
+        "aab": "1.0.6+26080502",
+        "noads": "1.0.2+26060401"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.vaultix.browser",
       "category": "Browser",
       "category_source": "rule",
@@ -641,7 +701,7 @@
     {
       "id": "velvet_drama",
       "name": "Velvet: Short Drama & Episode",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/velvet_drama_icon.png",
+      "icon": "icons/velvet_drama.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -650,7 +710,11 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/velvet_drama_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/velvet_drama.aab"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.4+26081201",
+        "prod": "1.0.4+26081201",
+        "aab": "1.0.4+26081201"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.velvet.drama",
       "category": "Streaming",
       "category_source": "rule",
@@ -660,7 +724,7 @@
     {
       "id": "vidnova",
       "name": "Vid Nova: Video Editor & Maker",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/vidnova_icon.png",
+      "icon": "icons/vidnova.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -669,7 +733,11 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/vidnova_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/vidnova.aab"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.5+26072203",
+        "prod": "1.0.5+26072203",
+        "aab": "1.0.5+26072401"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
       "category": "Video",
       "category_source": "override",
@@ -679,7 +747,7 @@
     {
       "id": "voltplay",
       "name": "Voltplay",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/voltplay_icon.png",
+      "icon": "icons/voltplay.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -688,7 +756,11 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/voltplay_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/voltplay.aab"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.3+26080601",
+        "prod": "1.0.3+26080601",
+        "aab": "1.0.3+26080601"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
       "category": "Tools",
       "category_source": "store",
@@ -698,7 +770,7 @@
     {
       "id": "voxlock",
       "name": "Voxlock: Voice Lock Screen",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/voxlock_icon.png",
+      "icon": "icons/voxlock.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -707,7 +779,11 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/voxlock_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/voxlock.aab"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.1+26070701",
+        "prod": "1.0.1+26070701",
+        "aab": "1.0.3+26081001"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voxlock",
       "category": "Personalization",
       "category_source": "store",
@@ -717,7 +793,7 @@
     {
       "id": "whispr",
       "name": "Whispr: Caller ID & Spam Block",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/whispr_icon.png",
+      "icon": "icons/whispr.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -726,7 +802,11 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/whispr_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/whispr.aab"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.5+26080501",
+        "prod": "1.0.5+26080501",
+        "aab": "1.0.5+26080501"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.whispr.caller",
       "category": "Caller ID",
       "category_source": "rule",
@@ -736,7 +816,7 @@
     {
       "id": "wifi_key_map",
       "name": "Wifi Key Map",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/wifi_key_map_icon.png",
+      "icon": "icons/wifi_key_map.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -745,7 +825,11 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/wifi_key_map_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/wifi_key_map.aab"
       },
-      "versions": {},
+      "versions": {
+        "dev": "1.0.1+26071301",
+        "prod": "1.0.1+26071301",
+        "aab": "1.0.2+26081003"
+      },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.wifi.password.map",
       "category": "Tools",
       "category_source": "store",
