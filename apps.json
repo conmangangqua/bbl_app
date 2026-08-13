@@ -343,7 +343,7 @@
       "category": "Education",
       "category_source": "store",
       "store_updated": "Aug 6, 2026",
-      "store_version": "26080601 (1.0.2)"
+      "store_version": "26081302 (1.0.2)"
     },
     {
       "id": "lumio",
@@ -761,11 +761,11 @@
         "prod": "1.0.3+26080601",
         "aab": "1.0.3+26080601"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
+      "store": "",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": "Aug 5, 2026",
-      "store_version": "26080601 (1.0.3)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "voxlock",
