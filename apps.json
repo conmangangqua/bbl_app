@@ -136,7 +136,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Aug 10, 2026",
-      "store_version": "26081001 (2.0.5)"
+      "store_version": "26081301 (2.0.6)"
     },
     {
       "id": "fetchly_downloader",
@@ -764,8 +764,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 5, 2026",
+      "store_version": "26080601 (1.0.3)"
     },
     {
       "id": "voxlock",
