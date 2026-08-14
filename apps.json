@@ -1,6 +1,25 @@
 {
   "apps": [
     {
+      "id": "amethia",
+      "name": "Amethia",
+      "icon": "icons/amethia.webp",
+      "platform": "Android",
+      "description": "",
+      "features": [],
+      "downloads": {
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/amethia_dev.apk"
+      },
+      "versions": {
+        "dev": "1.0.0+1"
+      },
+      "store": "",
+      "category": null,
+      "category_source": null,
+      "store_updated": null,
+      "store_version": null
+    },
+    {
       "id": "aura_recover",
       "name": "AuraRecover: File Recovery Pro",
       "icon": "icons/aura_recover.webp",
@@ -383,7 +402,7 @@
       "versions": {
         "dev": "1.0.5+26081401",
         "prod": "1.0.5+26081401",
-        "aab": "1.0.4+26081001"
+        "aab": "1.0.5+26081401"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.mochi.chat",
       "category": "AI Chat",

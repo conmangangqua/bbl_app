@@ -142,5 +142,9 @@
   "wifi_key_map": {
     "sha": "dd46edd1c30589d840dcb6dbabd0b0e57b27055878495677cc91b8f4f600e59e",
     "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/wifi_key_map_icon.png"
+  },
+  "amethia": {
+    "sha": "d319004207e19796f15c3a1a761c108af98ddd2391e3e530dd36d87c86d61dd5",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/amethia_icon.png"
   }
 }
