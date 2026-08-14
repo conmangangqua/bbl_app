@@ -220,7 +220,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
+      "store": "",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
@@ -410,7 +410,7 @@
       "category": "AI Chat",
       "category_source": "rule",
       "store_updated": "Aug 10, 2026",
-      "store_version": "26081001 (1.0.4)"
+      "store_version": "26081401 (1.0.5)"
     },
     {
       "id": "nitroboost",
