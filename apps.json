@@ -45,6 +45,29 @@
       "store_version": null
     },
     {
+      "id": "bloomi",
+      "name": "Bloomi: Period & Cycle Tracker",
+      "icon": "icons/bloomi.webp",
+      "platform": "Android",
+      "description": "",
+      "features": [],
+      "downloads": {
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/bloomi_dev.apk",
+        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/bloomi_prod.apk",
+        "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/bloomi.aab"
+      },
+      "versions": {
+        "dev": "1.0.4+26072901",
+        "prod": "1.0.4+26072901",
+        "aab": "1.0.4+26072901"
+      },
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.bloomi",
+      "category": "Health & Fitness",
+      "category_source": "store",
+      "store_updated": "Jul 29, 2026",
+      "store_version": "26072901 (1.0.4)"
+    },
+    {
       "id": "calliq",
       "name": "Calliq: Caller ID & Block",
       "icon": "icons/calliq.webp",
@@ -381,9 +404,9 @@
         "dev": "1.0.4+26072901",
         "prod": "1.0.4+26072901"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.bloomi",
-      "category": "Health & Fitness",
-      "category_source": "manual",
+      "store": "",
+      "category": null,
+      "category_source": null,
       "store_updated": null,
       "store_version": null
     },
@@ -452,11 +475,11 @@
         "prod": "1.0.5+26081402",
         "aab": "1.0.5+26081402"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
+      "store": "",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Aug 10, 2026",
-      "store_version": "26081002 (1.0.4)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "onyx_browser",
