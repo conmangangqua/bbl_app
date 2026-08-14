@@ -475,11 +475,11 @@
         "prod": "1.0.5+26081402",
         "aab": "1.0.5+26081402"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 10, 2026",
+      "store_version": "26081002 (1.0.4)"
     },
     {
       "id": "onyx_browser",
