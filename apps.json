@@ -381,9 +381,9 @@
         "dev": "1.0.4+26072901",
         "prod": "1.0.4+26072901"
       },
-      "store": "",
-      "category": null,
-      "category_source": null,
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.bloomi",
+      "category": "Health & Fitness",
+      "category_source": "manual",
       "store_updated": null,
       "store_version": null
     },
