@@ -431,7 +431,7 @@
       "versions": {
         "dev": "1.0.3+26080601",
         "prod": "1.0.3+26080601",
-        "aab": "1.0.4+26081401"
+        "aab": "1.0.5+26081402"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
       "category": "Browser",
