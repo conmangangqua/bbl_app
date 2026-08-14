@@ -135,7 +135,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.manhnhe.klipi",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Aug 10, 2026",
+      "store_updated": "Aug 13, 2026",
       "store_version": "26081301 (2.0.6)"
     },
     {
@@ -199,7 +199,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "",
+      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
@@ -342,7 +342,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.lingowl",
       "category": "Education",
       "category_source": "store",
-      "store_updated": "Aug 6, 2026",
+      "store_updated": "Aug 13, 2026",
       "store_version": "26081302 (1.0.2)"
     },
     {
@@ -431,7 +431,7 @@
       "versions": {
         "dev": "1.0.3+26080601",
         "prod": "1.0.3+26080601",
-        "aab": "1.0.4+26081002"
+        "aab": "1.0.4+26081401"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
       "category": "Browser",
