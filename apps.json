@@ -341,7 +341,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Jul 24, 2026",
-      "store_version": "26072401 (1.0.5)"
+      "store_version": "26081501 (1.0.6)"
     },
     {
       "id": "lingowl",
@@ -855,7 +855,7 @@
       "category": "Caller ID",
       "category_source": "rule",
       "store_updated": "Jul 27, 2026",
-      "store_version": "26072701 (1.0.5)"
+      "store_version": "26081501 (1.0.6)"
     },
     {
       "id": "wifi_key_map",
