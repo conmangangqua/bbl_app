@@ -222,7 +222,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "",
+      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
@@ -271,8 +271,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.glucomate",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 7, 2026",
+      "store_version": "26080701 (1.0.4)"
     },
     {
       "id": "goal_arena",
@@ -329,13 +329,12 @@
       "features": [],
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/kestrel_browser_dev.apk",
-        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/kestrel_browser_prod.apk",
-        "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/kestrel_browser.aab"
+        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/kestrel_browser_prod.apk"
       },
       "versions": {
         "dev": "1.0.6+26081501",
         "prod": "1.0.6+26081501",
-        "aab": "1.0.5+26072401"
+        "aab": "1.0.6+26081501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
       "category": "Browser",
@@ -573,11 +572,11 @@
         "prod": "1.0.3+26062602",
         "aab": "1.0.4+26070402"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.scoredeck",
+      "store": "",
       "category": "Sports",
       "category_source": "store",
-      "store_updated": "Jun 26, 2026",
-      "store_version": "26062602 (1.0.3)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "pixa_ai",
@@ -849,7 +848,7 @@
       "versions": {
         "dev": "1.0.6+26081501",
         "prod": "1.0.6+26081501",
-        "aab": "1.0.5+26080501"
+        "aab": "1.0.6+26081501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.whispr.caller",
       "category": "Caller ID",
