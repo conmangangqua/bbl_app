@@ -847,7 +847,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/whispr.aab"
       },
       "versions": {
-        "dev": "1.0.5+26080501",
+        "dev": "1.0.6+26081501",
         "prod": "1.0.5+26080501",
         "aab": "1.0.5+26080501"
       },
