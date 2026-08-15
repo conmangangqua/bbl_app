@@ -82,7 +82,7 @@
       "versions": {
         "dev": "1.0.2+26080403",
         "prod": "1.0.2+26080403",
-        "aab": "1.0.2+26081201"
+        "aab": "1.0.3+26081501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.calliq.caller",
       "category": "Caller ID",
@@ -243,11 +243,11 @@
         "prod": "1.1.0+26073101",
         "aab": "1.1.0+26072901"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquil.aiart",
       "category": "Art & Design",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 1, 2026",
+      "store_version": "26072901 (1.1.0)"
     },
     {
       "id": "glucomate",
