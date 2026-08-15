@@ -222,7 +222,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "",
+      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
@@ -638,7 +638,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/quartz_browser.aab"
       },
       "versions": {
-        "dev": "1.0.1+26072303",
+        "dev": "1.0.3+26081501",
         "prod": "1.0.1+26072303",
         "aab": "1.0.2+26080801"
       },
