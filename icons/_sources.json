@@ -84,8 +84,8 @@
     "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pdf_platinum_icon.png"
   },
   "pebble_browser": {
-    "sha": "ba845ef5dd2b12ab7fdc6f748f31ce99eae1c081e2a22ff0737a01e9c74daf47",
-    "src": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pebble_browser_icon.png"
+    "sha": "db69628dab51f6f8383486ae9e0475179ed1d13c8037163805377f245bd93bb4",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pebble_browser_icon.png"
   },
   "pitch_side": {
     "sha": "fab7d67bb14164228c2ee4c74bd6be4f5c0d67d02876bdc4c004e4bb79d27051",
