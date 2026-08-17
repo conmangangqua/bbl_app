@@ -89,8 +89,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.calliq.caller",
       "category": "Caller ID",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 11, 2026",
+      "store_version": "26081201 (1.0.2)"
     },
     {
       "id": "decora",
@@ -686,7 +686,7 @@
       "versions": {
         "dev": "1.0.1+26080701",
         "prod": "1.0.1+26080701",
-        "aab": "1.0.0+26072201"
+        "aab": "1.0.1+26081701"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.soundlab",
       "category": "Tools",
