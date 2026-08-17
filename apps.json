@@ -245,7 +245,7 @@
         "prod": "1.1.0+26073101",
         "aab": "1.1.0+26072901"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquil.aiart",
       "category": "Art & Design",
       "category_source": "store",
       "store_updated": null,
@@ -688,7 +688,7 @@
         "prod": "1.0.1+26080701",
         "aab": "1.0.1+26081701"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.soundlab",
       "category": "Tools",
       "category_source": "store",
       "store_updated": null,
