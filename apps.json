@@ -222,7 +222,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "",
+      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
@@ -265,7 +265,7 @@
       },
       "versions": {
         "dev": "1.0.5+26081701",
-        "prod": "1.0.5+26081001",
+        "prod": "1.0.5+26081701",
         "aab": "1.0.4+26080701"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.glucomate",
