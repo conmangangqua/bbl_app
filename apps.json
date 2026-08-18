@@ -77,6 +77,7 @@
       "description": "",
       "features": [],
       "downloads": {
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/calliq_dev.apk",
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/calliq_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/calliq.aab"
       },
