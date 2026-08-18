@@ -872,7 +872,7 @@
       "versions": {
         "dev": "1.0.3+26081501",
         "prod": "1.0.3+26081501",
-        "aab": "1.0.3+26081501"
+        "aab": "1.0.3+26081801"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.wifi.password.map",
       "category": "Tools",
