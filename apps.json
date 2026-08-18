@@ -642,11 +642,11 @@
         "prod": "1.0.3+26081501",
         "aab": "1.0.3+26081701"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.quartz.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jul 23, 2026",
+      "store_version": "26072301 (1.0.1)"
     },
     {
       "id": "quicksave",
