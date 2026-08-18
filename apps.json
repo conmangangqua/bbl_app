@@ -640,7 +640,7 @@
       "versions": {
         "dev": "1.0.3+26081501",
         "prod": "1.0.3+26081501",
-        "aab": "1.0.3+26081701"
+        "aab": "1.0.2+26081801"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.quartz.browser",
       "category": "Browser",
