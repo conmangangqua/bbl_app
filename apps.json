@@ -759,11 +759,11 @@
         "prod": "1.0.5+26081701",
         "aab": "1.0.4+26081201"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.velvet.drama",
       "category": "Streaming",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 12, 2026",
+      "store_version": "26081201 (1.0.4)"
     },
     {
       "id": "vidnova",
@@ -802,7 +802,7 @@
       },
       "versions": {
         "dev": "1.0.4+26081801",
-        "prod": "1.0.3+26080601",
+        "prod": "1.0.4+26081801",
         "aab": "1.0.3+26080601"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
