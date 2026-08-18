@@ -828,11 +828,11 @@
         "prod": "1.0.1+26070701",
         "aab": "1.0.3+26081001"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voxlock",
+      "store": "",
       "category": "Personalization",
       "category_source": "store",
-      "store_updated": "Aug 10, 2026",
-      "store_version": "26081001 (1.0.3)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "whispr",
