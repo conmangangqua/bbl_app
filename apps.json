@@ -245,11 +245,11 @@
         "prod": "1.1.0+26073101",
         "aab": "1.1.0+26072901"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquil.aiart",
+      "store": "",
       "category": "Art & Design",
       "category_source": "store",
-      "store_updated": "Aug 1, 2026",
-      "store_version": "26072901 (1.1.0)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "glucomate",
@@ -782,11 +782,11 @@
         "prod": "1.0.6+26081301",
         "aab": "1.0.6+26081301"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
+      "store": "",
       "category": "Video",
       "category_source": "override",
-      "store_updated": "Aug 13, 2026",
-      "store_version": "26081301 (1.0.6)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "voltplay",
