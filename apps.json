@@ -109,11 +109,11 @@
         "prod": "1.0.3+26081301",
         "aab": "1.0.4+26081701"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.decora.wallpaper",
+      "store": "",
       "category": "Personalization",
       "category_source": "store",
-      "store_updated": "Aug 13, 2026",
-      "store_version": "26081301 (1.0.3)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "dream_ring",
@@ -181,8 +181,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
       "category": "Downloader",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 14, 2026",
+      "store_version": "26081401 (1.0.5)"
     },
     {
       "id": "fluxvpn",
@@ -362,11 +362,11 @@
         "aab": "1.0.2+26081302",
         "noads": "1.0.0+1"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.lingowl",
+      "store": "",
       "category": "Education",
       "category_source": "store",
-      "store_updated": "Aug 13, 2026",
-      "store_version": "26081302 (1.0.2)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "lumio",
@@ -531,7 +531,7 @@
       "category": "Productivity",
       "category_source": "store",
       "store_updated": "Aug 5, 2026",
-      "store_version": "26080502 (1.0.4)"
+      "store_version": "26081901 (1.0.5)"
     },
     {
       "id": "pebble_browser",
