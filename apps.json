@@ -222,7 +222,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "",
+      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
@@ -272,7 +272,7 @@
       "category": "Health & Fitness",
       "category_source": "store",
       "store_updated": "Aug 7, 2026",
-      "store_version": "26080701 (1.0.4)"
+      "store_version": "26081901 (1.0.5)"
     },
     {
       "id": "goal_arena",
@@ -403,7 +403,7 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/lumira_baby_prod.apk"
       },
       "versions": {
-        "dev": "1.0.4+26072901",
+        "dev": "1.0.5+26081901",
         "prod": "1.0.4+26072901"
       },
       "store": "",
@@ -851,11 +851,11 @@
         "prod": "1.0.6+26081501",
         "aab": "1.0.6+26081501"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.whispr.caller",
+      "store": "",
       "category": "Caller ID",
       "category_source": "rule",
-      "store_updated": "Aug 15, 2026",
-      "store_version": "26081501 (1.0.6)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "wifi_key_map",
