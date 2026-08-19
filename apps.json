@@ -109,7 +109,7 @@
         "prod": "1.0.3+26081301",
         "aab": "1.0.4+26081701"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.decora.wallpaper",
       "category": "Personalization",
       "category_source": "store",
       "store_updated": null,
@@ -362,7 +362,7 @@
         "aab": "1.0.2+26081302",
         "noads": "1.0.0+1"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.lingowl",
       "category": "Education",
       "category_source": "store",
       "store_updated": null,
