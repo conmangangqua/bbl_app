@@ -271,8 +271,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.glucomate",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 7, 2026",
+      "store_version": "26081901 (1.0.5)"
     },
     {
       "id": "goal_arena",
@@ -479,11 +479,11 @@
         "prod": "1.0.5+26081402",
         "aab": "1.0.5+26081801"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
+      "store": "",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Aug 18, 2026",
-      "store_version": "26081801 (1.0.5)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "onyx_browser",
@@ -693,7 +693,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.soundlab",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": null,
+      "store_updated": "Aug 17, 2026",
       "store_version": null
     },
     {
@@ -738,11 +738,11 @@
         "aab": "1.0.6+26080502",
         "noads": "1.0.2+26060401"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.vaultix.browser",
+      "store": "",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Aug 5, 2026",
-      "store_version": "26080502 (1.0.6)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "velvet_drama",
