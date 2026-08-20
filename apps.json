@@ -271,7 +271,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.glucomate",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": "Aug 7, 2026",
+      "store_updated": "Aug 19, 2026",
       "store_version": "26081901 (1.0.5)"
     },
     {
@@ -314,11 +314,11 @@
         "prod": "1.0.0+26070501",
         "aab": "1.0.0+26080501"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.inkmath",
+      "store": "",
       "category": "Education",
       "category_source": "store",
-      "store_updated": "Jul 5, 2026",
-      "store_version": "26070501 (1.0.0)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "kestrel_browser",
@@ -482,8 +482,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 18, 2026",
+      "store_version": "26081801 (1.0.5)"
     },
     {
       "id": "onyx_browser",
@@ -555,7 +555,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.pebble.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Aug 9, 2026",
+      "store_updated": "Aug 18, 2026",
       "store_version": "26081801 (1.0.3)"
     },
     {
@@ -741,8 +741,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.vaultix.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 5, 2026",
+      "store_version": "26080502 (1.0.6)"
     },
     {
       "id": "velvet_drama",
@@ -879,7 +879,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.wifi.password.map",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": "Aug 10, 2026",
+      "store_updated": "Aug 18, 2026",
       "store_version": "26081801 (1.0.3)"
     }
   ]
