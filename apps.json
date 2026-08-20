@@ -429,7 +429,7 @@
       "versions": {
         "dev": "1.0.6+26082001",
         "prod": "1.0.6+26082001",
-        "aab": "1.0.6+26081801"
+        "aab": "1.0.6+26082001"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.mochi.chat",
       "category": "AI Chat",
