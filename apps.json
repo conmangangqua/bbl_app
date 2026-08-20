@@ -268,7 +268,7 @@
         "prod": "1.0.5+26081901",
         "aab": "1.0.5+26081901"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.glucomate",
       "category": "Health & Fitness",
       "category_source": "store",
       "store_updated": null,
@@ -690,7 +690,7 @@
         "prod": "1.0.2+26081801",
         "aab": "1.0.2+26081801"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.soundlab",
       "category": "Tools",
       "category_source": "store",
       "store_updated": null,
