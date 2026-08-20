@@ -482,7 +482,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Aug 10, 2026",
+      "store_updated": "Aug 18, 2026",
       "store_version": "26081801 (1.0.5)"
     },
     {
@@ -525,12 +525,12 @@
       "versions": {
         "dev": "1.0.4+26080502",
         "prod": "1.0.4+26080502",
-        "aab": "1.0.5+26081901"
+        "aab": "1.0.6+26082001"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.pdf.platinum",
       "category": "Productivity",
       "category_source": "store",
-      "store_updated": "Aug 5, 2026",
+      "store_updated": "Aug 19, 2026",
       "store_version": "26081901 (1.0.5)"
     },
     {
@@ -647,7 +647,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.quartz.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Jul 23, 2026",
+      "store_updated": "Aug 18, 2026",
       "store_version": "26081801 (1.0.2)"
     },
     {
