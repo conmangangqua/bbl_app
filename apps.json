@@ -178,11 +178,11 @@
         "prod": "1.0.4+26080901",
         "aab": "1.0.5+26081401"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
+      "store": "",
       "category": "Downloader",
       "category_source": "rule",
-      "store_updated": "Aug 14, 2026",
-      "store_version": "26081401 (1.0.5)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "fluxvpn",
@@ -828,7 +828,7 @@
       "versions": {
         "dev": "1.0.3+26081001",
         "prod": "1.0.3+26081001",
-        "aab": "1.0.3+26081001"
+        "aab": "1.0.4+26082001"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voxlock",
       "category": "Personalization",
