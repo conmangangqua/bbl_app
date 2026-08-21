@@ -90,7 +90,7 @@
       "category": "Caller ID",
       "category_source": "rule",
       "store_updated": "Aug 11, 2026",
-      "store_version": "26081201 (1.0.2)"
+      "store_version": "26081902 (1.0.3)"
     },
     {
       "id": "decora",
@@ -525,7 +525,7 @@
       "versions": {
         "dev": "1.0.4+26080502",
         "prod": "1.0.4+26080502",
-        "aab": "1.0.6+26082001"
+        "aab": "1.0.7+26082101"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.pdf.platinum",
       "category": "Productivity",
@@ -830,11 +830,11 @@
         "prod": "1.0.4+26082001",
         "aab": "1.0.4+26082001"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voxlock",
+      "store": "",
       "category": "Personalization",
       "category_source": "store",
-      "store_updated": "Aug 10, 2026",
-      "store_version": "26081001 (1.0.3)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "whispr",
