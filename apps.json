@@ -602,7 +602,7 @@
       "category": "Photography",
       "category_source": "store",
       "store_updated": "Jul 23, 2026",
-      "store_version": "26072301 (1.0.1)"
+      "store_version": "1.0.2"
     },
     {
       "id": "pixora_ai",
@@ -765,7 +765,7 @@
       "category": "Streaming",
       "category_source": "rule",
       "store_updated": "Aug 12, 2026",
-      "store_version": "26081201 (1.0.4)"
+      "store_version": "26081701 (1.0.5)"
     },
     {
       "id": "vidnova",
@@ -811,7 +811,7 @@
       "category": "Tools",
       "category_source": "store",
       "store_updated": "Aug 5, 2026",
-      "store_version": "26080601 (1.0.3)"
+      "store_version": "26082301 (1.0.4)"
     },
     {
       "id": "voxlock",
