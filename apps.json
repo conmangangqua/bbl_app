@@ -734,7 +734,7 @@
         "prod": "1.0.0+26071001",
         "aab": "1.0.0+26071001"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.tasknest",
       "category": "Productivity",
       "category_source": "store",
       "store_updated": null,
