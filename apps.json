@@ -552,7 +552,7 @@
         "aab": "1.0.3+26081801",
         "noads": "1.0.0+1"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.pebble.browser",
       "category": "Browser",
       "category_source": "rule",
       "store_updated": null,
@@ -734,7 +734,7 @@
         "prod": "1.0.0+26071001",
         "aab": "1.0.0+26071001"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.tasknest",
       "category": "Productivity",
       "category_source": "store",
       "store_updated": null,
