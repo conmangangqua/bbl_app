@@ -674,6 +674,25 @@
       "store_version": null
     },
     {
+      "id": "reeloop",
+      "name": "Reeloop",
+      "icon": "icons/reeloop.webp",
+      "platform": "Android",
+      "description": "",
+      "features": [],
+      "downloads": {
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/reeloop_dev.apk"
+      },
+      "versions": {
+        "dev": "1.0.0+1"
+      },
+      "store": "",
+      "category": "Entertainment",
+      "category_source": "gitlab",
+      "store_updated": null,
+      "store_version": null
+    },
+    {
       "id": "sound_lab",
       "name": "Sound Lab",
       "icon": "icons/sound_lab.webp",

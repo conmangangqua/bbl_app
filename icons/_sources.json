@@ -150,5 +150,9 @@
   "lumira_baby": {
     "sha": "cf2d1b3d988c75df7dd9cf07597904af28a996ac9c259c1bc809fd0512ec64b1",
     "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/lumira_baby_icon.png"
+  },
+  "reeloop": {
+    "sha": "18ea2604fc3657b8dfc48ea71b8b8c703e9e141640037be27e19c84a6bcdbb90",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/reeloop_icon.png"
   }
 }
