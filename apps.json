@@ -136,7 +136,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Aug 21, 2026",
-      "store_version": null
+      "store_version": "26081601 (1.0.2)"
     },
     {
       "id": "fast_fetch",
@@ -389,7 +389,7 @@
       "category": "Video",
       "category_source": "override",
       "store_updated": "Aug 21, 2026",
-      "store_version": null
+      "store_version": "26081801 (1.0.3)"
     },
     {
       "id": "lumira_baby",
@@ -625,7 +625,7 @@
       "category": "Photography",
       "category_source": "store",
       "store_updated": "Aug 6, 2026",
-      "store_version": null
+      "store_version": "26072503 (1.0.0)"
     },
     {
       "id": "quartz_browser",
@@ -644,11 +644,11 @@
         "prod": "1.0.3+26081501",
         "aab": "1.0.2+26081801"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.quartz.browser",
+      "store": "",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Aug 18, 2026",
-      "store_version": "26081801 (1.0.2)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "quicksave",
@@ -694,7 +694,7 @@
       "category": "Tools",
       "category_source": "store",
       "store_updated": "Aug 21, 2026",
-      "store_version": null
+      "store_version": "26081801 (1.0.2)"
     },
     {
       "id": "task_nest",
