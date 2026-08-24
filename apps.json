@@ -552,11 +552,11 @@
         "aab": "1.0.3+26081801",
         "noads": "1.0.0+1"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.pebble.browser",
+      "store": "",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Aug 18, 2026",
-      "store_version": "26081801 (1.0.3)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "pitch_side",
@@ -734,11 +734,11 @@
         "prod": "1.0.0+26071001",
         "aab": "1.0.0+26071001"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.tasknest",
+      "store": "",
       "category": "Productivity",
       "category_source": "store",
-      "store_updated": "Jul 10, 2026",
-      "store_version": "26071001 (1.0.0)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "vaultix_browser",
