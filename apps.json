@@ -89,7 +89,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.calliq.caller",
       "category": "Caller ID",
       "category_source": "rule",
-      "store_updated": "Aug 11, 2026",
+      "store_updated": "Aug 21, 2026",
       "store_version": "26081902 (1.0.3)"
     },
     {
@@ -388,7 +388,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.lumio.ai",
       "category": "Video",
       "category_source": "override",
-      "store_updated": "Aug 14, 2026",
+      "store_updated": "Aug 21, 2026",
       "store_version": null
     },
     {
@@ -411,7 +411,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.bloomi",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": "Jul 29, 2026",
+      "store_updated": "Aug 21, 2026",
       "store_version": "26081901 (1.0.5)"
     },
     {
