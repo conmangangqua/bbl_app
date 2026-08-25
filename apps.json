@@ -222,7 +222,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "",
+      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
@@ -602,7 +602,7 @@
       "category": "Photography",
       "category_source": "store",
       "store_updated": "Jul 23, 2026",
-      "store_version": "1.0.2"
+      "store_version": "1.0.3"
     },
     {
       "id": "pixora_ai",
@@ -785,7 +785,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.velvet.drama",
       "category": "Streaming",
       "category_source": "rule",
-      "store_updated": "Aug 12, 2026",
+      "store_updated": "Aug 24, 2026",
       "store_version": "26081701 (1.0.5)"
     },
     {
