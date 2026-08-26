@@ -178,11 +178,11 @@
         "prod": "1.0.4+26080901",
         "aab": "1.0.5+26081401"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
+      "store": "",
       "category": "Downloader",
       "category_source": "rule",
-      "store_updated": "Aug 14, 2026",
-      "store_version": "26081401 (1.0.5)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "fluxvpn",
@@ -385,11 +385,11 @@
         "prod": "1.0.3+26081801",
         "aab": "1.0.3+26081801"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.lumio.ai",
+      "store": "",
       "category": "Video",
       "category_source": "override",
-      "store_updated": "Aug 21, 2026",
-      "store_version": "26081801 (1.0.3)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "lumira_baby",
@@ -647,8 +647,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.quartz.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 18, 2026",
+      "store_version": "26081801 (1.0.2)"
     },
     {
       "id": "quicksave",
