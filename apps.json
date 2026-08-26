@@ -552,11 +552,11 @@
         "aab": "1.0.3+26082601",
         "noads": "1.0.0+1"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.pebble.browser",
+      "store": "",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Aug 18, 2026",
-      "store_version": "26081801 (1.0.3)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "pitch_side",
