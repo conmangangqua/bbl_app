@@ -475,7 +475,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/obsidian_browser.aab"
       },
       "versions": {
-        "dev": "1.0.5+26081402",
+        "dev": "1.0.5+26081801",
         "prod": "1.0.5+26081402",
         "aab": "1.0.5+26081801"
       },
@@ -575,11 +575,11 @@
         "prod": "1.0.3+26062602",
         "aab": "1.0.4+26070402"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.scoredeck",
+      "store": "",
       "category": "Sports",
       "category_source": "store",
-      "store_updated": "Jun 26, 2026",
-      "store_version": "26062602 (1.0.3)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "pixa_ai",
