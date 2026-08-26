@@ -175,7 +175,7 @@
       },
       "versions": {
         "dev": "1.0.6+26082601",
-        "prod": "1.0.4+26080901",
+        "prod": "1.0.6+26082601",
         "aab": "1.0.5+26081401"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
