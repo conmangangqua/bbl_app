@@ -181,8 +181,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
       "category": "Downloader",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 14, 2026",
+      "store_version": "26081401 (1.0.5)"
     },
     {
       "id": "fluxvpn",
@@ -222,7 +222,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "",
+      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
@@ -385,11 +385,11 @@
         "prod": "1.0.3+26081801",
         "aab": "1.0.3+26081801"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.lumio.ai",
       "category": "Video",
       "category_source": "override",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 21, 2026",
+      "store_version": "26081801 (1.0.3)"
     },
     {
       "id": "lumira_baby",
@@ -523,7 +523,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/pdf_platinum.aab"
       },
       "versions": {
-        "dev": "1.0.4+26080502",
+        "dev": "1.0.8+26082102",
         "prod": "1.0.4+26080502",
         "aab": "1.0.8+26082102"
       },
