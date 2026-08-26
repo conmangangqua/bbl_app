@@ -222,7 +222,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
+      "store": "",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
@@ -763,7 +763,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Aug 5, 2026",
-      "store_version": "26080502 (1.0.6)"
+      "store_version": null
     },
     {
       "id": "velvet_drama",
@@ -809,7 +809,7 @@
       "category": "Video",
       "category_source": "override",
       "store_updated": "Aug 13, 2026",
-      "store_version": "1.0.8"
+      "store_version": null
     },
     {
       "id": "voltplay",
