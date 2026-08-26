@@ -182,7 +182,7 @@
       "category": "Downloader",
       "category_source": "rule",
       "store_updated": "Aug 14, 2026",
-      "store_version": "26081401 (1.0.5)"
+      "store_version": null
     },
     {
       "id": "fluxvpn",
@@ -460,7 +460,7 @@
       "category": "Cleaner & Booster",
       "category_source": "rule",
       "store_updated": "Aug 20, 2026",
-      "store_version": "26082002 (1.0.2)"
+      "store_version": null
     },
     {
       "id": "obsidian_browser",
