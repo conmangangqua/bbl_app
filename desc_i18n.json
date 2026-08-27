@@ -55,6 +55,10 @@
   "en": "Private web browser built for fast, lightweight, distraction-free browsing.",
   "vi": "Trình duyệt web riêng tư được xây dựng để duyệt nhanh, nhẹ, không bị phân tâm."
  },
+ "klenzo": {
+  "en": "Phone cleaner to clear junk, remove duplicates and free up storage space.",
+  "vi": "Trình dọn dẹp điện thoại để dọn rác, loại bỏ các bản sao và giải phóng dung lượng lưu trữ."
+ },
  "lingowl": {
   "en": "AI English tutor that spots your mistakes and coaches you daily.",
   "vi": "Gia sư tiếng Anh AI sẽ phát hiện lỗi của bạn và huấn luyện bạn hàng ngày."
@@ -110,6 +114,10 @@
  "quicksave": {
   "en": "Video downloader to save clips to your gallery from sites that allow it.",
   "vi": "Trình tải xuống video để lưu clip vào thư viện của bạn từ các trang web cho phép điều đó."
+ },
+ "reeloop": {
+  "en": "Short drama app: binge vertical mini-series episode by episode, endless reels.",
+  "vi": "Ứng dụng phim truyền hình ngắn: các tập phim ngắn theo chiều dọc theo từng tập, các cuộn phim bất tận."
  },
  "sound_lab": {
   "en": "Eject water from your speakers and test your audio with precision sound tools.",
