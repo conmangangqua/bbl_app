@@ -154,5 +154,9 @@
   "reeloop": {
     "sha": "18ea2604fc3657b8dfc48ea71b8b8c703e9e141640037be27e19c84a6bcdbb90",
     "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/reeloop_icon.png"
+  },
+  "klenzo": {
+    "sha": "f01e20a4cf68f292dbcd87e0e9a7a40291eb3022e09f5a70ab8b79d4adf4e2dd",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/klenzo_icon.png"
   }
 }
