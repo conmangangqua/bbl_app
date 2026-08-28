@@ -13,7 +13,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/amethia.aab"
       },
       "versions": {
-        "dev": "1.0.1+26081901",
+        "dev": "1.0.1+26082801",
         "prod": "1.0.1+26081901",
         "aab": "1.0.0+26081502"
       },
@@ -249,7 +249,7 @@
       "category": "Art & Design",
       "category_source": "store",
       "store_updated": "Aug 1, 2026",
-      "store_version": "26072901 (1.1.0)"
+      "store_version": "1.1.0"
     },
     {
       "id": "glucomate",
