@@ -248,7 +248,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.aiart",
       "category": "Art & Design",
       "category_source": "store",
-      "store_updated": "Aug 1, 2026",
+      "store_updated": "Aug 27, 2026",
       "store_version": "1.1.0"
     },
     {
@@ -622,7 +622,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.pixaai",
       "category": "Photography",
       "category_source": "store",
-      "store_updated": "Aug 25, 2026",
+      "store_updated": "Aug 27, 2026",
       "store_version": "1.0.3"
     },
     {
@@ -829,7 +829,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
       "category": "Video",
       "category_source": "override",
-      "store_updated": "Aug 13, 2026",
+      "store_updated": "Aug 27, 2026",
       "store_version": "1.0.8"
     },
     {
@@ -853,7 +853,7 @@
       "category": "Tools",
       "category_source": "store",
       "store_updated": "Aug 5, 2026",
-      "store_version": "26082301 (1.0.4)"
+      "store_version": "1.0.4"
     },
     {
       "id": "voxlock",
