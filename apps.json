@@ -358,7 +358,7 @@
         "dev": "1.0.0+1",
         "prod": "1.0.0+1"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.klenzo",
+      "store": "",
       "category": "cleaner",
       "category_source": "gitlab",
       "store_updated": null,
@@ -688,7 +688,7 @@
         "prod": "1.0.7+26080501",
         "aab": "1.0.7+26080501"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tmt.quicksave",
+      "store": "",
       "category": "Downloader",
       "category_source": "rule",
       "store_updated": null,
