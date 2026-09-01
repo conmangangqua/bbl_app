@@ -642,11 +642,11 @@
         "prod": "1.0.0+26072503",
         "aab": "1.0.0+26072503"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.pixora.ai",
-      "category": "Photography",
-      "category_source": "store",
-      "store_updated": "Aug 6, 2026",
-      "store_version": "26072503 (1.0.0)"
+      "store": "",
+      "category": "photo-ai",
+      "category_source": "gitlab",
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "quartz_browser",
