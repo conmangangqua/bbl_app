@@ -504,7 +504,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Aug 18, 2026",
-      "store_version": "26081801 (1.0.5)"
+      "store_version": "1.0.5"
     },
     {
       "id": "onyx_browser",
@@ -528,7 +528,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.onyx.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Aug 5, 2026",
+      "store_updated": "Aug 30, 2026",
       "store_version": "1.0.6"
     },
     {
@@ -577,7 +577,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Aug 18, 2026",
-      "store_version": "26081801 (1.0.3)"
+      "store_version": "1.0.3"
     },
     {
       "id": "pitch_side",
@@ -736,7 +736,7 @@
       "category": "Tools",
       "category_source": "store",
       "store_updated": "Aug 21, 2026",
-      "store_version": "26081801 (1.0.2)"
+      "store_version": null
     },
     {
       "id": "task_nest",
