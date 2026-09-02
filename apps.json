@@ -295,7 +295,7 @@
       "category": "Sports",
       "category_source": "store",
       "store_updated": "Jul 2, 2026",
-      "store_version": "26070101 (1.0.2)"
+      "store_version": "1.0.2"
     },
     {
       "id": "inkmath",
@@ -736,7 +736,7 @@
       "category": "Tools",
       "category_source": "store",
       "store_updated": "Aug 21, 2026",
-      "store_version": null
+      "store_version": "26081801 (1.0.2)"
     },
     {
       "id": "task_nest",
