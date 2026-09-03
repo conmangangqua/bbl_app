@@ -158,5 +158,9 @@
   "klenzo": {
     "sha": "f01e20a4cf68f292dbcd87e0e9a7a40291eb3022e09f5a70ab8b79d4adf4e2dd",
     "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/klenzo_icon.png"
+  },
+  "kaleidra": {
+    "sha": "dde47515d53947ded2df2b05e147aafa820b5880a592b6b53c5e088189727fa5",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/kaleidra_icon.png"
   }
 }
