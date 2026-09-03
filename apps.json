@@ -169,10 +169,12 @@
       "description": "",
       "features": [],
       "downloads": {
-        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/ferelia_dev.apk"
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/ferelia_dev.apk",
+        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/ferelia_prod.apk"
       },
       "versions": {
-        "dev": "1.0.0+1"
+        "dev": "1.0.0+1",
+        "prod": "1.0.0+1"
       },
       "store": "",
       "category": "Entertainment",
