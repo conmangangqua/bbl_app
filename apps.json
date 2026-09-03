@@ -222,7 +222,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "",
+      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
@@ -294,7 +294,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.goalarena",
       "category": "Sports",
       "category_source": "store",
-      "store_updated": "Jul 2, 2026",
+      "store_updated": "Sep 2, 2026",
       "store_version": "1.0.2"
     },
     {
