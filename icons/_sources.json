@@ -166,5 +166,9 @@
   "thornevale": {
     "sha": "8ea6f710d24ca68fc115d12d192880b454349a46b8a83113d68da29875ee6699",
     "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/thornevale_icon.png"
+  },
+  "mirevale": {
+    "sha": "146834879d8e5580cfd827372549d12120d8c35c846d7deee2aef65056d34ffc",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/mirevale_icon.png"
   }
 }
