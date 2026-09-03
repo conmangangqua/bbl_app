@@ -243,7 +243,7 @@
       "versions": {
         "dev": "1.1.0+26073101",
         "prod": "1.1.0+26073101",
-        "aab": "1.1.0+26072901"
+        "aab": "1.1.0+26090301"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.aiart",
       "category": "Art & Design",
@@ -669,7 +669,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Aug 18, 2026",
-      "store_version": "26081801 (1.0.2)"
+      "store_version": "1.0.3"
     },
     {
       "id": "quicksave",
