@@ -170,5 +170,9 @@
   "mirevale": {
     "sha": "146834879d8e5580cfd827372549d12120d8c35c846d7deee2aef65056d34ffc",
     "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/mirevale_icon.png"
+  },
+  "ferelia": {
+    "sha": "b631c3459652609898956b3811e4b7b16ed092ba4955c64c82b8fb59ecb781de",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/ferelia_icon.png"
   }
 }
