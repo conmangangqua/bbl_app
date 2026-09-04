@@ -27,6 +27,10 @@
   "en": "Video downloader that saves clips from allowed sites to your offline gallery.",
   "vi": "Trình tải xuống video lưu clip từ các trang web được phép vào thư viện ngoại tuyến của bạn."
  },
+ "ferelia": {
+  "en": "Vertical short dramas for your night — love, betrayal, one episode at a time.",
+  "vi": "Phim truyền hình ngắn theo chiều dọc cho đêm của bạn - tình yêu, sự phản bội, mỗi lần một tập."
+ },
  "fetchly_downloader": {
   "en": "Video downloader that saves clips to your gallery in a few taps.",
   "vi": "Trình tải xuống video lưu clip vào thư viện của bạn chỉ bằng một vài thao tác."
@@ -51,6 +55,10 @@
   "en": "Handwriting math solver: write equations, get steps and graphs instantly.",
   "vi": "Trình giải toán viết tay: viết phương trình, lấy các bước và đồ thị ngay lập tức."
  },
+ "kaleidra": {
+  "en": "Short dramas sorted by mood — binge vertical series, episode by episode.",
+  "vi": "Phim truyền hình ngắn được sắp xếp theo tâm trạng - loạt phim dài tập theo chiều dọc, từng tập."
+ },
  "kestrel_browser": {
   "en": "Private web browser built for fast, lightweight, distraction-free browsing.",
   "vi": "Trình duyệt web riêng tư được xây dựng để duyệt nhanh, nhẹ, không bị phân tâm."
@@ -70,6 +78,10 @@
  "lumira_baby": {
   "en": "Period, ovulation & pregnancy tracker with private, on-device cycle predictions",
   "vi": "Theo dõi chu kỳ kinh nguyệt, rụng trứng và mang thai với các dự đoán chu kỳ riêng tư trên thiết bị"
+ },
+ "mirevale": {
+  "en": "Binge vertical short dramas—unlock episodes, fresh stories added every day.",
+  "vi": "Những bộ phim truyền hình dài tập ngắn theo chiều dọc—mở khóa các tập phim, những câu chuyện mới được thêm vào mỗi ngày."
  },
  "mochi_chat": {
   "en": "AI Chat with voice, brainstorming and daily conversations — always ready.",
@@ -126,6 +138,10 @@
  "task_nest": {
   "en": "Daily planner to plan tasks, set reminders, and track your progress.",
   "vi": "Công cụ lập kế hoạch hàng ngày để lập kế hoạch nhiệm vụ, đặt lời nhắc và theo dõi tiến trình của bạn."
+ },
+ "thornevale": {
+  "en": "Vertical short dramas — love, revenge and the turn nobody saw coming.",
+  "vi": "Những bộ phim truyền hình ngắn theo chiều dọc - tình yêu, sự trả thù và ngã rẽ không ai ngờ tới."
  },
  "vaultix_browser": {
   "en": "Private web browser — fast, lightweight browsing that stays yours.",
