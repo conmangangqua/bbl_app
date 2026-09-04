@@ -136,7 +136,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Aug 21, 2026",
-      "store_version": "26081601 (1.0.2)"
+      "store_version": "1.0.3"
     },
     {
       "id": "fast_fetch",
@@ -962,7 +962,7 @@
       "category": "Personalization",
       "category_source": "store",
       "store_updated": "Aug 10, 2026",
-      "store_version": "26081001 (1.0.3)"
+      "store_version": "1.0.4"
     },
     {
       "id": "whispr",
