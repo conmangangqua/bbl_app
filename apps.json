@@ -243,7 +243,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
+      "store": "",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
@@ -353,7 +353,7 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/kaleidra_prod.apk"
       },
       "versions": {
-        "dev": "1.0.0+1",
+        "dev": "1.0.0+26090401",
         "prod": "1.0.0+1"
       },
       "store": "",
