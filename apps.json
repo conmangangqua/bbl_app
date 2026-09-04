@@ -95,7 +95,7 @@
     {
       "id": "decora",
       "name": "Decora: DIY Wallpaper Maker",
-      "icon": "icons/decora.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/decora_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -489,8 +489,7 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/mirevale_prod.apk"
       },
       "versions": {
-        "dev": "1.0.0+1",
-        "prod": "1.0.0+1"
+        "dev": "1.0.0+1"
       },
       "store": "",
       "category": "Entertainment",
@@ -839,7 +838,7 @@
       },
       "versions": {
         "dev": "1.0.0+26090401",
-        "prod": "1.0.0+1"
+        "prod": "1.0.0+26090401"
       },
       "store": "",
       "category": "Entertainment",
