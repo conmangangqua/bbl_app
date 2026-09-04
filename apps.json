@@ -173,7 +173,7 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/ferelia_prod.apk"
       },
       "versions": {
-        "dev": "1.0.0+1",
+        "dev": "1.0.0+26090401",
         "prod": "1.0.0+1"
       },
       "store": "",
