@@ -230,7 +230,7 @@
     },
     {
       "id": "gba_emulator",
-      "name": "Retro Game Player",
+      "name": "GBA Emulator",
       "icon": "icons/gba_emulator.webp",
       "platform": "iOS",
       "description": "",
