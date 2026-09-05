@@ -21,7 +21,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Sep 4, 2026",
-      "store_version": null
+      "store_version": "1.0.2"
     },
     {
       "id": "aura_recover",
@@ -489,7 +489,7 @@
         "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/mirevale_prod.apk"
       },
       "versions": {
-        "dev": "1.0.0+26090401",
+        "dev": "1.0.0+1",
         "prod": "1.0.0+26090401"
       },
       "store": "",
