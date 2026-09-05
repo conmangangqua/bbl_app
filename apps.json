@@ -230,7 +230,7 @@
     },
     {
       "id": "gba_emulator",
-      "name": "GBA Emulator",
+      "name": "Retro Game Player",
       "icon": "icons/gba_emulator.webp",
       "platform": "iOS",
       "description": "",
@@ -243,7 +243,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "",
+      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
