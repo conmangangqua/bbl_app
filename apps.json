@@ -893,7 +893,7 @@
         "prod": "1.0.6+26090301",
         "aab": "1.0.5+26081701"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.velvet.drama",
       "category": "Streaming",
       "category_source": "rule",
       "store_updated": null,
