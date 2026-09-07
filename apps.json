@@ -939,7 +939,7 @@
         "prod": "1.0.4+26081801",
         "aab": "1.0.4+26090301"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
       "category": "Tools",
       "category_source": "store",
       "store_updated": null,
