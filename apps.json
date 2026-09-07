@@ -135,7 +135,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.dreamring",
       "category": "Entertainment",
       "category_source": "store",
-      "store_updated": "Aug 21, 2026",
+      "store_updated": "Sep 4, 2026",
       "store_version": "1.0.3"
     },
     {
@@ -243,7 +243,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
+      "store": "",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
@@ -455,7 +455,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.lumio.ai",
       "category": "Video",
       "category_source": "override",
-      "store_updated": "Aug 21, 2026",
+      "store_updated": "Sep 3, 2026",
       "store_version": "1.0.4"
     },
     {
@@ -643,7 +643,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.pebble.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Sep 2, 2026",
+      "store_updated": "Sep 4, 2026",
       "store_version": "26090401 (1.0.4)"
     },
     {
@@ -689,7 +689,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.pixaai",
       "category": "Photography",
       "category_source": "store",
-      "store_updated": "Sep 3, 2026",
+      "store_updated": "Sep 4, 2026",
       "store_version": "1.0.3"
     },
     {
@@ -873,7 +873,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.vaultix.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Aug 5, 2026",
+      "store_updated": "Sep 3, 2026",
       "store_version": "1.0.6"
     },
     {
@@ -896,8 +896,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.velvet.drama",
       "category": "Streaming",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 24, 2026",
+      "store_version": "1.0.6"
     },
     {
       "id": "vidnova",
@@ -939,11 +939,11 @@
         "prod": "1.0.4+26081801",
         "aab": "1.0.4+26090301"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
+      "store": "",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": "Aug 5, 2026",
-      "store_version": "26090301 (1.0.4)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "voxlock",
