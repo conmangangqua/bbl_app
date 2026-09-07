@@ -429,7 +429,7 @@
         "aab": "1.0.2+26090401",
         "noads": "1.0.0+1"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.lingowl",
       "category": "Education",
       "category_source": "store",
       "store_updated": null,
@@ -985,7 +985,7 @@
         "prod": "1.0.7+26090601",
         "aab": "1.0.6+26081501"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.whispr.caller",
       "category": "Caller ID",
       "category_source": "rule",
       "store_updated": null,
