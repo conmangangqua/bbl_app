@@ -17,11 +17,11 @@
         "prod": "1.0.2+26090301",
         "aab": "1.0.1+26082801"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.amethia",
+      "store": "",
       "category": "Entertainment",
       "category_source": "store",
-      "store_updated": "Sep 4, 2026",
-      "store_version": "1.0.2"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "aura_recover",
@@ -666,8 +666,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.scoredeck",
       "category": "Sports",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jun 26, 2026",
+      "store_version": "26062602 (1.0.3)"
     },
     {
       "id": "pixa_ai",
@@ -805,7 +805,7 @@
       "category": "Tools",
       "category_source": "store",
       "store_updated": "Aug 21, 2026",
-      "store_version": "26081801 (1.0.2)"
+      "store_version": null
     },
     {
       "id": "task_nest",
@@ -839,11 +839,13 @@
       "features": [],
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/thornevale_dev.apk",
-        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/thornevale_prod.apk"
+        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/thornevale_prod.apk",
+        "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/thornevale.aab"
       },
       "versions": {
         "dev": "1.0.0+1",
-        "prod": "1.0.0+1"
+        "prod": "1.0.0+1",
+        "aab": "1.0.0+26090801"
       },
       "store": "",
       "category": "Entertainment",
