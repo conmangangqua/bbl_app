@@ -243,7 +243,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "",
+      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
@@ -942,8 +942,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 5, 2026",
+      "store_version": "26090301 (1.0.4)"
     },
     {
       "id": "voxlock",
