@@ -895,7 +895,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/velvet_drama.aab"
       },
       "versions": {
-        "dev": "1.0.6+26090301",
+        "dev": "1.0.7+26090801",
         "prod": "1.0.6+26090301",
         "aab": "1.0.5+26081701"
       },
