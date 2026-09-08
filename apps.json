@@ -14,7 +14,6 @@
       },
       "versions": {
         "dev": "1.0.2+26090301",
-        "prod": "1.0.2+26090301",
         "aab": "1.0.1+26082801"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.amethia",
@@ -36,7 +35,6 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/aura_recover.aab"
       },
       "versions": {
-        "dev": "1.0.7+26062201",
         "prod": "1.0.7+26062201",
         "aab": "1.0.7+26062201"
       },
@@ -265,7 +263,6 @@
       },
       "versions": {
         "dev": "1.1.0+26090401",
-        "prod": "1.1.0+26090401",
         "aab": "1.1.0+26090301"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.aiart",
@@ -520,8 +517,7 @@
       },
       "versions": {
         "dev": "1.0.6+26082501",
-        "prod": "1.0.6+26082501",
-        "aab": "1.0.6+26082201"
+        "prod": "1.0.6+26082501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.mochi.chat",
       "category": "AI Chat",
@@ -567,7 +563,6 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/obsidian_browser.aab"
       },
       "versions": {
-        "dev": "1.0.5+26081801",
         "prod": "1.0.5+26081801",
         "aab": "1.0.5+26081801"
       },
@@ -686,7 +681,6 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/pixa_ai.aab"
       },
       "versions": {
-        "dev": "1.0.3+26090401",
         "prod": "1.0.3+26090401",
         "aab": "1.0.3+26090301"
       },
@@ -896,7 +890,6 @@
       },
       "versions": {
         "dev": "1.0.7+26090801",
-        "prod": "1.0.7+26090801",
         "aab": "1.0.5+26081701"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.velvet.drama",
