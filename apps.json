@@ -498,7 +498,7 @@
       "versions": {
         "dev": "1.0.0+1",
         "prod": "1.0.0+1",
-        "aab": "1.0.0+26090801"
+        "aab": "1.0.0+26090802"
       },
       "store": "",
       "category": "Entertainment",
@@ -972,7 +972,7 @@
       "category": "Personalization",
       "category_source": "store",
       "store_updated": "Sep 4, 2026",
-      "store_version": "1.0.4"
+      "store_version": "1.0.5"
     },
     {
       "id": "whispr",
