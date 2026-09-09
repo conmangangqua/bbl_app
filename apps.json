@@ -965,7 +965,7 @@
       },
       "versions": {
         "dev": "1.0.6+26090901",
-        "prod": "1.0.5+26090801",
+        "prod": "1.0.6+26090901",
         "aab": "1.0.4+26082501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voxlock",
