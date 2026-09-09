@@ -317,7 +317,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.goalarena",
       "category": "Sports",
       "category_source": "store",
-      "store_updated": "Sep 2, 2026",
+      "store_updated": "Sep 8, 2026",
       "store_version": "1.0.2"
     },
     {
@@ -356,7 +356,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/kaleidra.aab"
       },
       "versions": {
-        "dev": "1.0.0+26090602",
+        "dev": "1.0.0+26090703",
         "prod": "1.0.0+26090602",
         "aab": "1.0.0+26090602"
       },
@@ -406,11 +406,11 @@
         "prod": "1.0.0+26090601",
         "aab": "1.0.0+26090901"
       },
-      "store": "",
-      "category": "cleaner",
-      "category_source": "gitlab",
-      "store_updated": null,
-      "store_version": null
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.klenzo",
+      "category": "Productivity",
+      "category_source": "store",
+      "store_updated": "Sep 5, 2026",
+      "store_version": "26090601 (1.0.0)"
     },
     {
       "id": "lingowl",
@@ -903,7 +903,7 @@
       "category": "Streaming",
       "category_source": "rule",
       "store_updated": "Sep 3, 2026",
-      "store_version": "1.0.6"
+      "store_version": "1.0.7"
     },
     {
       "id": "vidnova",
