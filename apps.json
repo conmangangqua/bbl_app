@@ -387,7 +387,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Aug 15, 2026",
-      "store_version": null
+      "store_version": "26081501 (1.0.6)"
     },
     {
       "id": "klenzo",
@@ -435,7 +435,7 @@
       "category": "Education",
       "category_source": "store",
       "store_updated": "Sep 8, 2026",
-      "store_version": null
+      "store_version": "1.0.3"
     },
     {
       "id": "lumio",
