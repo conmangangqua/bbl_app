@@ -356,7 +356,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/kaleidra.aab"
       },
       "versions": {
-        "dev": "1.0.0+26090703",
+        "dev": "1.0.1+26090703",
         "prod": "1.0.0+26090703",
         "aab": "1.0.0+26090602"
       },
