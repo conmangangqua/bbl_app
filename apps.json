@@ -220,7 +220,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/fluxvpn.aab"
       },
       "versions": {
-        "dev": "1.0.1+26030901",
+        "dev": "1.0.1+26080501",
         "prod": "1.0.1+26030901",
         "aab": "1.0.1+26080501"
       },
@@ -360,11 +360,11 @@
         "prod": "1.0.0+26090703",
         "aab": "1.0.0+26090602"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kaleidra",
       "category": "Entertainment",
-      "category_source": "gitlab",
-      "store_updated": null,
-      "store_version": null
+      "category_source": "store",
+      "store_updated": "Sep 7, 2026",
+      "store_version": "1.0.0"
     },
     {
       "id": "kestrel_browser",
@@ -714,7 +714,7 @@
         "aab": "1.0.0+26072503"
       },
       "store": "",
-      "category": "photo-ai",
+      "category": "Photography",
       "category_source": "gitlab",
       "store_updated": null,
       "store_version": null
@@ -782,11 +782,11 @@
         "prod": "1.0.0+26090601",
         "aab": "1.0.0+26090601"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.reeloop",
       "category": "Entertainment",
-      "category_source": "gitlab",
-      "store_updated": null,
-      "store_version": null
+      "category_source": "store",
+      "store_updated": "Sep 6, 2026",
+      "store_version": "26090601 (1.0.0)"
     },
     {
       "id": "sound_lab",
