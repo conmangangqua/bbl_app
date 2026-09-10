@@ -346,7 +346,7 @@
     {
       "id": "kaleidra",
       "name": "Kaleidra",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/kaleidra_icon.png",
+      "icon": "icons/kaleidra.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -802,6 +802,7 @@
       },
       "versions": {
         "dev": "1.0.2+26081801",
+        "prod": "1.0.2+26081801",
         "aab": "1.0.2+26081801"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.soundlab",
@@ -941,6 +942,7 @@
       },
       "versions": {
         "dev": "1.0.4+26081801",
+        "prod": "1.0.4+26081801",
         "aab": "1.0.4+26090301"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
@@ -1008,6 +1010,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/wifi_key_map.aab"
       },
       "versions": {
+        "dev": "1.0.3+26081801",
         "prod": "1.0.3+26081801",
         "aab": "1.0.3+26081801"
       },
