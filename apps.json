@@ -690,11 +690,11 @@
         "prod": "1.0.3+26090401",
         "aab": "1.0.3+26090301"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.pixaai",
       "category": "Photography",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Sep 4, 2026",
+      "store_version": "1.0.3"
     },
     {
       "id": "pixora_ai",
