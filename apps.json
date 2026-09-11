@@ -380,7 +380,7 @@
       },
       "versions": {
         "dev": "1.0.7+26090902",
-        "prod": "1.0.6+26081501",
+        "prod": "1.0.7+26090902",
         "aab": "1.0.6+26081501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
