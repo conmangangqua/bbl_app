@@ -181,8 +181,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.ferelia",
       "category": "Entertainment",
       "category_source": "store",
-      "store_updated": "Sep 9, 2026",
-      "store_version": "26090802 (1.0.0)"
+      "store_updated": "Sep 12, 2026",
+      "store_version": "1.0.1"
     },
     {
       "id": "fetchly_downloader",
@@ -503,8 +503,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.mirevale",
       "category": "Entertainment",
       "category_source": "store",
-      "store_updated": "Sep 9, 2026",
-      "store_version": "26090802 (1.0.0)"
+      "store_updated": "Sep 13, 2026",
+      "store_version": "1.0.1"
     },
     {
       "id": "mochi_chat",
@@ -855,7 +855,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Sep 9, 2026",
-      "store_version": "26090802 (1.0.0)"
+      "store_version": "1.0.1"
     },
     {
       "id": "vaultix_browser",
