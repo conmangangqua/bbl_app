@@ -89,8 +89,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.calliq.caller",
       "category": "Caller ID",
       "category_source": "rule",
-      "store_updated": "Aug 21, 2026",
-      "store_version": "26081902 (1.0.3)"
+      "store_updated": "Sep 14, 2026",
+      "store_version": "1.0.4"
     },
     {
       "id": "decora",
@@ -245,7 +245,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
+      "store": "",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
@@ -971,7 +971,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voxlock",
       "category": "Personalization",
       "category_source": "store",
-      "store_updated": "Sep 10, 2026",
+      "store_updated": "Sep 14, 2026",
       "store_version": "1.0.7"
     },
     {
@@ -1018,7 +1018,7 @@
       "category": "Tools",
       "category_source": "store",
       "store_updated": "Aug 18, 2026",
-      "store_version": "26081801 (1.0.3)"
+      "store_version": "1.0.4"
     }
   ]
 }
