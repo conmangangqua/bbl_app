@@ -83,7 +83,7 @@
       },
       "versions": {
         "dev": "1.0.4+26091403",
-        "prod": "1.0.3+26081902",
+        "prod": "1.0.4+26091403",
         "aab": "1.0.3+26081902"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.calliq.caller",
