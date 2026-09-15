@@ -356,7 +356,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/kaleidra.aab"
       },
       "versions": {
-        "dev": "1.0.1+26090703",
+        "dev": "1.0.2+26091201",
         "prod": "1.0.1+26090703",
         "aab": "1.0.0+26090602"
       },
@@ -828,11 +828,11 @@
         "prod": "1.0.0+26071001",
         "aab": "1.0.0+26071001"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.tasknest",
       "category": "Productivity",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jul 10, 2026",
+      "store_version": "26071001 (1.0.0)"
     },
     {
       "id": "thornevale",
