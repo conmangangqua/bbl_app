@@ -428,7 +428,8 @@
       "versions": {
         "dev": "1.0.2+26090401",
         "prod": "1.0.2+26090401",
-        "aab": "1.0.2+26090401"
+        "aab": "1.0.2+26090401",
+        "noads": "1.0.0+1"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.lingowl",
       "category": "Education",
@@ -450,7 +451,7 @@
       },
       "versions": {
         "dev": "1.0.6+26091501",
-        "prod": "1.0.4+26091402",
+        "prod": "1.0.6+26091501",
         "aab": "1.0.4+26090301"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.lumio.ai",
