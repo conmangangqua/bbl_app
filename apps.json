@@ -182,7 +182,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Sep 12, 2026",
-      "store_version": "1.0.1"
+      "store_version": "1.0.2"
     },
     {
       "id": "fetchly_downloader",
@@ -364,7 +364,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Sep 12, 2026",
-      "store_version": "1.0.1"
+      "store_version": "1.0.2"
     },
     {
       "id": "kestrel_browser",
@@ -504,7 +504,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Sep 13, 2026",
-      "store_version": "1.0.1"
+      "store_version": "1.0.2"
     },
     {
       "id": "mochi_chat",
@@ -855,7 +855,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Sep 13, 2026",
-      "store_version": "1.0.1"
+      "store_version": "1.0.2"
     },
     {
       "id": "vaultix_browser",
@@ -1010,7 +1010,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/wifi_key_map.aab"
       },
       "versions": {
-        "dev": "1.0.4+26091401",
+        "dev": "1.0.5+26091402",
         "prod": "1.0.4+26091401",
         "aab": "1.0.3+26081801"
       },
