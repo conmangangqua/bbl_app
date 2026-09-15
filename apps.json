@@ -357,7 +357,7 @@
       },
       "versions": {
         "dev": "1.0.2+26091201",
-        "prod": "1.0.1+26090703",
+        "prod": "1.0.2+26091201",
         "aab": "1.0.0+26090602"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kaleidra",
@@ -492,12 +492,11 @@
       "features": [],
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/mirevale_dev.apk",
-        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/mirevale_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/mirevale.aab"
       },
       "versions": {
         "dev": "1.0.2+26091301",
-        "prod": "1.0.0+26090802",
+        "prod": "1.0.2+26091301",
         "aab": "1.0.0+26090802"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.mirevale",
