@@ -687,8 +687,7 @@
       },
       "versions": {
         "dev": "1.0.3+26090401",
-        "prod": "1.0.3+26090401",
-        "aab": "1.0.3+26090301"
+        "prod": "1.0.3+26090401"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.pixaai",
       "category": "Photography",
