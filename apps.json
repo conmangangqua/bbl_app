@@ -409,7 +409,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.klenzo",
       "category": "Productivity",
       "category_source": "store",
-      "store_updated": "Sep 9, 2026",
+      "store_updated": "Sep 16, 2026",
       "store_version": "1.0.1"
     },
     {
@@ -457,7 +457,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.lumio.ai",
       "category": "Video",
       "category_source": "override",
-      "store_updated": "Sep 8, 2026",
+      "store_updated": "Sep 14, 2026",
       "store_version": "1.0.4"
     },
     {
@@ -543,7 +543,7 @@
         "noads": "https://github.com/conmangangqua/bbl_app/releases/download/noads/nitroboost_dev_noads.apk"
       },
       "versions": {
-        "dev": "1.0.2+26082002",
+        "dev": "1.0.3+26091601",
         "prod": "1.0.2+26082002",
         "aab": "1.0.2+26082002",
         "noads": "1.0.0+1"
@@ -574,7 +574,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.obsidian.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Sep 2, 2026",
+      "store_updated": "Sep 16, 2026",
       "store_version": "1.0.6"
     },
     {
@@ -599,7 +599,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.onyx.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Aug 30, 2026",
+      "store_updated": "Sep 14, 2026",
       "store_version": "1.0.6"
     },
     {
@@ -739,7 +739,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.quartz.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Sep 3, 2026",
+      "store_updated": "Sep 16, 2026",
       "store_version": "1.0.4"
     },
     {
@@ -854,8 +854,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.thornevale",
       "category": "Entertainment",
       "category_source": "store",
-      "store_updated": "Sep 14, 2026",
-      "store_version": "1.0.2"
+      "store_updated": "Sep 16, 2026",
+      "store_version": "1.0.3"
     },
     {
       "id": "vaultix_browser",
@@ -1017,7 +1017,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.wifi.password.map",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": "Sep 14, 2026",
+      "store_updated": "Sep 15, 2026",
       "store_version": "1.0.4"
     }
   ]
