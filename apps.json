@@ -732,7 +732,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/quartz_browser.aab"
       },
       "versions": {
-        "dev": "1.0.4+26091501",
+        "dev": "1.0.4+26091601",
         "prod": "1.0.4+26091501",
         "aab": "1.0.3+26090301"
       },
