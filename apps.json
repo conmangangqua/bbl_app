@@ -616,7 +616,7 @@
       },
       "versions": {
         "dev": "1.0.6+26091701",
-        "prod": "1.0.8+26082102",
+        "prod": "1.0.6+26091701",
         "aab": "1.0.8+26082102"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.pdf.platinum",
@@ -942,7 +942,8 @@
       },
       "versions": {
         "dev": "1.0.4+26090301",
-        "prod": "1.0.4+26090301"
+        "prod": "1.0.4+26090301",
+        "aab": "1.0.4+26090301"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
       "category": "Tools",
