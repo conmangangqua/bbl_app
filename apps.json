@@ -245,7 +245,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
+      "store": "",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
@@ -615,7 +615,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/pdf_platinum.aab"
       },
       "versions": {
-        "dev": "1.0.8+26082102",
+        "dev": "1.0.6+26091701",
         "prod": "1.0.8+26082102",
         "aab": "1.0.8+26082102"
       },
