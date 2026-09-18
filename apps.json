@@ -181,7 +181,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.ferelia",
       "category": "movie",
       "category_source": "store",
-      "store_updated": "Sep 15, 2026",
+      "store_updated": "Sep 14, 2026",
       "store_version": "1.0.2"
     },
     {
@@ -363,7 +363,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kaleidra",
       "category": "movie",
       "category_source": "store",
-      "store_updated": "Sep 15, 2026",
+      "store_updated": "Sep 14, 2026",
       "store_version": "1.0.2"
     },
     {
@@ -503,13 +503,13 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.mirevale",
       "category": "movie",
       "category_source": "store",
-      "store_updated": "Sep 15, 2026",
+      "store_updated": "Sep 14, 2026",
       "store_version": "1.0.2"
     },
     {
       "id": "mochi_chat",
       "name": "Mochi: AI Companion Chat",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/mochi_chat_icon.png",
+      "icon": "icons/mochi_chat.webp",
       "platform": "Android",
       "description": "",
       "features": [],
