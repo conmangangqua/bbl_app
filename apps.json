@@ -89,8 +89,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.calliq.caller",
       "category": "caller",
       "category_source": "store",
-      "store_updated": "Sep 14, 2026",
-      "store_version": "1.0.4"
+      "store_updated": "Sep 18, 2026",
+      "store_version": "1.0.5"
     },
     {
       "id": "decora",
@@ -271,7 +271,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.aiart",
       "category": "photo-ai",
       "category_source": "store",
-      "store_updated": "Sep 11, 2026",
+      "store_updated": "Sep 12, 2026",
       "store_version": "1.1.2"
     },
     {
@@ -317,7 +317,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.goalarena",
       "category": "sport",
       "category_source": "store",
-      "store_updated": "Sep 8, 2026",
+      "store_updated": "Sep 9, 2026",
       "store_version": "1.0.2"
     },
     {
@@ -386,7 +386,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
       "category": "browser",
       "category_source": "store",
-      "store_updated": "Sep 11, 2026",
+      "store_updated": "Sep 12, 2026",
       "store_version": "1.0.7"
     },
     {
@@ -509,7 +509,7 @@
     {
       "id": "mochi_chat",
       "name": "Mochi: AI Companion Chat",
-      "icon": "icons/mochi_chat.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/mochi_chat_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -599,7 +599,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.onyx.browser",
       "category": "browser",
       "category_source": "store",
-      "store_updated": "Sep 14, 2026",
+      "store_updated": "Sep 15, 2026",
       "store_version": "1.0.6"
     },
     {
@@ -879,7 +879,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.vaultix.browser",
       "category": "browser",
       "category_source": "store",
-      "store_updated": "Sep 3, 2026",
+      "store_updated": "Sep 4, 2026",
       "store_version": "1.0.6"
     },
     {
@@ -902,7 +902,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.velvet.drama",
       "category": "movie",
       "category_source": "store",
-      "store_updated": "Sep 8, 2026",
+      "store_updated": "Sep 9, 2026",
       "store_version": "1.0.7"
     },
     {
@@ -948,7 +948,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
       "category": "booster",
       "category_source": "store",
-      "store_updated": "Aug 5, 2026",
+      "store_updated": "Aug 6, 2026",
       "store_version": "1.0.5"
     },
     {
