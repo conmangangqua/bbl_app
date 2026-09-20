@@ -245,7 +245,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
+      "store": "",
       "category": "game",
       "category_source": "store",
       "store_updated": null,
@@ -450,7 +450,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/lumio.aab"
       },
       "versions": {
-        "dev": "1.0.6+26091501",
+        "dev": "1.0.5+26092001",
         "prod": "1.0.6+26091501",
         "aab": "1.0.4+26090301"
       },
