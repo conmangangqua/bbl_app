@@ -21,7 +21,7 @@
       "category": "movie",
       "category_source": "store",
       "store_updated": "Sep 16, 2026",
-      "store_version": null
+      "store_version": "1.0.3"
     },
     {
       "id": "aura_recover",
@@ -72,7 +72,7 @@
     {
       "id": "calliq",
       "name": "Calliq: Caller ID & Block",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/calliq_icon.png",
+      "icon": "icons/calliq.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -90,7 +90,7 @@
       "category": "caller",
       "category_source": "store",
       "store_updated": "Sep 18, 2026",
-      "store_version": null
+      "store_version": "1.0.5"
     },
     {
       "id": "decora",
@@ -113,7 +113,7 @@
       "category": "wallpaper",
       "category_source": "store",
       "store_updated": "Aug 13, 2026",
-      "store_version": null
+      "store_version": "26081301 (1.0.3)"
     },
     {
       "id": "dream_ring",
@@ -136,7 +136,7 @@
       "category": "prank-call",
       "category_source": "store",
       "store_updated": "Sep 4, 2026",
-      "store_version": null
+      "store_version": "1.0.3"
     },
     {
       "id": "fast_fetch",
@@ -159,7 +159,7 @@
       "category": "downloader",
       "category_source": "store",
       "store_updated": "Sep 7, 2026",
-      "store_version": null
+      "store_version": "26090701 (2.0.8)"
     },
     {
       "id": "ferelia",
@@ -182,7 +182,7 @@
       "category": "movie",
       "category_source": "store",
       "store_updated": "Sep 15, 2026",
-      "store_version": null
+      "store_version": "1.0.2"
     },
     {
       "id": "fetchly_downloader",
@@ -198,13 +198,14 @@
       },
       "versions": {
         "dev": "1.0.6+26082601",
+        "prod": "1.0.6+26082601",
         "aab": "1.0.6+26082601"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
       "category": "downloader",
       "category_source": "store",
       "store_updated": "Aug 26, 2026",
-      "store_version": null
+      "store_version": "26082601 (1.0.6)"
     },
     {
       "id": "fluxvpn",
@@ -271,7 +272,7 @@
       "category": "photo-ai",
       "category_source": "store",
       "store_updated": "Sep 12, 2026",
-      "store_version": null
+      "store_version": "1.1.2"
     },
     {
       "id": "glucomate",
@@ -294,7 +295,7 @@
       "category": "health",
       "category_source": "store",
       "store_updated": "Aug 19, 2026",
-      "store_version": null
+      "store_version": "26081901 (1.0.5)"
     },
     {
       "id": "goal_arena",
@@ -317,7 +318,7 @@
       "category": "sport",
       "category_source": "store",
       "store_updated": "Sep 9, 2026",
-      "store_version": null
+      "store_version": "1.0.2"
     },
     {
       "id": "inkmath",
@@ -340,7 +341,7 @@
       "category": "math",
       "category_source": "store",
       "store_updated": "Jul 5, 2026",
-      "store_version": null
+      "store_version": "26070501 (1.0.0)"
     },
     {
       "id": "kaleidra",
@@ -363,7 +364,7 @@
       "category": "movie",
       "category_source": "store",
       "store_updated": "Sep 15, 2026",
-      "store_version": null
+      "store_version": "1.0.2"
     },
     {
       "id": "kestrel_browser",
@@ -386,7 +387,7 @@
       "category": "browser",
       "category_source": "store",
       "store_updated": "Sep 12, 2026",
-      "store_version": null
+      "store_version": "1.0.7"
     },
     {
       "id": "klenzo",
@@ -409,7 +410,7 @@
       "category": "cleaner",
       "category_source": "store",
       "store_updated": "Sep 16, 2026",
-      "store_version": null
+      "store_version": "1.0.2"
     },
     {
       "id": "lingowl",
@@ -434,7 +435,7 @@
       "category": "learning",
       "category_source": "store",
       "store_updated": "Sep 17, 2026",
-      "store_version": null
+      "store_version": "1.0.4"
     },
     {
       "id": "lumio",
@@ -457,7 +458,7 @@
       "category": "Video",
       "category_source": "override",
       "store_updated": "Sep 14, 2026",
-      "store_version": null
+      "store_version": "1.0.4"
     },
     {
       "id": "lumira_baby",
@@ -480,7 +481,7 @@
       "category": "health",
       "category_source": "store",
       "store_updated": "Aug 21, 2026",
-      "store_version": null
+      "store_version": "26081901 (1.0.5)"
     },
     {
       "id": "mirevale",
@@ -503,7 +504,7 @@
       "category": "movie",
       "category_source": "store",
       "store_updated": "Sep 15, 2026",
-      "store_version": null
+      "store_version": "1.0.2"
     },
     {
       "id": "mochi_chat",
@@ -526,7 +527,7 @@
       "category": "ai-chat",
       "category_source": "store",
       "store_updated": "Sep 3, 2026",
-      "store_version": null
+      "store_version": "1.0.7"
     },
     {
       "id": "nitroboost",
@@ -551,7 +552,7 @@
       "category": "booster",
       "category_source": "store",
       "store_updated": "Aug 20, 2026",
-      "store_version": null
+      "store_version": "1.0.3"
     },
     {
       "id": "obsidian_browser",
@@ -574,7 +575,7 @@
       "category": "browser",
       "category_source": "store",
       "store_updated": "Sep 16, 2026",
-      "store_version": null
+      "store_version": "1.0.6"
     },
     {
       "id": "onyx_browser",
@@ -592,13 +593,14 @@
       "versions": {
         "dev": "1.0.6+26083001",
         "prod": "1.0.5+26080501",
+        "aab": "1.0.5+26080501",
         "noads": "1.0.0+1"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.onyx.browser",
       "category": "browser",
       "category_source": "store",
       "store_updated": "Sep 15, 2026",
-      "store_version": null
+      "store_version": "1.0.6"
     },
     {
       "id": "pdf_platinum",
@@ -621,7 +623,7 @@
       "category": "scan",
       "category_source": "store",
       "store_updated": "Sep 17, 2026",
-      "store_version": null
+      "store_version": "1.0.6"
     },
     {
       "id": "pebble_browser",
@@ -646,7 +648,7 @@
       "category": "browser",
       "category_source": "store",
       "store_updated": "Sep 16, 2026",
-      "store_version": null
+      "store_version": "1.0.5"
     },
     {
       "id": "pitch_side",
@@ -669,12 +671,12 @@
       "category": "sport",
       "category_source": "store",
       "store_updated": "Jun 26, 2026",
-      "store_version": null
+      "store_version": "26062602 (1.0.3)"
     },
     {
       "id": "pixa_ai",
       "name": "Pixa Ai",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pixa_ai_icon.png",
+      "icon": "icons/pixa_ai.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -692,7 +694,7 @@
       "category": "photo-ai",
       "category_source": "store",
       "store_updated": "Sep 4, 2026",
-      "store_version": null
+      "store_version": "1.0.3"
     },
     {
       "id": "pixora_ai",
@@ -738,7 +740,7 @@
       "category": "browser",
       "category_source": "store",
       "store_updated": "Sep 16, 2026",
-      "store_version": null
+      "store_version": "1.0.4"
     },
     {
       "id": "quicksave",
@@ -777,13 +779,14 @@
       },
       "versions": {
         "dev": "1.0.1+26091401",
-        "prod": "1.0.1+26091401"
+        "prod": "1.0.1+26091401",
+        "aab": "1.0.0+26090601"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.reeloop",
       "category": "movie",
       "category_source": "store",
       "store_updated": "Sep 6, 2026",
-      "store_version": null
+      "store_version": "26090601 (1.0.0)"
     },
     {
       "id": "sound_lab",
@@ -806,7 +809,7 @@
       "category": "speaker-cleaner",
       "category_source": "store",
       "store_updated": "Sep 15, 2026",
-      "store_version": null
+      "store_version": "1.0.3"
     },
     {
       "id": "task_nest",
@@ -829,7 +832,7 @@
       "category": "productivity",
       "category_source": "store",
       "store_updated": "Jul 10, 2026",
-      "store_version": null
+      "store_version": "26071001 (1.0.0)"
     },
     {
       "id": "thornevale",
@@ -852,7 +855,7 @@
       "category": "movie",
       "category_source": "store",
       "store_updated": "Sep 16, 2026",
-      "store_version": null
+      "store_version": "1.0.3"
     },
     {
       "id": "vaultix_browser",
@@ -877,7 +880,7 @@
       "category": "browser",
       "category_source": "store",
       "store_updated": "Sep 4, 2026",
-      "store_version": null
+      "store_version": "1.0.6"
     },
     {
       "id": "velvet_drama",
@@ -900,7 +903,7 @@
       "category": "movie",
       "category_source": "store",
       "store_updated": "Sep 9, 2026",
-      "store_version": null
+      "store_version": "1.0.7"
     },
     {
       "id": "vidnova",
@@ -923,7 +926,7 @@
       "category": "Video",
       "category_source": "override",
       "store_updated": "Sep 3, 2026",
-      "store_version": null
+      "store_version": "1.0.8"
     },
     {
       "id": "voltplay",
@@ -946,7 +949,7 @@
       "category": "booster",
       "category_source": "store",
       "store_updated": "Aug 6, 2026",
-      "store_version": null
+      "store_version": "1.0.5"
     },
     {
       "id": "voxlock",
@@ -969,7 +972,7 @@
       "category": "lockscreen",
       "category_source": "store",
       "store_updated": "Sep 14, 2026",
-      "store_version": null
+      "store_version": "1.0.7"
     },
     {
       "id": "whispr",
@@ -992,12 +995,12 @@
       "category": "caller",
       "category_source": "store",
       "store_updated": "Sep 7, 2026",
-      "store_version": null
+      "store_version": "1.0.7"
     },
     {
       "id": "wifi_key_map",
       "name": "Wifi Key Map",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/wifi_key_map_icon.png",
+      "icon": "icons/wifi_key_map.webp",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -1015,7 +1018,7 @@
       "category": "network",
       "category_source": "store",
       "store_updated": "Sep 15, 2026",
-      "store_version": null
+      "store_version": "1.0.4"
     }
   ]
 }
