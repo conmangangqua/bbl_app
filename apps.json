@@ -72,7 +72,7 @@
     {
       "id": "calliq",
       "name": "Calliq: Caller ID & Block",
-      "icon": "icons/calliq.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/calliq_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -198,7 +198,6 @@
       },
       "versions": {
         "dev": "1.0.6+26082601",
-        "prod": "1.0.6+26082601",
         "aab": "1.0.6+26082601"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
@@ -593,7 +592,6 @@
       "versions": {
         "dev": "1.0.6+26083001",
         "prod": "1.0.5+26080501",
-        "aab": "1.0.5+26080501",
         "noads": "1.0.0+1"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.onyx.browser",
@@ -676,7 +674,7 @@
     {
       "id": "pixa_ai",
       "name": "Pixa Ai",
-      "icon": "icons/pixa_ai.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/pixa_ai_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
@@ -779,8 +777,7 @@
       },
       "versions": {
         "dev": "1.0.1+26091401",
-        "prod": "1.0.1+26091401",
-        "aab": "1.0.0+26090601"
+        "prod": "1.0.1+26091401"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.reeloop",
       "category": "movie",
@@ -1000,7 +997,7 @@
     {
       "id": "wifi_key_map",
       "name": "Wifi Key Map",
-      "icon": "icons/wifi_key_map.webp",
+      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/prod/wifi_key_map_icon.png",
       "platform": "Android",
       "description": "",
       "features": [],
