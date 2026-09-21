@@ -616,7 +616,7 @@
       },
       "versions": {
         "dev": "1.0.7+26092101",
-        "prod": "1.0.6+26091701",
+        "prod": "1.0.7+26092101",
         "aab": "1.0.8+26082102"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.pdf.platinum",
@@ -896,8 +896,7 @@
       },
       "versions": {
         "dev": "1.0.8+26091201",
-        "prod": "1.0.8+26091201",
-        "aab": "1.0.5+26081701"
+        "prod": "1.0.8+26091201"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.velvet.drama",
       "category": "movie",
