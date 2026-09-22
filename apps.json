@@ -733,8 +733,7 @@
       },
       "versions": {
         "dev": "1.0.4+26091601",
-        "prod": "1.0.4+26091601",
-        "aab": "1.0.3+26090301"
+        "prod": "1.0.4+26091601"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.quartz.browser",
       "category": "browser",
@@ -778,7 +777,6 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/reeloop.aab"
       },
       "versions": {
-        "dev": "1.0.1+26091401",
         "prod": "1.0.1+26091401",
         "aab": "1.0.0+26090601"
       },
@@ -896,7 +894,7 @@
       },
       "versions": {
         "dev": "1.0.8+26091201",
-        "prod": "1.0.10+26092201",
+        "prod": "1.0.8+26091201",
         "aab": "1.0.5+26081701"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.velvet.drama",
@@ -964,7 +962,6 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/voxlock.aab"
       },
       "versions": {
-        "dev": "1.0.7+26091402",
         "prod": "1.0.7+26091402",
         "aab": "1.0.4+26082501"
       },
