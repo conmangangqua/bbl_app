@@ -83,7 +83,7 @@
       },
       "versions": {
         "dev": "1.0.5+26091801",
-        "prod": "1.0.4+26091404",
+        "prod": "1.0.5+26091801",
         "aab": "1.0.3+26081902"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.calliq.caller",
@@ -713,11 +713,11 @@
         "prod": "1.0.0+26072503",
         "aab": "1.0.0+26072503"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.pixora.ai",
       "category": "photo-ai",
       "category_source": "store",
       "store_updated": null,
-      "store_version": null
+      "store_version": "26072503 (1.0.0)"
     },
     {
       "id": "quartz_browser",
