@@ -259,10 +259,12 @@
       "description": "",
       "features": [],
       "downloads": {
-        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/genart_dev.apk"
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/genart_dev.apk",
+        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/genart_prod.apk"
       },
       "versions": {
-        "dev": "1.1.2+26092002"
+        "dev": "1.1.2+26092002",
+        "prod": "1.1.2+26092002"
       },
       "store": "",
       "category": "photo-ai",
@@ -706,7 +708,7 @@
       },
       "versions": {
         "dev": "1.0.3+26091601",
-        "prod": "1.0.3+26090401",
+        "prod": "1.0.3+26091601",
         "aab": "1.0.3+26090301"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.pixaai",
