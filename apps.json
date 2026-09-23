@@ -803,7 +803,7 @@
         "prod": "1.0.1+26091401",
         "aab": "1.0.0+26090601"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.reeloop",
       "category": "movie",
       "category_source": "store",
       "store_updated": null,
