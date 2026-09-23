@@ -803,11 +803,11 @@
         "prod": "1.0.1+26091401",
         "aab": "1.0.0+26090601"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.reeloop",
+      "store": "",
       "category": "movie",
       "category_source": "store",
-      "store_updated": "Sep 6, 2026",
-      "store_version": "26090601 (1.0.0)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "sound_lab",
@@ -986,7 +986,7 @@
       },
       "versions": {
         "dev": "1.0.8+26092301",
-        "prod": "1.0.7+26091402",
+        "prod": "1.0.8+26092301",
         "aab": "1.0.4+26082501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voxlock",
