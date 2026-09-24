@@ -521,7 +521,7 @@
         "prod": "1.0.2+26091301",
         "aab": "1.0.0+26090802"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.mirevale",
       "category": "movie",
       "category_source": "store",
       "store_updated": null,
