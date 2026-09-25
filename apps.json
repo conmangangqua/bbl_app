@@ -201,11 +201,11 @@
         "prod": "1.0.6+26082601",
         "aab": "1.0.6+26082601"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.fetchly",
+      "store": "",
       "category": "Downloader",
       "category_source": "rule",
-      "store_updated": "Aug 26, 2026",
-      "store_version": "26082601 (1.0.6)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "fluxvpn",
@@ -245,7 +245,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
+      "store": "",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
@@ -404,11 +404,11 @@
         "prod": "1.0.7+26091203",
         "aab": "1.0.6+26081501"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
+      "store": "",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Sep 11, 2026",
-      "store_version": "1.0.7"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "klenzo",
@@ -665,11 +665,11 @@
         "aab": "1.0.6+26092501",
         "noads": "1.0.0+1"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.pebble.browser",
+      "store": "",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Sep 16, 2026",
-      "store_version": "26092501 (1.0.6)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "pitch_side",
@@ -966,11 +966,11 @@
         "prod": "1.0.5+26091801",
         "aab": "1.0.4+26090301"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 5, 2026",
+      "store_version": "1.0.5"
     },
     {
       "id": "voxlock",
@@ -1035,11 +1035,11 @@
         "prod": "1.0.4+26091505",
         "aab": "1.0.3+26081801"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.wifi.password.map",
+      "store": "",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": "Sep 23, 2026",
-      "store_version": "1.0.5"
+      "store_updated": null,
+      "store_version": null
     }
   ]
 }
