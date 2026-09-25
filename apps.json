@@ -940,8 +940,7 @@
       },
       "versions": {
         "dev": "1.0.8+26090302",
-        "prod": "1.0.8+26090302",
-        "aab": "1.0.8+26090301"
+        "prod": "1.0.8+26090302"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
       "category": "Video",
