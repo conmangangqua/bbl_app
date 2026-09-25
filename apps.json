@@ -966,11 +966,11 @@
         "prod": "1.0.5+26091801",
         "aab": "1.0.4+26090301"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voltplay",
+      "store": "",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": "Aug 5, 2026",
-      "store_version": "1.0.5"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "voxlock",
