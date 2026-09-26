@@ -986,7 +986,7 @@
       },
       "versions": {
         "dev": "1.0.7+26090701",
-        "prod": "1.0.7+26090601",
+        "prod": "1.0.7+26090701",
         "aab": "1.0.6+26081501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.whispr.caller",
