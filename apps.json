@@ -645,7 +645,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.pebble.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Sep 16, 2026",
+      "store_updated": "Sep 25, 2026",
       "store_version": "26092501 (1.0.6)"
     },
     {
@@ -945,7 +945,7 @@
       "category": "Video",
       "category_source": "override",
       "store_updated": "Sep 3, 2026",
-      "store_version": "1.0.8"
+      "store_version": "1.0.9"
     },
     {
       "id": "voltplay",
