@@ -266,7 +266,7 @@
         "dev": "1.1.2+26092002",
         "prod": "1.1.2+26092002"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquil.aiart",
       "category": "Photography",
       "category_source": "gitlab",
       "store_updated": null,
