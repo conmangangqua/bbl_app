@@ -449,7 +449,7 @@
       },
       "versions": {
         "dev": "1.0.5+26092601",
-        "prod": "1.0.5+26092001",
+        "prod": "1.0.5+26092601",
         "aab": "1.0.4+26090301"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.lumio.ai",
@@ -938,7 +938,7 @@
       },
       "versions": {
         "dev": "1.0.9+26092602",
-        "prod": "1.0.8+26090302",
+        "prod": "1.0.9+26092602",
         "aab": "1.0.8+26090301"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
