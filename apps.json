@@ -270,7 +270,7 @@
       "category": "Art & Design",
       "category_source": "store",
       "store_updated": "Sep 20, 2026",
-      "store_version": "1.1.2"
+      "store_version": "1.1.3"
     },
     {
       "id": "glucomate",
@@ -339,7 +339,7 @@
       "category": "Education",
       "category_source": "store",
       "store_updated": "Jul 5, 2026",
-      "store_version": null
+      "store_version": "26070501 (1.0.0)"
     },
     {
       "id": "kaleidra",
@@ -385,7 +385,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Sep 11, 2026",
-      "store_version": null
+      "store_version": "1.0.7"
     },
     {
       "id": "klenzo",
@@ -456,7 +456,7 @@
       "category": "Video",
       "category_source": "override",
       "store_updated": "Sep 14, 2026",
-      "store_version": "1.0.5"
+      "store_version": "1.0.6"
     },
     {
       "id": "lumira_baby",
@@ -646,7 +646,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Sep 25, 2026",
-      "store_version": null
+      "store_version": "26092501 (1.0.6)"
     },
     {
       "id": "pitch_side",
@@ -692,7 +692,7 @@
       "category": "Photography",
       "category_source": "store",
       "store_updated": "Sep 16, 2026",
-      "store_version": "1.0.3"
+      "store_version": "1.0.5"
     },
     {
       "id": "pixora_ai",
