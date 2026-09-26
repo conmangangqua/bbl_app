@@ -718,6 +718,25 @@
       "store_version": null
     },
     {
+      "id": "purrtery",
+      "name": "Purrtery",
+      "icon": "icons/purrtery.webp",
+      "platform": "Android",
+      "description": "",
+      "features": [],
+      "downloads": {
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/purrtery_dev.apk"
+      },
+      "versions": {
+        "dev": "1.0.0+1"
+      },
+      "store": "",
+      "category": "Personalization",
+      "category_source": "gitlab",
+      "store_updated": null,
+      "store_version": null
+    },
+    {
       "id": "quartz_browser",
       "name": "Quartz: Private Web Browser",
       "icon": "icons/quartz_browser.webp",
