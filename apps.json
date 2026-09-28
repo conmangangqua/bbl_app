@@ -82,7 +82,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/calliq.aab"
       },
       "versions": {
-        "dev": "1.0.6+26092301",
+        "dev": "1.0.7+26092801",
         "prod": "1.0.6+26092301",
         "aab": "1.0.3+26081902"
       },
