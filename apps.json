@@ -20,8 +20,8 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.amethia",
       "category": "Entertainment",
       "category_source": "store",
-      "store_updated": "Sep 16, 2026",
-      "store_version": "1.0.3"
+      "store_updated": "Sep 28, 2026",
+      "store_version": "1.0.4"
     },
     {
       "id": "aura_recover",
@@ -245,7 +245,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
+      "store": "",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
@@ -807,7 +807,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Sep 6, 2026",
-      "store_version": "26090601 (1.0.0)"
+      "store_version": "1.0.2"
     },
     {
       "id": "sound_lab",
@@ -946,7 +946,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
       "category": "Video",
       "category_source": "override",
-      "store_updated": "Sep 3, 2026",
+      "store_updated": "Sep 26, 2026",
       "store_version": "1.0.9"
     },
     {
