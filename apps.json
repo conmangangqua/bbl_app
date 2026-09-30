@@ -136,7 +136,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Sep 26, 2026",
-      "store_version": null
+      "store_version": "1.0.4"
     },
     {
       "id": "fast_fetch",
@@ -479,7 +479,7 @@
       "category": "Health & Fitness",
       "category_source": "store",
       "store_updated": "Aug 21, 2026",
-      "store_version": null
+      "store_version": "26081901 (1.0.5)"
     },
     {
       "id": "mirevale",
@@ -761,7 +761,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Sep 16, 2026",
-      "store_version": null
+      "store_version": "1.0.4"
     },
     {
       "id": "quicksave",
@@ -924,7 +924,7 @@
       "category": "Streaming",
       "category_source": "rule",
       "store_updated": "Sep 23, 2026",
-      "store_version": "1.0.8"
+      "store_version": null
     },
     {
       "id": "vidnova",
