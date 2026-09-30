@@ -642,11 +642,11 @@
         "aab": "1.0.6+26092501",
         "noads": "1.0.0+1"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.pebble.browser",
+      "store": "",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Sep 25, 2026",
-      "store_version": "26092501 (1.0.6)"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "pitch_side",
@@ -732,7 +732,7 @@
       "versions": {
         "dev": "1.0.0+26093002",
         "prod": "1.0.0+26093001",
-        "aab": "1.0.0+26092907"
+        "aab": "1.0.0+26093002"
       },
       "store": "",
       "category": "Personalization",
@@ -946,7 +946,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
       "category": "Video",
       "category_source": "override",
-      "store_updated": "Sep 26, 2026",
+      "store_updated": "Sep 27, 2026",
       "store_version": "1.0.9"
     },
     {
@@ -1012,11 +1012,11 @@
         "prod": "1.0.8+26092901",
         "aab": "1.0.6+26081501"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.whispr.caller",
+      "store": "",
       "category": "Caller ID",
       "category_source": "rule",
-      "store_updated": "Sep 7, 2026",
-      "store_version": "1.0.7"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "wifi_key_map",
