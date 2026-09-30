@@ -734,7 +734,7 @@
         "prod": "1.0.0+26093002",
         "aab": "1.0.0+26093002"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.purrtery",
       "category": "Personalization",
       "category_source": "desc",
       "store_updated": null,
