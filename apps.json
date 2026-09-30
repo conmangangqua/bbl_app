@@ -920,11 +920,11 @@
         "prod": "1.0.8+26091201",
         "aab": "1.0.5+26081701"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.velvet.drama",
       "category": "Streaming",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Sep 23, 2026",
+      "store_version": "1.0.8"
     },
     {
       "id": "vidnova",
