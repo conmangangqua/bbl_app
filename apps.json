@@ -385,7 +385,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Sep 11, 2026",
-      "store_version": "1.0.7"
+      "store_version": null
     },
     {
       "id": "klenzo",
@@ -456,7 +456,7 @@
       "category": "Video",
       "category_source": "override",
       "store_updated": "Sep 14, 2026",
-      "store_version": "1.0.6"
+      "store_version": null
     },
     {
       "id": "lumira_baby",
@@ -525,7 +525,7 @@
       "category": "AI Chat",
       "category_source": "rule",
       "store_updated": "Sep 17, 2026",
-      "store_version": "1.0.7"
+      "store_version": null
     },
     {
       "id": "nitroboost",
