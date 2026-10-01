@@ -182,5 +182,9 @@
   "purrtery": {
     "sha": "c5d3cc508faab43b9f631b98e111887a0d9abe78ab93fadb8dec234ffdd51749",
     "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/purrtery_icon.png"
+  },
+  "flashlynx": {
+    "sha": "e88bbb566db5ce8c4680aaf2c264323d48612ce36469cf404c5eb9e4456d83f6",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/flashlynx_icon.png"
   }
 }
