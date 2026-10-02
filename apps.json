@@ -399,8 +399,7 @@
       },
       "versions": {
         "dev": "1.0.7+26091203",
-        "prod": "1.0.7+26091203",
-        "aab": "1.0.6+26081501"
+        "prod": "1.0.7+26091203"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
       "category": "Browser",
@@ -893,10 +892,10 @@
         "prod": "1.0.3+26092501",
         "aab": "1.0.0+26090802"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.thornevale",
       "category": "Entertainment",
       "category_source": "store",
-      "store_updated": null,
+      "store_updated": "Sep 27, 2026",
       "store_version": null
     },
     {
