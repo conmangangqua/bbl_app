@@ -383,7 +383,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Sep 23, 2026",
-      "store_version": "1.0.3"
+      "store_version": null
     },
     {
       "id": "kestrel_browser",
@@ -406,7 +406,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Sep 11, 2026",
-      "store_version": null
+      "store_version": "1.0.7"
     },
     {
       "id": "klenzo",
@@ -893,11 +893,11 @@
         "prod": "1.0.3+26092501",
         "aab": "1.0.0+26090802"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.thornevale",
+      "store": "",
       "category": "Entertainment",
       "category_source": "store",
-      "store_updated": "Sep 27, 2026",
-      "store_version": "1.0.3"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "vaultix_browser",
