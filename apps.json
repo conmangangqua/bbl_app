@@ -82,7 +82,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/calliq.aab"
       },
       "versions": {
-        "dev": "1.0.7+26092801",
+        "dev": "1.0.8+26100201",
         "prod": "1.0.7+26092801",
         "aab": "1.0.3+26081902"
       },
@@ -266,7 +266,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
+      "store": "",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
@@ -383,7 +383,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Sep 23, 2026",
-      "store_version": null
+      "store_version": "1.0.3"
     },
     {
       "id": "kestrel_browser",
@@ -399,7 +399,8 @@
       },
       "versions": {
         "dev": "1.0.7+26091203",
-        "prod": "1.0.7+26091203"
+        "prod": "1.0.7+26091203",
+        "aab": "1.0.6+26081501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
       "category": "Browser",
@@ -896,7 +897,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Sep 27, 2026",
-      "store_version": null
+      "store_version": "1.0.3"
     },
     {
       "id": "vaultix_browser",
@@ -966,7 +967,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
       "category": "Video",
       "category_source": "override",
-      "store_updated": "Sep 27, 2026",
+      "store_updated": "Sep 26, 2026",
       "store_version": "1.0.9"
     },
     {
