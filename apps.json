@@ -329,7 +329,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/goal_arena.aab"
       },
       "versions": {
-        "dev": "1.0.2+26070101",
+        "dev": "1.0.2+26090901",
         "prod": "1.0.2+26070101",
         "aab": "1.0.2+26070101"
       },
@@ -844,7 +844,7 @@
       },
       "versions": {
         "dev": "1.0.3+26091503",
-        "prod": "1.0.2+26081801",
+        "prod": "1.0.3+26091503",
         "aab": "1.0.2+26081801"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.soundlab",
