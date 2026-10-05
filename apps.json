@@ -312,11 +312,11 @@
         "prod": "1.0.5+26081901",
         "aab": "1.0.5+26081901"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.glucomate",
       "category": "Health & Fitness",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Aug 19, 2026",
+      "store_version": "26081901 (1.0.5)"
     },
     {
       "id": "goal_arena",
@@ -452,11 +452,11 @@
         "aab": "1.0.2+26090401",
         "noads": "1.0.0+1"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.lingowl",
       "category": "Education",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Sep 17, 2026",
+      "store_version": "1.0.4"
     },
     {
       "id": "lumio",
@@ -472,7 +472,7 @@
       },
       "versions": {
         "dev": "1.0.7+26100501",
-        "prod": "1.0.6+26092702",
+        "prod": "1.0.7+26100501",
         "aab": "1.0.4+26090301"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.lumio.ai",
