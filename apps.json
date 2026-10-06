@@ -13,7 +13,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/amethia.aab"
       },
       "versions": {
-        "dev": "1.0.6+26100201",
+        "dev": "1.0.7+26100601",
         "prod": "1.0.6+26100201",
         "aab": "1.0.6+26100201"
       },
@@ -385,7 +385,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Sep 23, 2026",
-      "store_version": "1.0.3"
+      "store_version": null
     },
     {
       "id": "kestrel_browser",
@@ -479,7 +479,7 @@
       "category": "Video",
       "category_source": "override",
       "store_updated": "Sep 14, 2026",
-      "store_version": null
+      "store_version": "1.0.6"
     },
     {
       "id": "lumira_baby",
@@ -525,7 +525,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Sep 14, 2026",
-      "store_version": "1.0.2"
+      "store_version": "1.0.3"
     },
     {
       "id": "mochi_chat",
@@ -899,7 +899,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Sep 27, 2026",
-      "store_version": "1.0.3"
+      "store_version": null
     },
     {
       "id": "vaultix_browser",
