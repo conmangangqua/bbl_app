@@ -186,5 +186,9 @@
   "flashlynx": {
     "sha": "e88bbb566db5ce8c4680aaf2c264323d48612ce36469cf404c5eb9e4456d83f6",
     "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/flashlynx_icon.png"
+  },
+  "departo": {
+    "sha": "b3ac436801b6ec58adb17f7b4776c08cb7330381e7296331c843f2b3ed2565dc",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/departo_icon.png"
   }
 }
