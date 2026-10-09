@@ -241,7 +241,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/flashlynx.aab"
       },
       "versions": {
-        "dev": "1.0.0+1",
+        "dev": "1.0.1+26100901",
         "prod": "1.0.0+1",
         "aab": "1.0.0+26100401"
       },
@@ -990,7 +990,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
       "category": "Video",
       "category_source": "override",
-      "store_updated": "Sep 26, 2026",
+      "store_updated": "Sep 27, 2026",
       "store_version": "1.0.9"
     },
     {
