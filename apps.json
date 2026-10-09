@@ -180,7 +180,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Sep 7, 2026",
-      "store_version": "26090701 (2.0.8)"
+      "store_version": null
     },
     {
       "id": "ferelia",
@@ -642,7 +642,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Sep 14, 2026",
-      "store_version": "1.0.6"
+      "store_version": null
     },
     {
       "id": "pdf_platinum",
@@ -945,7 +945,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Sep 24, 2026",
-      "store_version": "1.0.7"
+      "store_version": null
     },
     {
       "id": "velvet_drama",
@@ -968,7 +968,7 @@
       "category": "Streaming",
       "category_source": "rule",
       "store_updated": "Oct 3, 2026",
-      "store_version": "1.0.9"
+      "store_version": null
     },
     {
       "id": "vidnova",
