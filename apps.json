@@ -242,7 +242,7 @@
       },
       "versions": {
         "dev": "1.0.1+26100901",
-        "prod": "1.0.0+1",
+        "prod": "1.0.1+26100901",
         "aab": "1.0.0+26100401"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.flashlynx",
