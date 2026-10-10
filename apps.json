@@ -17,7 +17,7 @@
         "prod": "1.0.7+26100601",
         "aab": "1.0.6+26100201"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.amethia",
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": null,
@@ -86,7 +86,7 @@
         "prod": "1.0.8+26100201",
         "aab": "1.0.3+26081902"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.calliq.caller",
       "category": "Caller ID",
       "category_source": "rule",
       "store_updated": null,
@@ -356,7 +356,7 @@
         "prod": "1.0.2+26090901",
         "aab": "1.0.2+26070101"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.goalarena",
       "category": "Sports",
       "category_source": "store",
       "store_updated": null,
@@ -379,7 +379,7 @@
         "prod": "1.0.0+26070501",
         "aab": "1.0.0+26080501"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.inkmath",
       "category": "Education",
       "category_source": "store",
       "store_updated": null,
@@ -402,7 +402,7 @@
         "prod": "1.0.4+26100601",
         "aab": "1.0.0+26090602"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kaleidra",
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": null,
@@ -425,7 +425,7 @@
         "prod": "1.0.7+26091203",
         "aab": "1.0.6+26081501"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kestrel.browser",
       "category": "Browser",
       "category_source": "rule",
       "store_updated": null,
@@ -473,7 +473,7 @@
         "aab": "1.0.2+26090401",
         "noads": "1.0.0+1"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.lingowl",
       "category": "Education",
       "category_source": "store",
       "store_updated": null,
@@ -542,7 +542,7 @@
         "prod": "1.0.3+26100601",
         "aab": "1.0.0+26090802"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.mirevale",
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": null,
@@ -732,7 +732,7 @@
         "prod": "1.0.5+26092901",
         "aab": "1.0.3+26090301"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.pixaai",
       "category": "Photography",
       "category_source": "store",
       "store_updated": null,
@@ -801,7 +801,7 @@
         "prod": "1.0.4+26091601",
         "aab": "1.0.3+26090301"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.quartz.browser",
       "category": "Browser",
       "category_source": "rule",
       "store_updated": null,
@@ -847,7 +847,7 @@
         "prod": "1.0.2+26092802",
         "aab": "1.0.0+26090601"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.reeloop",
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": null,
@@ -870,7 +870,7 @@
         "prod": "1.0.3+26091503",
         "aab": "1.0.2+26081801"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.soundlab",
       "category": "Tools",
       "category_source": "store",
       "store_updated": null,
@@ -916,7 +916,7 @@
         "prod": "1.0.4+26100801",
         "aab": "1.0.0+26090802"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.thornevale",
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": null,
@@ -1056,7 +1056,7 @@
         "prod": "1.0.8+26092901",
         "aab": "1.0.6+26081501"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.whispr.caller",
       "category": "Caller ID",
       "category_source": "rule",
       "store_updated": null,
@@ -1079,7 +1079,7 @@
         "prod": "1.0.5+26092401",
         "aab": "1.0.3+26081801"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.wifi.password.map",
       "category": "Tools",
       "category_source": "store",
       "store_updated": null,
