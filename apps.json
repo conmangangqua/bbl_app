@@ -248,7 +248,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.flashlynx",
       "category": "Tools",
       "category_source": "store",
-      "store_updated": "Oct 4, 2026",
+      "store_updated": "Oct 13, 2026",
       "store_version": "1.0.1"
     },
     {
@@ -289,7 +289,7 @@
         "dev": "2.0.6+25122500",
         "prod": "2.0.6+25122500"
       },
-      "store": "https://apps.apple.com/us/app/bitboy-gba-emulator/id6747735779",
+      "store": "",
       "category": "Emulator",
       "category_source": "rule",
       "store_updated": null,
