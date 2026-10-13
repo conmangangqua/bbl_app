@@ -17,11 +17,11 @@
         "prod": "1.0.7+26100601",
         "aab": "1.0.6+26100201"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.amethia",
+      "store": "",
       "category": "Entertainment",
       "category_source": "store",
-      "store_updated": "Oct 6, 2026",
-      "store_version": "1.0.7"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "aura_recover",
