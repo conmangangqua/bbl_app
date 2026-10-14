@@ -622,7 +622,7 @@
     {
       "id": "onyx_browser",
       "name": "Onyx: Private Browser",
-      "icon": "https://github.com/conmangangqua/bbl_app/releases/download/dev/onyx_browser_icon.png",
+      "icon": "icons/onyx_browser.webp",
       "platform": "Android",
       "description": "",
       "features": [],
