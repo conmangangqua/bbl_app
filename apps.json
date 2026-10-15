@@ -916,11 +916,11 @@
         "prod": "1.0.5+26101501",
         "aab": "1.0.0+26090802"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.thornevale",
+      "store": "",
       "category": "Entertainment",
       "category_source": "store",
-      "store_updated": "Oct 8, 2026",
-      "store_version": "1.0.5"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "vaultix_browser",
@@ -1029,7 +1029,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/voxlock.aab"
       },
       "versions": {
-        "dev": "1.0.9+26100801",
+        "dev": "1.1.0+26101502",
         "prod": "1.0.9+26100801",
         "aab": "1.0.4+26082501"
       },
