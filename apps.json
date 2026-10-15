@@ -845,7 +845,7 @@
       "versions": {
         "dev": "1.0.3+26100201",
         "prod": "1.0.3+26100201",
-        "aab": "1.0.0+26090601"
+        "aab": "1.0.3+26101501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.reeloop",
       "category": "Entertainment",
@@ -920,7 +920,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Oct 8, 2026",
-      "store_version": "1.0.4"
+      "store_version": "1.0.5"
     },
     {
       "id": "vaultix_browser",
