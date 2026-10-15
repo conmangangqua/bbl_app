@@ -191,7 +191,6 @@
       "features": [],
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/ferelia_dev.apk",
-        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/ferelia_prod.apk",
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/ferelia.aab"
       },
       "versions": {
@@ -912,7 +911,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/thornevale.aab"
       },
       "versions": {
-        "dev": "1.0.4+26100801",
+        "dev": "1.0.5+26101501",
         "prod": "1.0.4+26100801",
         "aab": "1.0.0+26090802"
       },
