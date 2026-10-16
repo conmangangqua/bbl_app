@@ -112,7 +112,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.decora.wallpaper",
       "category": "Personalization",
       "category_source": "store",
-      "store_updated": "Aug 13, 2026",
+      "store_updated": "Aug 12, 2026",
       "store_version": "26081301 (1.0.3)"
     },
     {
@@ -382,7 +382,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.inkmath",
       "category": "Education",
       "category_source": "store",
-      "store_updated": "Jul 5, 2026",
+      "store_updated": "Jul 4, 2026",
       "store_version": "26070501 (1.0.0)"
     },
     {
@@ -804,7 +804,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.quartz.browser",
       "category": "Browser",
       "category_source": "rule",
-      "store_updated": "Sep 16, 2026",
+      "store_updated": "Sep 15, 2026",
       "store_version": "1.0.4"
     },
     {
@@ -991,7 +991,7 @@
       "category": "Video",
       "category_source": "override",
       "store_updated": "Sep 26, 2026",
-      "store_version": "1.0.9"
+      "store_version": null
     },
     {
       "id": "voltplay",
@@ -1036,7 +1036,7 @@
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.voxlock",
       "category": "Personalization",
       "category_source": "store",
-      "store_updated": "Oct 8, 2026",
+      "store_updated": "Oct 15, 2026",
       "store_version": "1.1.0"
     },
     {
