@@ -308,7 +308,7 @@
       },
       "versions": {
         "dev": "1.1.4+26101302",
-        "prod": "1.1.4+26100902"
+        "prod": "1.1.4+26101302"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquil.aiart",
       "category": "Art & Design",
@@ -473,11 +473,11 @@
         "aab": "1.0.2+26090401",
         "noads": "1.0.0+1"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.lingowl",
       "category": "Education",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Sep 17, 2026",
+      "store_version": "1.0.4"
     },
     {
       "id": "lumio",
