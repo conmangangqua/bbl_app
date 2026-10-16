@@ -565,11 +565,11 @@
         "prod": "1.0.7+26091701",
         "aab": "1.0.6+26082201"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.mochi.chat",
+      "store": "",
       "category": "AI Chat",
       "category_source": "rule",
-      "store_updated": "Sep 17, 2026",
-      "store_version": "1.0.7"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "nitroboost",
@@ -590,11 +590,11 @@
         "aab": "1.0.2+26082002",
         "noads": "1.0.0+1"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tmt.nitroboost",
+      "store": "",
       "category": "Cleaner & Booster",
       "category_source": "rule",
-      "store_updated": "Sep 24, 2026",
-      "store_version": "1.0.3"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "obsidian_browser",
