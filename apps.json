@@ -376,7 +376,7 @@
       },
       "versions": {
         "dev": "1.0.0+26080501",
-        "prod": "1.0.0+26070501",
+        "prod": "1.0.0+26080501",
         "aab": "1.0.0+26080501"
       },
       "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.inkmath",
