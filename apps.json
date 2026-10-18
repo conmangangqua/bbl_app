@@ -565,11 +565,11 @@
         "prod": "1.0.7+26091701",
         "aab": "1.0.6+26082201"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilmind.mochi.chat",
+      "store": "",
       "category": "AI Chat",
       "category_source": "rule",
-      "store_updated": "Sep 17, 2026",
-      "store_version": "1.0.7"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "nitroboost",
@@ -916,11 +916,11 @@
         "prod": "1.0.5+26101501",
         "aab": "1.0.0+26090802"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.thornevale",
+      "store": "",
       "category": "Entertainment",
       "category_source": "store",
-      "store_updated": "Oct 15, 2026",
-      "store_version": "1.0.5"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "vaultix_browser",
