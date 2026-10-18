@@ -402,10 +402,10 @@
         "prod": "1.0.4+26101401",
         "aab": "1.0.4+26101301"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.kaleidra",
       "category": "Entertainment",
       "category_source": "store",
-      "store_updated": null,
+      "store_updated": "Oct 13, 2026",
       "store_version": null
     },
     {
