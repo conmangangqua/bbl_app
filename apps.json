@@ -668,6 +668,25 @@
       "store_version": "1.0.7"
     },
     {
+      "id": "pdfuse",
+      "name": "Pdfuse",
+      "icon": "icons/pdfuse.webp",
+      "platform": "Android",
+      "description": "",
+      "features": [],
+      "downloads": {
+        "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pdfuse_dev.apk"
+      },
+      "versions": {
+        "dev": "1.0.0+1"
+      },
+      "store": "",
+      "category": null,
+      "category_source": null,
+      "store_updated": null,
+      "store_version": null
+    },
+    {
       "id": "pebble_browser",
       "name": "Pebble: Private Browser",
       "icon": "icons/pebble_browser.webp",

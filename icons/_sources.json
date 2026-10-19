@@ -190,5 +190,9 @@
   "departo": {
     "sha": "b3ac436801b6ec58adb17f7b4776c08cb7330381e7296331c843f2b3ed2565dc",
     "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/departo_icon.png"
+  },
+  "pdfuse": {
+    "sha": "12c9b34229c4fc0c848d3678d8f1f6ee410bc65d3174df6f808d022d2e24550f",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pdfuse_icon.png"
   }
 }
