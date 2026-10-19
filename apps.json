@@ -868,10 +868,10 @@
         "prod": "1.0.3+26100201",
         "aab": "1.0.3+26101501"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.reeloop",
+      "store": "",
       "category": "Entertainment",
       "category_source": "store",
-      "store_updated": "Oct 2, 2026",
+      "store_updated": null,
       "store_version": null
     },
     {
