@@ -17,11 +17,11 @@
         "prod": "1.0.7+26100601",
         "aab": "1.0.6+26100201"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.amethia",
       "category": "Entertainment",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Oct 6, 2026",
+      "store_version": "1.0.7"
     },
     {
       "id": "aura_recover",
@@ -128,7 +128,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/departo.aab"
       },
       "versions": {
-        "dev": "1.0.0+1",
+        "dev": "1.0.0+26102002",
         "prod": "1.0.0+1",
         "aab": "1.0.0+26102002"
       },
@@ -1010,11 +1010,11 @@
         "prod": "1.0.9+26092602",
         "aab": "1.0.8+26090301"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
       "category": "Video",
       "category_source": "override",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Sep 26, 2026",
+      "store_version": "1.0.9"
     },
     {
       "id": "voltplay",
