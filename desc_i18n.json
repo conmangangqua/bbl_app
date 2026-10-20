@@ -107,6 +107,10 @@
   "en": "PDF scanner to scan docs, edit, sign, and manage files with OCR",
   "vi": "Trình quét PDF để quét tài liệu, chỉnh sửa, ký và quản lý tệp bằng OCR"
  },
+ "pdfuse": {
+  "en": "Fuse PDFs, scan paper and keep every document in one tidy stack.",
+  "vi": "Hợp nhất các tệp PDF, quét giấy và giữ mọi tài liệu trong một ngăn xếp gọn gàng."
+ },
  "pebble_browser": {
   "en": "Private browser: fast, lightweight web browsing without the bloat",
   "vi": "Trình duyệt riêng tư: duyệt web nhanh, nhẹ mà không bị cồng kềnh"
