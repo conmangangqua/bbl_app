@@ -590,11 +590,11 @@
         "aab": "1.0.2+26082002",
         "noads": "1.0.0+1"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tmt.nitroboost",
       "category": "Cleaner & Booster",
       "category_source": "rule",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Sep 24, 2026",
+      "store_version": "1.0.3"
     },
     {
       "id": "obsidian_browser",
@@ -914,11 +914,11 @@
         "prod": "1.0.0+26071001",
         "aab": "1.0.0+26071001"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.tasknest",
       "category": "Productivity",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Jul 10, 2026",
+      "store_version": "26071001 (1.0.0)"
     },
     {
       "id": "thornevale",
@@ -937,11 +937,11 @@
         "prod": "1.0.5+26101501",
         "aab": "1.0.0+26090802"
       },
-      "store": "",
+      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.thornevale",
       "category": "Entertainment",
       "category_source": "store",
-      "store_updated": null,
-      "store_version": null
+      "store_updated": "Oct 15, 2026",
+      "store_version": "1.0.5"
     },
     {
       "id": "vaultix_browser",
