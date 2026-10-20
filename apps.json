@@ -17,11 +17,11 @@
         "prod": "1.0.7+26100601",
         "aab": "1.0.6+26100201"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquiltmt.amethia",
+      "store": "",
       "category": "Entertainment",
       "category_source": "store",
-      "store_updated": "Oct 6, 2026",
-      "store_version": "1.0.7"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "aura_recover",
@@ -130,7 +130,7 @@
       "versions": {
         "dev": "1.0.0+1",
         "prod": "1.0.0+1",
-        "aab": "1.0.0+26102001"
+        "aab": "1.0.0+26102002"
       },
       "store": "",
       "category": "Entertainment",
@@ -498,11 +498,11 @@
         "prod": "1.0.7+26100501",
         "aab": "1.0.4+26090301"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.lumio.ai",
+      "store": "",
       "category": "Video",
       "category_source": "override",
-      "store_updated": "Oct 7, 2026",
-      "store_version": "1.0.7"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "lumira_baby",
@@ -1010,11 +1010,11 @@
         "prod": "1.0.9+26092602",
         "aab": "1.0.8+26090301"
       },
-      "store": "https://play.google.com/store/apps/details?id=com.tranquilpartner.vidnova.ai",
+      "store": "",
       "category": "Video",
       "category_source": "override",
-      "store_updated": "Sep 26, 2026",
-      "store_version": "1.0.9"
+      "store_updated": null,
+      "store_version": null
     },
     {
       "id": "voltplay",
