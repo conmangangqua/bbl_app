@@ -194,5 +194,9 @@
   "pdfuse": {
     "sha": "12c9b34229c4fc0c848d3678d8f1f6ee410bc65d3174df6f808d022d2e24550f",
     "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/pdfuse_icon.png"
+  },
+  "yachtelle": {
+    "sha": "b69103dafd54b1ec93ef5a3b76f0f5ccd6137958e2f31c972dad9354f3c30d9e",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/yachtelle_icon.png"
   }
 }
