@@ -28,5 +28,11 @@
   "quartz_browser": "android:com.tranquiltmt.quartz.browser",
   "reeloop": "android:com.tranquiltmt.reeloop",
   "sound_lab": "android:com.tranquilpartner.soundlab",
-  "task_nest": "android:com.tranquiltmt.tasknest"
+  "task_nest": "android:com.tranquiltmt.tasknest",
+  "thornevale": "android:com.tranquiltmt.thornevale",
+  "vaultix_browser": "android:com.tranquiltmt.vaultix.browser",
+  "velvet_drama": "android:com.tranquiltmt.velvet.drama",
+  "vidnova": "android:com.tranquilpartner.vidnova.ai",
+  "voltplay": "android:com.tranquiltmt.voltplay",
+  "voxlock": "android:com.tranquiltmt.voxlock"
 }
