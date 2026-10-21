@@ -34,5 +34,8 @@
   "velvet_drama": "android:com.tranquiltmt.velvet.drama",
   "vidnova": "android:com.tranquilpartner.vidnova.ai",
   "voltplay": "android:com.tranquiltmt.voltplay",
-  "voxlock": "android:com.tranquiltmt.voxlock"
+  "voxlock": "android:com.tranquiltmt.voxlock",
+  "whispr": "android:com.tranquilmind.whispr.caller",
+  "wifi_key_map": "android:com.tranquiltmt.wifi.password.map",
+  "yachtelle": "android:com.tranquiltmt.yachtelle"
 }
