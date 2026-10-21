@@ -7,6 +7,7 @@
   "dream_ring": "android:com.tranquilmind.dreamring",
   "ferelia": "android:com.tranquiltmt.ferelia",
   "fetchly_downloader": "android:com.tranquilmind.fetchly",
+  "gavelle": "android:com.tranquiltmt.gavelle",
   "gba_emulator": "ios:com.tranquilbbl.gbagame",
   "glucomate": "android:com.tranquiltmt.glucomate",
   "goal_arena": "android:com.tranquilpartner.goalarena",
@@ -17,5 +18,10 @@
   "lingowl": "android:com.tranquiltmt.lingowl",
   "lumio": "android:com.tranquilpartner.lumio.ai",
   "mirevale": "android:com.tranquiltmt.mirevale",
-  "mochi_chat": "android:com.tranquilmind.mochi.chat"
+  "mochi_chat": "android:com.tranquilmind.mochi.chat",
+  "nitroboost": "android:com.tmt.nitroboost",
+  "obsidian_browser": "android:com.tranquiltmt.obsidian.browser",
+  "pdfuse": "android:com.tranquiltmt.pdfuse",
+  "pebble_browser": "android:com.tranquiltmt.pebble.browser",
+  "pitch_side": "android:com.tranquilpartner.scoredeck"
 }
