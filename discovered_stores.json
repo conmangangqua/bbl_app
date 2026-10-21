@@ -3,5 +3,8 @@
   "bloomi": "",
   "calliq": "android:com.tranquilmind.calliq.caller",
   "decora": "android:com.tranquiltmt.decora.wallpaper",
-  "departo": "android:com.tranquiltmt.departo"
+  "departo": "android:com.tranquiltmt.departo",
+  "dream_ring": "android:com.tranquilmind.dreamring",
+  "ferelia": "android:com.tranquiltmt.ferelia",
+  "fetchly_downloader": "android:com.tranquilmind.fetchly"
 }
