@@ -12,5 +12,10 @@
   "goal_arena": "android:com.tranquilpartner.goalarena",
   "inkmath": "android:com.tranquiltmt.inkmath",
   "kaleidra": "android:com.tranquiltmt.kaleidra",
-  "kestrel_browser": "android:com.tranquiltmt.kestrel.browser"
+  "kestrel_browser": "android:com.tranquiltmt.kestrel.browser",
+  "klenzo": "android:com.tranquiltmt.klenzo",
+  "lingowl": "android:com.tranquiltmt.lingowl",
+  "lumio": "android:com.tranquilpartner.lumio.ai",
+  "mirevale": "android:com.tranquiltmt.mirevale",
+  "mochi_chat": "android:com.tranquilmind.mochi.chat"
 }
