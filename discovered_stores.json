@@ -23,5 +23,10 @@
   "obsidian_browser": "android:com.tranquiltmt.obsidian.browser",
   "pdfuse": "android:com.tranquiltmt.pdfuse",
   "pebble_browser": "android:com.tranquiltmt.pebble.browser",
-  "pitch_side": "android:com.tranquilpartner.scoredeck"
+  "pitch_side": "android:com.tranquilpartner.scoredeck",
+  "pixa_ai": "android:com.tranquilpartner.pixaai",
+  "quartz_browser": "android:com.tranquiltmt.quartz.browser",
+  "reeloop": "android:com.tranquiltmt.reeloop",
+  "sound_lab": "android:com.tranquilpartner.soundlab",
+  "task_nest": "android:com.tranquiltmt.tasknest"
 }
