@@ -7,6 +7,10 @@
   "dream_ring": "android:com.tranquilmind.dreamring",
   "ferelia": "android:com.tranquiltmt.ferelia",
   "fetchly_downloader": "android:com.tranquilmind.fetchly",
+  "gba_emulator": "ios:com.tranquilbbl.gbagame",
   "glucomate": "android:com.tranquiltmt.glucomate",
-  "goal_arena": "android:com.tranquilpartner.goalarena"
+  "goal_arena": "android:com.tranquilpartner.goalarena",
+  "inkmath": "android:com.tranquiltmt.inkmath",
+  "kaleidra": "android:com.tranquiltmt.kaleidra",
+  "kestrel_browser": "android:com.tranquiltmt.kestrel.browser"
 }
