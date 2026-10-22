@@ -47,6 +47,10 @@
   "en": "Fast VPN with encrypted tunnels and one-tap servers worldwide.",
   "vi": "VPN nhanh với các đường hầm được mã hóa và máy chủ một chạm trên toàn thế giới."
  },
+ "gavelle": {
+  "en": "Vertical short dramas auctioned lot by lot - swipe to the next twist.",
+  "vi": "Các bộ phim truyền hình ngắn theo chiều dọc được đấu giá rất nhiều - hãy vuốt sang phần tiếp theo."
+ },
  "glucomate": {
   "en": "Blood sugar tracker with BP, heart rate & med reminders",
   "vi": "Theo dõi lượng đường trong máu với nhắc nhở về huyết áp, nhịp tim và thuốc"
@@ -182,5 +186,9 @@
  "wifi_key_map": {
   "en": "Find free WiFi hotspots on the map, scan networks, and share via QR code.",
   "vi": "Tìm các điểm truy cập WiFi miễn phí trên bản đồ, quét mạng và chia sẻ qua mã QR."
+ },
+ "yachtelle": {
+  "en": "Vertical short drama on a superyacht - swipe to the next twist at sea.",
+  "vi": "Kịch ngắn theo chiều dọc trên siêu du thuyền - chuyển sang bước ngoặt tiếp theo trên biển."
  }
 }
