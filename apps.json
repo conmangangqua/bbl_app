@@ -21,7 +21,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Oct 6, 2026",
-      "store_version": null
+      "store_version": "1.0.7"
     },
     {
       "id": "aura_recover",
@@ -90,7 +90,7 @@
       "category": "Caller ID",
       "category_source": "rule",
       "store_updated": "Oct 2, 2026",
-      "store_version": null
+      "store_version": "1.0.8"
     },
     {
       "id": "decora",
@@ -113,7 +113,7 @@
       "category": "Personalization",
       "category_source": "store",
       "store_updated": "Aug 13, 2026",
-      "store_version": null
+      "store_version": "26081301 (1.0.3)"
     },
     {
       "id": "departo",
@@ -159,7 +159,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Sep 26, 2026",
-      "store_version": null
+      "store_version": "1.0.4"
     },
     {
       "id": "fast_fetch",
@@ -182,7 +182,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Sep 7, 2026",
-      "store_version": null
+      "store_version": "26090701 (2.0.8)"
     },
     {
       "id": "ferelia",
@@ -205,7 +205,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Oct 8, 2026",
-      "store_version": null
+      "store_version": "1.0.3"
     },
     {
       "id": "fetchly_downloader",
@@ -228,7 +228,7 @@
       "category": "Downloader",
       "category_source": "rule",
       "store_updated": "Aug 26, 2026",
-      "store_version": null
+      "store_version": "26082601 (1.0.6)"
     },
     {
       "id": "flashlynx",
@@ -251,7 +251,7 @@
       "category": "Tools",
       "category_source": "store",
       "store_updated": "Oct 13, 2026",
-      "store_version": null
+      "store_version": "1.0.1"
     },
     {
       "id": "fluxvpn",
@@ -337,7 +337,7 @@
       "category": "Art & Design",
       "category_source": "store",
       "store_updated": "Oct 13, 2026",
-      "store_version": null
+      "store_version": "1.1.4"
     },
     {
       "id": "glucomate",
@@ -383,7 +383,7 @@
       "category": "Sports",
       "category_source": "store",
       "store_updated": "Sep 9, 2026",
-      "store_version": null
+      "store_version": "1.0.2"
     },
     {
       "id": "inkmath",
@@ -406,7 +406,7 @@
       "category": "Education",
       "category_source": "store",
       "store_updated": "Jul 5, 2026",
-      "store_version": null
+      "store_version": "26070501 (1.0.0)"
     },
     {
       "id": "kaleidra",
@@ -429,7 +429,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Oct 14, 2026",
-      "store_version": null
+      "store_version": "1.0.4"
     },
     {
       "id": "kestrel_browser",
@@ -452,7 +452,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Oct 3, 2026",
-      "store_version": null
+      "store_version": "1.0.8"
     },
     {
       "id": "klenzo",
@@ -475,7 +475,7 @@
       "category": "Productivity",
       "category_source": "store",
       "store_updated": "Sep 16, 2026",
-      "store_version": null
+      "store_version": "1.0.2"
     },
     {
       "id": "lingowl",
@@ -500,7 +500,7 @@
       "category": "Education",
       "category_source": "store",
       "store_updated": "Sep 17, 2026",
-      "store_version": null
+      "store_version": "1.0.4"
     },
     {
       "id": "lumio",
@@ -546,7 +546,7 @@
       "category": "Health & Fitness",
       "category_source": "store",
       "store_updated": "Aug 21, 2026",
-      "store_version": null
+      "store_version": "26081901 (1.0.5)"
     },
     {
       "id": "mirevale",
@@ -569,7 +569,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Oct 6, 2026",
-      "store_version": null
+      "store_version": "1.0.3"
     },
     {
       "id": "mochi_chat",
@@ -592,7 +592,7 @@
       "category": "AI Chat",
       "category_source": "rule",
       "store_updated": "Sep 17, 2026",
-      "store_version": null
+      "store_version": "1.0.7"
     },
     {
       "id": "nitroboost",
@@ -617,7 +617,7 @@
       "category": "Cleaner & Booster",
       "category_source": "rule",
       "store_updated": "Sep 24, 2026",
-      "store_version": null
+      "store_version": "1.0.3"
     },
     {
       "id": "obsidian_browser",
@@ -640,7 +640,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Oct 8, 2026",
-      "store_version": null
+      "store_version": "1.0.7"
     },
     {
       "id": "onyx_browser",
@@ -665,7 +665,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Sep 15, 2026",
-      "store_version": null
+      "store_version": "1.0.6"
     },
     {
       "id": "pdf_platinum",
@@ -688,7 +688,7 @@
       "category": "Productivity",
       "category_source": "store",
       "store_updated": "Sep 21, 2026",
-      "store_version": null
+      "store_version": "1.0.7"
     },
     {
       "id": "pdfuse",
@@ -734,7 +734,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Sep 25, 2026",
-      "store_version": null
+      "store_version": "26092501 (1.0.6)"
     },
     {
       "id": "pitch_side",
@@ -780,7 +780,7 @@
       "category": "Photography",
       "category_source": "store",
       "store_updated": "Sep 29, 2026",
-      "store_version": null
+      "store_version": "1.0.5"
     },
     {
       "id": "pixora_ai",
@@ -826,7 +826,7 @@
       "category": "Personalization",
       "category_source": "store",
       "store_updated": "Oct 5, 2026",
-      "store_version": null
+      "store_version": "1.0.1"
     },
     {
       "id": "quartz_browser",
@@ -849,7 +849,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Sep 16, 2026",
-      "store_version": null
+      "store_version": "1.0.4"
     },
     {
       "id": "quicksave",
@@ -895,7 +895,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Oct 2, 2026",
-      "store_version": null
+      "store_version": "1.0.3"
     },
     {
       "id": "sound_lab",
@@ -918,7 +918,7 @@
       "category": "Tools",
       "category_source": "store",
       "store_updated": "Sep 15, 2026",
-      "store_version": null
+      "store_version": "1.0.3"
     },
     {
       "id": "task_nest",
@@ -941,7 +941,7 @@
       "category": "Productivity",
       "category_source": "store",
       "store_updated": "Jul 10, 2026",
-      "store_version": null
+      "store_version": "26071001 (1.0.0)"
     },
     {
       "id": "thornevale",
@@ -964,7 +964,7 @@
       "category": "Entertainment",
       "category_source": "store",
       "store_updated": "Oct 15, 2026",
-      "store_version": null
+      "store_version": "1.0.5"
     },
     {
       "id": "vaultix_browser",
@@ -989,7 +989,7 @@
       "category": "Browser",
       "category_source": "rule",
       "store_updated": "Sep 24, 2026",
-      "store_version": null
+      "store_version": "1.0.7"
     },
     {
       "id": "velvet_drama",
@@ -1012,7 +1012,7 @@
       "category": "Streaming",
       "category_source": "rule",
       "store_updated": "Oct 4, 2026",
-      "store_version": null
+      "store_version": "1.0.9"
     },
     {
       "id": "vidnova",
@@ -1035,7 +1035,7 @@
       "category": "Video",
       "category_source": "override",
       "store_updated": "Sep 27, 2026",
-      "store_version": null
+      "store_version": "1.0.9"
     },
     {
       "id": "voltplay",
@@ -1058,7 +1058,7 @@
       "category": "Tools",
       "category_source": "store",
       "store_updated": "Oct 6, 2026",
-      "store_version": null
+      "store_version": "1.0.6"
     },
     {
       "id": "voxlock",
@@ -1081,7 +1081,7 @@
       "category": "Personalization",
       "category_source": "store",
       "store_updated": "Oct 16, 2026",
-      "store_version": null
+      "store_version": "1.1.0"
     },
     {
       "id": "whispr",
@@ -1127,7 +1127,7 @@
       "category": "Tools",
       "category_source": "store",
       "store_updated": "Sep 24, 2026",
-      "store_version": null
+      "store_version": "1.0.5"
     },
     {
       "id": "yachtelle",
