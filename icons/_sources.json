@@ -202,5 +202,9 @@
   "gavelle": {
     "sha": "5e2bdc46cee162600476e380a67b0a874058731281dfe663da0b148e0f069952",
     "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/gavelle_icon.png"
+  },
+  "twistmoon": {
+    "sha": "6a6cd2a52195cc7e6144c227b2cd1ecedaaf9db21fc9e1ccc1ef873e4afd87a4",
+    "src": "https://github.com/conmangangqua/bbl_app/releases/download/dev/twistmoon_icon.png"
   }
 }
