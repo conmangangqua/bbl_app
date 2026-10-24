@@ -469,7 +469,7 @@
         "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/kestrel_browser.aab"
       },
       "versions": {
-        "dev": "1.0.7+26091203",
+        "dev": "1.0.8+26100301",
         "prod": "1.0.7+26091203",
         "aab": "1.0.6+26081501"
       },
