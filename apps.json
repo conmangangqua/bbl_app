@@ -308,11 +308,13 @@
       "features": [],
       "downloads": {
         "dev": "https://github.com/conmangangqua/bbl_app/releases/download/dev/gavelle_dev.apk",
-        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/gavelle_prod.apk"
+        "prod": "https://github.com/conmangangqua/bbl_app/releases/download/prod/gavelle_prod.apk",
+        "aab": "https://github.com/conmangangqua/bbl_app/releases/download/aab/gavelle.aab"
       },
       "versions": {
         "dev": "1.0.1+26102101",
-        "prod": "1.0.1+26102101"
+        "prod": "1.0.1+26102101",
+        "aab": "1.0.0+26102401"
       },
       "store": "",
       "category": "Entertainment",
